@@ -1,0 +1,15 @@
+
+.services-box {
+    background: linear-gradient(180deg, #ffffff 0%, #c5cee5 100%);
+}
+.service-card {
+   border-radius: 20px;
+}
+.service-card :hover {
+    cursor: pointer;
+    //background: linear-gradient(180deg, #ffffff 0%, rgb(175, 198, 240) 100%);
+ }
+
+ .service-text :hover {
+    cursor: pointer;
+ }

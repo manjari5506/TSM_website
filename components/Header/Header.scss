@@ -1,7 +1,12 @@
 .header-container {
     background: linear-gradient(0deg, #ecf1f9 0%, #c4d3fc 100%);
+    font-family: "kodchasan";
 }
 .nav-submenu {
-    width: 100%;
+    width: 500px;
     background-color: #c4d3fc;
+
+}
+.header-div {
+    gap: 60px
 }

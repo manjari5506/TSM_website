@@ -2,18 +2,19 @@ import React from "react";
 import SectionHeader from "../Common/SectionHeader";
 import BlogItem from "./BlogItem";
 import BlogData from "./blogData";
+import "./Blogs.scss"
 
 const Blog = async () => {
   return (
-    <section className="py-20 lg:py-25 xl:py-30">
+    <section className="py-20 lg:py-25 xl:py-30 blog-box">
       <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
         {/* <!-- Section Title Start --> */}
         <div className="animate_top mx-auto text-center">
           <SectionHeader
             headerInfo={{
-              title: `NEWS & BLOGS`,
-              subtitle: `Latest News & Blogs`,
-              description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`,
+              title: ``,
+              subtitle: `Blogs & Breakthroughs`,
+              description: `Stay ahead of the curve with our curated selection of articles that delve into the latest trends and innovations. Discover fresh perspectives and expert opinions that will inspire your next big idea.`,
             }}
           />
         </div>

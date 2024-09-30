@@ -5,11 +5,11 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <footer className="border-t border-stroke bg-white dark:border-strokedark dark:bg-blacksection">
+      <footer className="border-t border-stroke bg-white">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
           <div className="py-20 lg:py-25">
-            <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
+            <div className="flex flex-wrap gap-2 lg:gap-0">
               <motion.div
                 variants={{
                   hidden: {
@@ -26,7 +26,7 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top mr-30"
               >
                 <a href="/" className="relative">
                   <Image
@@ -44,23 +44,9 @@ const Footer = () => {
                     className="hidden dark:block"
                   />
                 </a>
-
-                {/* <p className="mb-10 mt-5">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p> */}
-
-                {/* <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
-                  contact
-                </p>
-                <a
-                  href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
-                >
-                  hello@solid.com
-                </a> */}
               </motion.div>
 
-              <div className="flex w-full flex-col gap-8 md:flex-row md:justify-around md:gap-0 lg:w-2/3 xl:w-7/12">
+              <div className="flex w-full flex-col gap-50 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12 font-kodchasan">
                 <motion.div
                   variants={{
                     hidden: {
@@ -84,7 +70,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         About Us
                       </a>
@@ -92,7 +78,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Services
                       </a>
@@ -100,7 +86,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Blogs
                       </a>
@@ -129,7 +115,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Careers
                       </a>
@@ -137,7 +123,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Get Quotes
                       </a>
@@ -145,14 +131,64 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="mb-3 inline-block hover:text-primary"
+                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Contact Us
                       </a>
                     </li>
                   </ul>
                 </motion.div>
+                <div className="hidden lg:block border-l border-gray-300 h-auto mx-20"></div>
+                <motion.div
+                  variants={{
+                    hidden: {
+                      opacity: 0,
+                      y: -20,
+                    },
+                    visible: {
+                      opacity: 1,
+                      y: 0,
+                    },
+                  }}
+                  initial="hidden"
+                  whileInView="visible"
+                  transition={{ duration: 1, delay: 0.1 }}
+                  viewport={{ once: true }}
+                  className="animate_top w-full lg:w-1/2 flex justify-between"
+                >
+                  <div className="w-1/2">
+                    <h4 className="text-2xl font-semibold text-navy">Address</h4>
+                    <ul className="mt-4">
+                      <li className="flex items-center mb-2">
+                        {/* <FaMapMarkerAlt className="text-navy mr-2" /> */}
+                        <a href="https://www.google.com/maps/place/Hinjawadi,+Pune,+Pimpri-Chinchwad,+Maharashtra/@18.5993813,73.6348173,12z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bbc048041bef:0xd0c9eb5ac3c3dee5!8m2!3d18.5912716!4d73.738909!16s%2Fm%2F02qwznq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-navy">
+                        Hinjewadi, Pune, Maharashtra
+                        </a>
+                      </li>
+                      <li className="flex items-center mb-2">
+                        {/* <FaEnvelope className="text-navy mr-2" /> */}
+                        <a href="mailto:work@stackmentalist.com" className="hover:text-navy">
+                        work@stackmentalist.com
+                        </a>
+                      </li>
+                      <li className="flex items-center">
+                        {/* <FaPhoneAlt className="text-navy mr-2" /> */}
+                        <a href="tel:+123456789" className="hover:text-navy">
+                        +91 7771810723
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
 
+                  <div className="lg:w-1/2">
+                    <Image
+                      width={450}
+                      height={350}
+                      src="/images/footer/mail-doodle.svg"
+                      alt="Connectivity Doodle"
+                    />
+                  </div>
+                </motion.div>
               </div>
             </div>
           </div>
@@ -186,7 +222,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#" className="hover:text-navy">
-                   Legal Terms
+                    Legal Terms
                   </a>
                 </li>
                 <li>

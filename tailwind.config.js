@@ -13,6 +13,8 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
+      playfair: ['"Playfair Display"', 'serif'],
+      kodchasan: ['"Kodchasan"', 'sans-serif'],
     },
     extend: {
       colors: {
