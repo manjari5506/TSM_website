@@ -10,16 +10,14 @@ import {
 const LeadersPage = () => {
   return (
     <div className="min-h-screen bg-[#f9f9f9]   text-[#6c757d]">
-      <main className="pt-[4rem]">
-        
+      <main>
         <Hero />
-        
+
         <Philosophy />
-     
+
         <Teams />
- 
+
         <Journey />
- 
 
         <Vision />
         <JoinTeam />

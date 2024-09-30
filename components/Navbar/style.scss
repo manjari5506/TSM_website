@@ -2,7 +2,9 @@ $navy-color: #14213d;
 
 .nav__header {
   padding: 3rem 4rem 2rem 4rem;
+  background: transparent !important;
   width: 100%;
+  opacity: 1;
 
   // background: linear-gradient(to bottom, #14213d 0%, #bbbfc7 100%);
 

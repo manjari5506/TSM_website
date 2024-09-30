@@ -93,8 +93,10 @@ const Navbar = () => {
   return (
     <>
       <Header
-        className={`nav__header fixed left-0 top-0  z-99999 flex items-center justify-between    bg-white   ${
-          stickyMenu ? "  shadow-xl transition duration-100 dark:bg-black" : ""
+        className={`nav__header fixed left-0 top-0 z-99999  flex items-center justify-between       ${
+          stickyMenu
+            ? "!bg-white !opacity-100 shadow-xl transition duration-100 dark:bg-black"
+            : ""
         } `}
       >
         <div className="logo text-xl font-semibold">StackMentalist</div>

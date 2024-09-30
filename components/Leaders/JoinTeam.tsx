@@ -1,32 +1,32 @@
 import React from "react";
 import "./style.scss";
+import Link from "next/link";
 
 const JoinTeam = () => {
   return (
-    <section className="join-team relative bg-[#f7f9fc] py-[7rem]">
-      <div className="z-100 container relative mx-auto flex flex-col overflow-hidden">
-        <div className="relative z-10 mb-8 w-full text-left md:mb-0 md:w-1/2">
-          <h2 className="mb-4 text-5xl font-bold text-[#14213d]">
-            Join Our Team
-          </h2>
-          <p className="mb-6 text-lg text-gray-700">
-            At StackMentalist, we are always looking for talented and passionate
-            individuals who want to make a difference. Our team thrives on
-            collaboration, innovation, and a shared commitment to excellence.
-          </p>
-          <a
-            href="/careers"
-            className="rounded-lg bg-[#14213d] px-6 py-3 text-white transition-colors hover:bg-[#0b1c35]"
-          >
-            View Open Positions
-          </a>
-        </div>
-      </div>
+    <section className="  relative   my-7 px-[6rem] py-[4rem]  ">
       <img
-        src="/images/doodle1.jpg"
+        src="/images/business-7745315.svg"
         alt=""
-        className="absolute left-0 top-0 h-full w-full object-cover"
+        className=" absolute right-[5rem]  top-[-4.64rem] h-[32rem]  "
       />
+      <div className="w-[62rem]">
+        <h2 className="font-playfair text-navy mb-9 text-5xl font-bold ">
+          Join Our Team
+        </h2>
+        <p className="mb-6 pb-6 text-lg text-gray-700">
+          At StackMentalist, we are always looking for talented and passionate
+          individuals who want to make a difference. Our team thrives on
+          collaboration, innovation, and a shared commitment to excellence.
+        </p>
+
+        <Link
+          href="/careers"
+          className="  bg-navy  rounded-md  px-9 py-5 text-white transition-colors hover:bg-[#0b1c35]"
+        >
+          View Open Positions
+        </Link>
+      </div>
     </section>
   );
 };

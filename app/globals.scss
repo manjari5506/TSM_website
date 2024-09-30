@@ -4,15 +4,26 @@
 @tailwind components;
 @tailwind utilities;
 
-/* third-party libraries CSS */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Kodchasan", "sans-serif";
+  scroll-behavior: smooth;
 }
 body {
   position: relative;
+}
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-track {
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #14213d;
+  border-radius: 10px;
+  height: 8rem;
 }
 .testimonial-01 .swiper-pagination-bullet {
   @apply h-2.5 w-2.5 bg-stroke opacity-100;
