@@ -4,42 +4,63 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: "/images/icon/icon-01.svg",
-    title: "Crafted for SaaS",
+    title: "App Development",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
   {
     id: 2,
     icon: "/images/icon/icon-02.svg",
-    title: "High-quality Design",
+    title: "Data Science",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
   {
     id: 3,
     icon: "/images/icon/icon-03.svg",
-    title: "Next.js 13 + TypeScript",
+    title: "Cloud & DevOps",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
   {
     id: 4,
     icon: "/images/icon/icon-04.svg",
-    title: "Sanity Blog and Docs",
+    title: "IOT & Automation",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
   {
     id: 5,
-    icon: "/images/icon/icon-05.svg",
-    title: "DB, Auth and Stripe",
+    icon: "",
+    title: "",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "",
   },
   {
     id: 6,
     icon: "/images/icon/icon-06.svg",
-    title: "Regular Free Updates",
+    title: "Big Data",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  },
+  {
+    id: 7,
+    icon: "/images/icon/icon-06.svg",
+    title: "UI/UX",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  },
+  {
+    id: 8,
+    icon: "/images/icon/icon-06.svg",
+    title: "Cyber Security",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+  },
+  {
+    id: 9,
+    icon: "/images/icon/icon-06.svg",
+    title: "System Design",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
