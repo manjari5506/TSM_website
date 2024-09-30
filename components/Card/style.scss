@@ -1,0 +1,14 @@
+.team__cards {
+  padding: 2.5rem 1.4rem;
+  .ant-card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    &.ant-card-meta-detail {
+      &.ant-card-meta-title {
+        font-size: 5rem !important;
+      }
+    }
+  }
+}

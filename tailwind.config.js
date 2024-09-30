@@ -13,17 +13,21 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
+      kodchasan: ["Kodchasan", "sans-serif"],
+      playfair: ["Playfair Display", "sans-serif"],
     },
     extend: {
       colors: {
         current: "currentColor",
         transparent: "transparent",
+        navy: "#14213D",
         stroke: "#EEEEEE",
         strokedark: "#2D2F40",
         hoverdark: "#252A42",
         titlebg: "#ADFFF8",
         titlebg2: "#FFEAC2",
         titlebgdark: "#46495A",
+        custom: "rgb(75 95 136)",
         btndark: "#292E45",
         white: "#FFFFFF",
         black: "#181C31",
