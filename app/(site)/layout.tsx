@@ -29,7 +29,7 @@ export default function RootLayout({
           <Navbar />
           {/* <ToasterContext /> */}
           {children}
-          {/* <Footer /> */}
+          <Footer />
           <ScrollToTop />
         </ThemeProvider>
       </body>
