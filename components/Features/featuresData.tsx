@@ -31,10 +31,10 @@ const featuresData: Feature[] = [
   },
   {
     id: 5,
-    icon: "/images/icon/icon-06.svg",
-    title: "",
+    icon: "/images/icon/icon-05.svg",
+    title: "WordPress Development",
     description:
-      "",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
   },
   {
     id: 6,
@@ -45,21 +45,21 @@ const featuresData: Feature[] = [
   },
   {
     id: 7,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/icon-07.svg",
     title: "UI/UX",
     description:
       "Designing intuitive and engaging interfaces that enhance user experiences.",
   },
   {
     id: 8,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/icon-08.svg",
     title: "Cyber Security",
     description:
       "Safeguarding digital assets with advanced security protocols and solutions.",
   },
   {
     id: 9,
-    icon: "/images/icon/icon-06.svg",
+    icon: "/images/icon/icon-09.svg",
     title: "System Design",
     description:
       "Building robust, scalable architectures for complex software systems.",

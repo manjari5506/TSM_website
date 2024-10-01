@@ -12,7 +12,13 @@ const Integration = () => {
           <SectionHeader
             headerInfo={{
               title: ``,
-              subtitle: `Tech-Driven Excellence: \u00A0\u00A0\u00A0\u00A0\u00A0\u00A0 Our Stack`,
+              subtitle: (
+                <>
+                  Tech-Driven Excellence:
+                  <br />
+                  Our Stack
+                </>
+              ),
               description: `Our diverse tech stack combines the latest tools and frameworks to create solutions that are not only effective but also future-proof.`,
             }}
           />
@@ -20,7 +26,7 @@ const Integration = () => {
           {/* <!-- Section Title End --> */}
         </div>
 
-        <div className="pattern-dots pattern-blue-500 pattern-bg-white pattern-size-4 pattern-opacity-10 relative py-10 z-50 mx-auto mt-15 max-w-c-1154 px-4 md:px-8 xl:mt-20 xl:px-0">
+        <div className="pattern-dots pattern-blue-500 pattern-bg-white pattern-size-4 pattern-opacity-10 relative z-50 mx-auto mt-15 max-w-c-1154 px-4 py-10 md:px-8 xl:mt-20 xl:px-0">
           <div className="absolute -top-3/4 left-0 right-0 -z-1 mx-auto h-full w-full">
             <Image
               width={1200}
