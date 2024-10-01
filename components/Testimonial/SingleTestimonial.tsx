@@ -8,7 +8,7 @@ const SingleTestimonial = ({ review }: { review: Testimonial }) => {
   return (
     <div className="testimonial-card rounded-sm bg-white p-9 pt-7.5 shadow-custom client-section font-kodchasan">
       <div className="flex mb-4">
-        <Image width={70} height={80} className="company-logo" src={image} alt={name} />
+        <Image width={70} height={100} className="company-logo" src={image} alt={name} />
       </div>
 
       <p className="text-navy mb-6">{content}</p>
