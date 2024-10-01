@@ -1,4 +1,5 @@
 import { Hero, Philosophy, Teams, JoinTeam } from "@/components/Leaders/index";
+import Testimonial from "@/components/Testimonial";
 
 const LeadersPage = () => {
   return (
@@ -9,6 +10,7 @@ const LeadersPage = () => {
         <Philosophy />
 
         <Teams />
+        <Testimonial />
 
         <JoinTeam />
       </main>
