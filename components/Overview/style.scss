@@ -1,0 +1,85 @@
+/* Core Values Section Styling */
+
+.core-values-section {
+  padding: 50px 20px;
+  background: linear-gradient(
+    135deg,
+    #fca311,
+    #14213d
+  ); /* Gradient background */
+  color: white;
+  text-align: center;
+  border-radius: 16px;
+  position: relative; /* For z-index stacking */
+  overflow: hidden; /* To hide any overflow */
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Layout for Values */
+.value-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem; /* Spacing between rows */
+}
+
+.core-value-item {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Semi-transparent white for contrast */
+  border-radius: 12px;
+  padding: 20px;
+  text-align: left;
+  transition:
+    transform 0.3s,
+    background 0.3s;
+  position: relative; /* For z-index stacking */
+  overflow: hidden; /* Hide overflow for animations */
+}
+
+.core-value-item:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  background: rgba(255, 255, 255, 0.3); /* Change background on hover */
+}
+
+/* Icon Styling */
+.value-icon {
+  font-size: 3rem; /* Increased icon size */
+  color: #fca311; /* Highlight color */
+  margin-bottom: 1rem;
+}
+
+/* Title and Description */
+.value-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #fca311; /* Highlight color */
+}
+
+.value-description {
+  font-size: 1rem;
+  color: white; /* Description color */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.value-col {
+  animation: fadeIn 0.5s forwards;
+}
