@@ -27,9 +27,9 @@ export default function RootLayout({
         >
           <Lines />
           <Navbar />
-          <ToasterContext />
+          {/* <ToasterContext /> */}
           {children}
-          <Footer />
+          {/* <Footer /> */}
           <ScrollToTop />
         </ThemeProvider>
       </body>
