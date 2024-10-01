@@ -8,17 +8,18 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0;
+    
     margin-top: 10px;
     padding: 56px;
   }
   
   .form-container {
+    margin-left: 300px;
     background-color: #ffffff;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 900px;
+    width: 90%;
   }
   
   h2 {
@@ -35,7 +36,7 @@
   }
   
   .job-details {
-    background-color: #37B7C3;
+    background-color: #EBF4F6;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
