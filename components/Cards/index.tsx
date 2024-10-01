@@ -1,20 +1,24 @@
+import React from 'react';
+import './card.css';
 
-import Card from 'react-bootstrap/Card';
-
-function BasicExample() {
-  return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-       
-      </Card.Body>
-    </Card>
-  );
+interface CardProps {
+  title: string;
+  description: string;
+  
 }
 
-export default BasicExample;
+const Corecard: React.FC<CardProps> = ({ title, description}) => {
+  return (
+    <div className="custom-card">
+      <div className="icon-container">
+        {/*<img src={icon} alt="icon" className="card-icon" />*/}
+      </div>
+      {/* Fixed title */}
+      <h2 className="card-title">Resource Hiring </h2>
+      <hr className="card-divider" />
+      <p className="card-description">Technology expertise coupled with award-winning UX skills </p>
+    </div>
+  );
+};
+
+export default Corecard;
