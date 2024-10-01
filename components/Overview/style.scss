@@ -2,11 +2,7 @@
 
 .core-values-section {
   padding: 50px 20px;
-  background: linear-gradient(
-    135deg,
-    #fca311,
-    #14213d
-  ); /* Gradient background */
+  background: linear-gradient(180deg, #ffffff 0%, #c5cee5 100%);
   color: white;
   text-align: center;
   border-radius: 16px;
@@ -17,6 +13,7 @@
 .section-heading {
   font-size: 2.5rem;
   margin-bottom: 2rem;
+  color: black;
 }
 
 /* Layout for Values */
@@ -52,7 +49,7 @@
 /* Icon Styling */
 .value-icon {
   font-size: 3rem; /* Increased icon size */
-  color: #fca311; /* Highlight color */
+  color: navy; /* Highlight color */
   margin-bottom: 1rem;
 }
 
@@ -60,12 +57,12 @@
 .value-title {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
-  color: #fca311; /* Highlight color */
+  color: black; /* Highlight color */
 }
 
 .value-description {
   font-size: 1rem;
-  color: white; /* Description color */
+  color: black; /* Description color */
 }
 
 /* Animation */
