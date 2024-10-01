@@ -1,0 +1,193 @@
+$navy-color: #14213d;
+
+.nav__header {
+  padding: 3rem 4rem 2rem 4rem;
+  background: transparent !important;
+  width: 100%;
+  opacity: 1;
+
+  // background: linear-gradient(to bottom, #14213d 0%, #bbbfc7 100%);
+
+  // Keyframes for animation if needed
+  @keyframes Navigation {
+    0%,
+    100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(30px);
+    }
+  }
+
+  &--card {
+    width: 100%;
+    height: 20rem;
+    background-color: rgb(106, 108, 108);
+    position: absolute; /* Position it absolutely */
+    top: 5rem; /* Align it below the header */
+    left: 0;
+    z-index: 19;
+
+    visibility: hidden; /* Prevents it from being interactive */
+    transition: opacity 300ms ease-in-out; /* Smooth transition */
+  }
+
+  &:hover {
+    .nav__header--card {
+      animation: Navigation 300ms ease-out 0s;
+
+      visibility: visible;
+    }
+  }
+}
+
+.menu__items {
+  box-shadow: none !important;
+  border: none !important;
+  width: 37rem;
+  background-color: inherit !important;
+
+  .ant-menu-submenu > div {
+    & span[aria-label="down"] {
+      position: relative;
+      left: 5.5rem;
+    }
+    & span.ant-menu-title-content {
+      position: relative;
+      right: 1.5rem;
+    }
+  }
+  .ant-menu-submenu.service > div {
+    & span[aria-label="down"] {
+      position: relative;
+      left: 5rem;
+    }
+    & span.ant-menu-title-content {
+      position: relative;
+      right: 1.3rem;
+    }
+  }
+
+  .ant-menu-submenu,
+  .ant-menu-item {
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    color: inherit;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0; // Start from the left to animate the width
+      width: 0;
+      height: 0.2rem;
+      background-color: $navy-color;
+      transition: width 0.3s ease-in-out !important; // Ensure the transition is applied
+    }
+
+    &:hover::before {
+      width: 100%; // Expand the width of the pseudo-element on hover
+    }
+
+    &:hover {
+      color: $navy-color !important;
+      & span[aria-label="down"] {
+        transform: rotate(180deg);
+        transition: transform 350ms ease-in-out 0ms;
+      }
+
+      span {
+        color: $navy-color !important;
+      }
+    }
+  }
+
+  // Make sure to target the right element and don't override the transition
+  & > .ant-menu-submenu::after,
+  .ant-menu-item::after {
+    border-bottom: none !important;
+    // inset-inline: 0 !important;
+  }
+  @media (max-width: 768px) {
+    .ant-menu-submenu,
+    .ant-menu-item {
+      font-size: 1rem; // Smaller font size on mobile
+      padding: 0.5rem 1rem;
+    }
+
+    .ant-menu-submenu-arrow {
+      transform: rotate(0); // Reset icon rotation on mobile
+    }
+
+    &:hover .ant-menu-submenu-arrow {
+      transform: rotate(180deg); // Rotate icon on hover on mobile
+    }
+  }
+}
+
+.nav__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fullscreen-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.9);
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    visibility 0.3s ease;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+  }
+
+  &.closed {
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9);
+  }
+
+  .close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+    svg {
+      width: 32px;
+      height: 32px;
+      fill: rgb(157, 8, 8) !important;
+    }
+  }
+}
+.vertical__menu {
+  padding: 2rem 5rem;
+
+  .ant-menu-submenu,
+  .ant-menu-item {
+    font-size: 1.1rem;
+    position: relative;
+    text-align: center;
+  }
+}
