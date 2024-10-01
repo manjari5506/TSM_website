@@ -22,7 +22,7 @@ const Testimonial = () => {
             <SectionHeader
               headerInfo={{
                 title: ``,
-                subtitle: `Client's Testimonials`,
+                subtitle: `Client Testimonials`,
                 description: `Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.`,
               }}
             />
@@ -65,10 +65,10 @@ const Testimonial = () => {
               modules={[Autoplay, Pagination]}
               breakpoints={{
                 0: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 768: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
               }}
             >

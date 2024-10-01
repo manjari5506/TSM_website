@@ -74,6 +74,14 @@ const Hero = () => {
   return (
     <>
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46 hero-section">
+      <video
+          className="video-box absolute object-cover h-full "
+          src="/images/hero-video.mp4"
+          autoPlay
+          loop
+          muted 
+        >
+        </video>
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0 py-100">
           <div className="flex lg:items-center lg:gap-5 xl:gap-32.5">
             <div className="animate_right hidden md:w-1/2 lg:block">
@@ -114,7 +122,6 @@ const Hero = () => {
               </h1>
               <p className="text-2xl text-navy font-semibold font-kodchasan change-color">
                 A Visionary Company Committed To Crafting and Delivering Exceptional Software Solutions.
-                <br></br>
                 <br></br>
                 Our mission is to empower businesses by providing seamless and efficient software that drives growth.
               </p>
