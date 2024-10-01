@@ -10,3 +10,42 @@
 .header-div {
     gap: 60px
 }
+.header-container {
+    .nav-submenu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100vw; 
+      background-color: white;
+      z-index: 999;
+      display: none; 
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px;
+  
+      li {
+        list-style: none;
+        a {
+          color: #000;
+          text-decoration: none;
+          &:hover {
+            color: #0081fc; 
+          }
+        }
+      }
+    }
+  
+   
+    li.group:hover .nav-submenu {
+      display: grid;
+    }
+
+    .dropdown {
+      flex-direction: column;
+      align-items: start;
+    }
+  }
+  

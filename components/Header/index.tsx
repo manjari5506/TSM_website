@@ -11,7 +11,6 @@ import "./Header.scss";
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
-  const [dropdownToggler, setDropdownToggler] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
 
   const pathUrl = usePathname();
@@ -56,7 +55,7 @@ const Header = () => {
             />
           </a>
 
-          {/* <!-- Hamburger Toggle BTN --> */}
+          {/* Hamburger Toggle BTN */}
           <button
             aria-label="hamburger Toggler"
             className="block xl:hidden"
@@ -80,21 +79,8 @@ const Header = () => {
                   }`}
                 ></span>
               </span>
-              <span className="du-block absolute right-0 h-full w-full rotate-45">
-                <span
-                  className={`absolute left-2.5 top-0 block h-full w-0.5 rounded-sm bg-black delay-300 duration-200 ease-in-out dark:bg-white ${
-                    !navigationOpen ? "!h-0 delay-[0]" : "h-full"
-                  }`}
-                ></span>
-                <span
-                  className={`delay-400 absolute left-0 top-2.5 block h-0.5 w-full rounded-sm bg-black duration-200 ease-in-out dark:bg-white ${
-                    !navigationOpen ? "!h-0 delay-200" : "h-0.5"
-                  }`}
-                ></span>
-              </span>
             </span>
           </button>
-          {/* <!-- Hamburger Toggle BTN --> */}
         </div>
 
         {/* Nav Menu Start   */}
@@ -111,7 +97,6 @@ const Header = () => {
                   {menuItem.submenu ? (
                     <>
                       <button
-                        onClick={() => setDropdownToggler(!dropdownToggler)}
                         className="flex cursor-pointer items-center justify-between gap-3 hover:text-navy"
                       >
                         {menuItem.title}
@@ -126,9 +111,7 @@ const Header = () => {
                         </span>
                       </button>
 
-                      <ul
-                        className={` nav-submenu dropdown ${dropdownToggler ? "flex" : ""}`}
-                      >
+                      <ul className="nav-submenu dropdown">
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-navy">
                             <Link href={item.path || "#"}>{item.title}</Link>
@@ -154,8 +137,8 @@ const Header = () => {
           </nav>
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
-          <Link
-              href="/contactus"
+            <Link
+              href="/contact"
               className="flex items-center justify-center rounded-full bg-navy px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
             >
               Contact Us
@@ -169,6 +152,5 @@ const Header = () => {
   );
 };
 
-// w-full delay-300
-
 export default Header;
+
