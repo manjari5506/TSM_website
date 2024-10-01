@@ -7,7 +7,7 @@ const Vission = () => {
       <div className="flex gap-[6rem] rounded-3xl   px-[5rem] py-[3rem]">
         <div className="py-7">
           <h2 className=" mb-2 w-[17rem] border-b-2 border-red-400 py-3 font-playfair text-4xl font-bold text-black">
-            Our Vission
+            Our Vision
           </h2>
           <h3 className=" w-[27rem] py-3 font-playfair text-3xl font-bold text-black">
             Leading the future with seamless tech solutions

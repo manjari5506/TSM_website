@@ -3,7 +3,8 @@ import "./style.scss";
 import Hero from "@/components/Overview/HeroOverview";
 import Journey from "@/components/Overview/Journey";
 import Mission from "@/components/Overview/Mission";
-import Vission from "@/components/Overview/Vission";
+import Vision from "@/components/Overview/Vision";
+import CoreValues from "@/components/Overview/CoreValue";
 
 const page = () => {
   return (
@@ -11,7 +12,8 @@ const page = () => {
       <Hero />
       <Journey />
       <Mission />
-      <Vission />
+      <Vision />
+      <CoreValues />
     </main>
   );
 };

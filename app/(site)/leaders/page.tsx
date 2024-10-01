@@ -1,10 +1,4 @@
-import {
-  Hero,
-  Philosophy,
-  Teams,
-  Vision,
-  JoinTeam,
-} from "@/components/Leaders/index";
+import { Hero, Philosophy, Teams, JoinTeam } from "@/components/Leaders/index";
 
 const LeadersPage = () => {
   return (
@@ -16,7 +10,6 @@ const LeadersPage = () => {
 
         <Teams />
 
-        <Vision />
         <JoinTeam />
       </main>
     </div>

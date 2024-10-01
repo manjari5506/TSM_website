@@ -5,7 +5,7 @@ import { ClockCircleOutlined } from "@ant-design/icons";
 
 const Journey = () => {
   return (
-    <section className=" z-100 relative flex flex-col items-center justify-center  px-[6rem] py-[2rem] text-center">
+    <section className=" z-100 relative flex flex-col items-center justify-center  px-[6rem] py-[6rem] text-center">
       <div className="w-[60rem] ">
         <h3 className=" py-2 font-playfair text-5xl font-bold text-navy">
           The Evolution of Leadership
