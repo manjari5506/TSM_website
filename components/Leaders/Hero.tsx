@@ -3,7 +3,7 @@ import "./style.scss";
 
 const Hero = () => {
   return (
-    <section className=" hero__section   relative   h-screen w-full    bg-[#f5f5f5]">
+    <section className=" hero__section   relative   w-full bg-[#f5f5f5]    lg:h-screen">
       <div className=" relative z-10 w-[43rem] px-[5rem] py-[17rem] max-md:text-center">
         <h1 className="font-playfair text-navy pt-9 text-6xl   font-bold">
           We Build Leaders of Tomorrow
@@ -28,7 +28,7 @@ const Hero = () => {
           loop
           autoPlay
           muted
-          className="  h-[37rem] w-[28rem] rounded-3xl object-cover"
+          className=" z-100 top-[10rem] h-[37rem] w-[28rem] rounded-3xl object-cover"
         ></video>
       </div>
     </section>

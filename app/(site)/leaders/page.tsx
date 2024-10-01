@@ -2,7 +2,6 @@ import {
   Hero,
   Philosophy,
   Teams,
-  Journey,
   Vision,
   JoinTeam,
 } from "@/components/Leaders/index";
@@ -16,8 +15,6 @@ const LeadersPage = () => {
         <Philosophy />
 
         <Teams />
-
-        <Journey />
 
         <Vision />
         <JoinTeam />

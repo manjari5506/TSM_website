@@ -1,5 +1,6 @@
 import { FloatButton } from "antd";
 import { useEffect, useState } from "react";
+import "./style.scss";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
@@ -32,7 +33,7 @@ export default function ScrollToTop() {
     <div className="fixed bottom-8 right-8 z-[99]">
       {isVisible && (
         <FloatButton.Group shape="circle" style={{ insetInlineEnd: 24 }}>
-          <FloatButton.BackTop visibilityHeight={0} />
+          <FloatButton.BackTop visibilityHeight={2} className="float__btn" />
         </FloatButton.Group>
       )}
     </div>
