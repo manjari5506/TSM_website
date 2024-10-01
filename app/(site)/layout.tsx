@@ -25,7 +25,9 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="light"
         >
-          <Header />
+          <Lines />
+          <Navbar />
+          {/* <ToasterContext /> */}
           {children}
           <Footer />
           <ScrollToTop />
