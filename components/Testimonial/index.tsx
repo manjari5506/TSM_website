@@ -15,8 +15,8 @@ import "./Testimonial.scss";
 const Testimonial = () => {
   return (
     <>
-      <section className="text-left my-0">
-        <div className="mx-auto max-w-c-1315 px-4 md:px-8 xl:px-0">
+      <section className="my-0 text-left md:px-[6rem]">
+        <div className="mx-auto  px-4  xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top text-left">
             <SectionHeader
@@ -44,7 +44,7 @@ const Testimonial = () => {
           }}
           initial="hidden"
           whileInView="visible"
-          transition={{ duration: 1, delay: 0.2 }}
+          transition={{ duration: 2, delay: 0.2 }}
           viewport={{ once: true }}
           className="animate_top mx-auto mt-15 max-w-c-1235 px-4 md:px-8 xl:mt-20 xl:px-0"
         >
@@ -53,8 +53,8 @@ const Testimonial = () => {
             {/* <!-- Additional required wrapper --> */}
             <Swiper
               //direction="vertical"
-              spaceBetween={50}
-              slidesPerView={1}
+              spaceBetween={20}
+              slidesPerView={2}
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: true,
@@ -68,7 +68,7 @@ const Testimonial = () => {
                   slidesPerView: 1,
                 },
                 768: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
               }}
             >

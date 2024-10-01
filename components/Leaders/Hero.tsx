@@ -3,12 +3,12 @@ import "./style.scss";
 
 const Hero = () => {
   return (
-    <section className=" hero__section   relative   w-full bg-[#f5f5f5]    lg:h-screen">
+    <section className=" hero__section animate_top  relative   w-full bg-[#f5f5f5]    lg:h-screen">
       <div className=" relative z-10 w-[43rem] px-[5rem] py-[17rem] max-md:text-center">
-        <h1 className="font-playfair text-navy pt-9 text-6xl   font-bold">
+        <h1 className="pt-9 font-playfair text-6xl font-bold   text-navy">
           We Build Leaders of Tomorrow
         </h1>
-        <p className="font-kodchasan mt-4 pt-4 text-lg text-gray-800">
+        <p className="mt-4 pt-4 font-kodchasan text-lg text-gray-800">
           Empowering leadership for a better future with innovation and
           integrity.
         </p>
