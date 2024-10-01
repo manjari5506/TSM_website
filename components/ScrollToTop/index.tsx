@@ -1,5 +1,6 @@
 import { FloatButton } from "antd";
 import { useEffect, useState } from "react";
+import "./style.scss";
 
 export default function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);

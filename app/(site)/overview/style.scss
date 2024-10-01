@@ -1,0 +1,60 @@
+/* Hero Section */
+.hero-section {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(45deg, #14213d, #fca311);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s ease infinite;
+}
+
+/* Moving gradient animation */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Content Styling */
+.hero-content {
+  position: relative;
+  z-index: 1; /* Ensures the content is above the gradient */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content button {
+  padding: 1rem 2rem;
+  background-color: #fca311;
+  border: none;
+  color: #14213d;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #14213d;
+  color: white;
+}
