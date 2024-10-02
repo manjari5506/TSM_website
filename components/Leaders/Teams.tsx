@@ -80,7 +80,7 @@ const leaders = [
 const Teams = () => {
   return (
     <section className=" team__section relative  ">
-      <div className="flex gap-[5rem]   ">
+      <div className="flex gap-[3rem]   ">
         <div className="col-md-12 col-lg-4">
           <div id="wrapper" className="sticker relative z-1">
             <div id="sticky">
@@ -99,9 +99,19 @@ const Teams = () => {
           </div>
         </div>
         <div className="relative z-1">
-          <Row gutter={[14, 20]}>
+          <Row gutter={[20, 20]} className="team__rowsm__rows">
             {leaders.map((leader) => (
-              <Col lg={{ span: 12 }} md={{ span: 12 }} xs={{ span: 24 }}>
+              <Col
+                lg={{ span: 12 }}
+                md={{ span: 12 }}
+                xs={{ span: 24 }}
+                // style={{
+                //   marginLeft: "15px",
+                //   marginRight: "15px",
+                //   paddingLeft: "0px",
+                //   paddingRight: "0px",
+                // }}
+              >
                 <LeaderCard key={leader.id} leader={leader} />
               </Col>
             ))}
