@@ -80,14 +80,14 @@ const leaders = [
 const Teams = () => {
   return (
     <section className=" team__section relative  ">
-      <div className="flex    ">
+      <div className="flex gap-[5rem]   ">
         <div className="col-md-12 col-lg-4">
           <div id="wrapper" className="sticker relative z-1">
             <div id="sticky">
-              <h2 className="font-playfair mb-4 text-6xl font-extrabold tracking-wide text-[#003049] ">
+              <h2 className="mb-4 font-playfair text-6xl font-extrabold tracking-wide text-[#003049] ">
                 Meet the Team
               </h2>
-              <p className="font-kodchasan py-2 text-lg text-gray-900 ">
+              <p className="text-md py-2 font-kodchasan  text-gray-900 ">
                 Introducing the visionary leaders behind Stackmentalis. Our
                 leadership team embodies a harmonious blend of skill,
                 creativity, and unwavering commitment to technological
@@ -99,7 +99,7 @@ const Teams = () => {
           </div>
         </div>
         <div className="relative z-1">
-          <Row gutter={[14, 20]} className="px-5">
+          <Row gutter={[14, 20]}>
             {leaders.map((leader) => (
               <Col lg={{ span: 12 }} md={{ span: 12 }} xs={{ span: 24 }}>
                 <LeaderCard key={leader.id} leader={leader} />
