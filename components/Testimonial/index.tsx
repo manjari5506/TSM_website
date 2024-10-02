@@ -16,13 +16,13 @@ const Testimonial = () => {
   return (
     <>
       <section className="my-0 text-left md:px-[6rem]">
-        <div className="mx-auto  px-4  xl:px-0">
+        <div className="  px-4  xl:px-0">
           {/* <!-- Section Title Start --> */}
           <div className="animate_top text-left">
             <SectionHeader
               headerInfo={{
                 title: ``,
-                subtitle: `Client's Testimonials`,
+                subtitle: `Client Testimonials`,
                 description: `Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.`,
               }}
             />
@@ -52,20 +52,16 @@ const Testimonial = () => {
           <div className="swiper testimonial-01 mb-20 pb-22.5">
             {/* <!-- Additional required wrapper --> */}
             <Swiper
-              //direction="vertical"
               spaceBetween={20}
               slidesPerView={2}
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: true,
               }}
-              // pagination={{
-              //   clickable: true,
-              // }}
               modules={[Autoplay, Pagination]}
               breakpoints={{
                 0: {
-                  slidesPerView: 1,
+                  slidesPerView: 2,
                 },
                 768: {
                   slidesPerView: 2,

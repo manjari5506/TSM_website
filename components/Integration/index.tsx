@@ -7,12 +7,18 @@ const Integration = () => {
   return (
     <>
       <section className="my-120">
-        <div className="mx-40 max-w-c-1390 px-4 md:px-8 2xl:px-0 text-navy">
+        <div className="mx-20 max-w-c-1390 px-0 text-navy">
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
               title: ``,
-              subtitle: `Tech-Driven Excellence: Our Stack`,
+              subtitle: (
+                <>
+                  Tech-Driven Excellence:
+                  <br />
+                  Our Stack
+                </>
+              ),
               description: `Our diverse tech stack combines the latest tools and frameworks to create solutions that are not only effective but also future-proof.`,
             }}
           />
@@ -20,7 +26,7 @@ const Integration = () => {
           {/* <!-- Section Title End --> */}
         </div>
 
-        <div className="pattern-dots pattern-blue-500 pattern-bg-white pattern-size-4 pattern-opacity-10 relative z-50 mx-auto mt-15 max-w-c-1154 px-4 md:px-8 xl:mt-20 xl:px-0">
+        <div className="pattern-dots pattern-blue-500 pattern-bg-white pattern-size-4 pattern-opacity-10 relative z-50 mx-auto mt-15 max-w-c-1154 px-4 py-10 md:px-8 xl:mt-20 xl:px-0">
           <div className="absolute -top-3/4 left-0 right-0 -z-1 mx-auto h-full w-full">
             <Image
               width={1200}
@@ -38,7 +44,7 @@ const Integration = () => {
               className="hidden dark:block"
             />
           </div>
-          <div className="flex flex-wrap justify-around gap-y-10">
+          <div className="flex flex-wrap justify-between gap-y-10">
             <motion.div
               variants={{
                 hidden: {

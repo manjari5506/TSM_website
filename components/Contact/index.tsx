@@ -15,10 +15,10 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section id="support" className="px-4 py-50 md:px-8 2xl:px-0">
-      <div>
-            <p className="mb-15 text-3xl font-semibold text-navy xl:text-sectiontitle2">Thinking About a New Project or Collaboration?</p>
-            <p className="mb-15 text-xl font-semibold text-navy xl:text-sectiontitle2">Tell us more, and we'll reach out within a day to discuss your ideas.</p>
+      <section id="support" className="px-4 py-30 md:px-8 2xl:px-0">
+      <div className="relative mx-auto max-w-c-900 px-7.5 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20 text-center">
+            <p className="mb-10 text-3xl font-semibold text-navy xl:text-sectiontitle2 font-playfair">Thinking About a New Project or Collaboration?</p>
+            <p className="mb-10 text-xl font-semibold text-navy">Tell us more, and we'll reach out within a day to discuss your ideas.</p>
           </div>
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
@@ -61,8 +61,6 @@ const Contact = () => {
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
-                method="POST"
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
@@ -102,7 +100,11 @@ const Contact = () => {
 
                 <div className="flex flex-wrap gap-4 xl:justify-between ">
                   <div className="mb-4 flex md:mb-0">
-                    <input
+                    <label
+                      htmlFor="default-checkbox"
+                      className="flex max-w-[425px] cursor-pointer select-none pl-5"
+                    >
+                      <input
                       id="default-checkbox"
                       type="checkbox"
                       className="peer sr-only"
@@ -124,18 +126,17 @@ const Contact = () => {
                         />
                       </svg>
                     </span>
-                    <label
-                      htmlFor="default-checkbox"
-                      className="flex max-w-[425px] cursor-pointer select-none pl-5"
-                    >
+                    <p className="flex max-w-[425px] cursor-pointer select-none pl-5">
                       By clicking Checkbox, you agree to use our “Form” terms
                       And consent cookie usage in browser.
+                      </p>
                     </label>
                   </div>
 
                   <button
                     aria-label="send message"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
+                    onClick={()=>(alert("Message Send Successfully!"))}
+                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
                   >
                     Send Message
                     <svg

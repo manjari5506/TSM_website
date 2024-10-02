@@ -25,9 +25,9 @@ export default function RootLayout({
           attribute="class"
           defaultTheme="light"
         >
-          <Header />
+          <Header/>
           {children}
-          {/*<Footer />*/}
+          <Footer />
           <ScrollToTop />
         </ThemeProvider>
       </body>

@@ -1,51 +1,47 @@
 .header-container {
-    background: linear-gradient(0deg, #ecf1f9 0%, #c4d3fc 100%);
-    font-family: "kodchasan";
+  background: linear-gradient(0deg, #ecf1f9 0%, #c4d3fc 100%);
+  font-family: "kodchasan";
+}
+.header-container-sticky {
+  background: transparent;
+  font-family: "kodchasan";
 }
 .nav-submenu {
-    width: 500px;
-    background-color: #c4d3fc;
-
+  width: 300px;
 }
 .header-div {
-    gap: 60px
+  gap: 60px;
 }
 .header-container {
-    .nav-submenu {
-      position: absolute;
-      top: 100%;
-      left: 0;
-      width: 100vw; 
-      background-color: white;
-      z-index: 999;
-      display: none; 
-      padding: 20px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); 
-      gap: 20px;
-  
-      li {
-        list-style: none;
-        a {
-          color: #000;
-          text-decoration: none;
-          &:hover {
-            color: #0081fc; 
-          }
+  .nav-submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    // width: 100vw;
+    background-color: white;
+    z-index: 999;
+    display: none;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    li {
+      list-style: none;
+      a {
+        color: #000;
+        text-decoration: none;
+        &:hover {
+          color: #0081fc;
         }
       }
     }
-  
-   
-    li.group:hover .nav-submenu {
-      display: grid;
-    }
-
-    .dropdown {
-      flex-direction: column;
-      align-items: start;
-    }
   }
-  
+
+  li.group:hover .nav-submenu {
+    display: grid;
+  }
+
+  .dropdown {
+    flex-direction: column;
+    align-items: start;
+  }
+}

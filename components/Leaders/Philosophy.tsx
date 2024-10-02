@@ -8,7 +8,7 @@ const { Title, Paragraph } = Typography;
 const Philosophy = () => {
   return (
     <div className="leadership-philosophy-grid   ">
-      <Title level={2} className="section-title">
+      <Title className="section-title">
         Leadership that Inspires Transformation
       </Title>
       <Paragraph className="section-description py-2">

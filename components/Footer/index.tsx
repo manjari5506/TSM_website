@@ -1,6 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import "./Footer.scss";
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt} from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -8,7 +10,7 @@ const Footer = () => {
       <footer className="border-t border-stroke bg-white">
         <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
           {/* <!-- Footer Top --> */}
-          <div className="py-20 lg:py-25">
+          <div className="py-10 lg:pt-15">
             <div className="flex flex-wrap gap-2 lg:gap-0">
               <motion.div
                 variants={{
@@ -26,27 +28,20 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top mr-30"
+                className="animate_top mr-10"
               >
                 <a href="/" className="relative">
                   <Image
-                    width={100}
-                    height={70}
+                    width={170}
+                    height={170}
                     src="/images/logo/logo.svg"
                     alt="Logo"
                     className="dark:hidden"
                   />
-                  <Image
-                    width={100}
-                    height={70}
-                    src="/images/logo/logo.svg"
-                    alt="Logo"
-                    className="hidden dark:block"
-                  />
                 </a>
               </motion.div>
 
-              <div className="flex w-full flex-col gap-50 md:flex-row md:justify-between md:gap-0 lg:w-2/3 xl:w-7/12 font-kodchasan">
+              <div className="flex w-full flex-col gap-50 md:flex-row md:justify-between md:gap-0  xl:w-9/12 py-0 font-kodchasan">
                 <motion.div
                   variants={{
                     hidden: {
@@ -154,25 +149,25 @@ const Footer = () => {
                   whileInView="visible"
                   transition={{ duration: 1, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_top w-full lg:w-1/2 flex justify-between"
+                  className="animate_top w-full lg:w-1/2 gap-20 flex justify-between"
                 >
-                  <div className="w-1/2">
-                    <h4 className="text-2xl font-semibold text-navy">Address</h4>
+                  <div className="w-2/3">
+                    <h4 className="text-2xl font-semibold text-navy w-30">Address</h4>
                     <ul className="mt-4">
                       <li className="flex items-center mb-2">
-                        {/* <FaMapMarkerAlt className="text-navy mr-2" /> */}
+                        <FaMapMarkerAlt className="text-navy mr-2" />
                         <a href="https://www.google.com/maps/place/Hinjawadi,+Pune,+Pimpri-Chinchwad,+Maharashtra/@18.5993813,73.6348173,12z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bbc048041bef:0xd0c9eb5ac3c3dee5!8m2!3d18.5912716!4d73.738909!16s%2Fm%2F02qwznq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-navy">
                         Hinjewadi, Pune, Maharashtra
                         </a>
                       </li>
                       <li className="flex items-center mb-2">
-                        {/* <FaEnvelope className="text-navy mr-2" /> */}
+                        <FaEnvelope className="text-navy mr-2" />
                         <a href="mailto:work@stackmentalist.com" className="hover:text-navy">
                         work@stackmentalist.com
                         </a>
                       </li>
                       <li className="flex items-center">
-                        {/* <FaPhoneAlt className="text-navy mr-2" /> */}
+                        <FaPhoneAlt className="text-navy mr-2" />
                         <a href="tel:+123456789" className="hover:text-navy">
                         +91 7771810723
                         </a>
@@ -180,12 +175,13 @@ const Footer = () => {
                     </ul>
                   </div>
 
-                  <div className="lg:w-1/2">
+                  <div className="1/3">
                     <Image
-                      width={450}
-                      height={350}
+                      width={350}
+                      height={300}
                       src="/images/footer/mail-doodle.svg"
                       alt="Connectivity Doodle"
+                      className="doodle-image"
                     />
                   </div>
                 </motion.div>
@@ -278,7 +274,7 @@ const Footer = () => {
                 <li>
                   <a href="#" aria-label="social icon">
                     <svg
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
@@ -302,7 +298,7 @@ const Footer = () => {
                 <li>
                   <a href="#" aria-label="social icon">
                     <svg
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
@@ -326,7 +322,7 @@ const Footer = () => {
                 <li>
                   <a href="#" aria-label="social icon">
                     <svg
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-primary"
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"

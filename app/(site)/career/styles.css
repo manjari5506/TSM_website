@@ -4,112 +4,134 @@
 
 
 .hero-section {
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: skyblue;
-  padding: 50px 0;
+  
+  /* padding: 100px; */
 }
 
 .hero-content {
+  margin-top: 90px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  max-width: 1200px;
-  width: 100%;
+  flex-direction: column;
+  /* max-width: 1200px;
+  width: 100%; */
 }
 
-.hero-image img {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-
+ 
 .hero-text {
   margin-left: 50px;
-  color: white;
+  color: rgb(4, 4, 4);
+  align-items: center;
 }
 
 .hero-text h1 {
+  text-align: center;
+  font-weight: bold;
   font-family: 'Playfair Display', serif;
-  font-size: 3rem;
+  font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 20px;
 }
 
 .hero-text p {
+  
   font-family: "Kodchasan";
-  font-size: 1.2rem;
-
+  font-size: 1.2vmax;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top:1.2vmax;
   margin-bottom: 30px;
 }
 
+.button-container{
+  width: 100%;
+  height: 100px;
+ display: flex;
+ align-items:center ;
+ justify-content: center;
+}
 .job-button {
-  background-color: black;
-  align-items: end;
+ 
+  background-color: #0063EC ;
   color: white;
   padding: 10px 20px;
   border: none;
   font-size: 1.1rem;
-  cursor: pointer;
   float: right;
   border-radius: 10px;
 }
 
 .job-button:hover {
-  background-color: #333;
+  background-color:#333;
 }
 
 .innovation-section {
-  padding: 50px 20px;
+  margin-top: 5rem;
+  padding-top: 8rem;
+  
+  
   background-color: #f9f9f9;
+}
+.left-side h2{
+  margin-top: 20px;
+  text-wrap: nowrap
 }
 
 .innovation-container {
+  margin-top: 80rem;
   display: flex;
   /* flex-direction: row; */
   justify-content: space-between;
   /* align-items: flex-start; */
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
+  gap: 70px;
 }
 
 .ventures {
+  font-weight: 800;
   color: blueviolet;
 }
 
 
 .left-side {
-
+  font-weight: bold;
   padding-right: 20px;
 }
 
 .right-side {
-
+  
+  font-size: 40px;
   padding-left: 20px;
 }
 
 .innovation-container h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display';
   flex-wrap: nowrap;
-  font-size: 36px;
+  font-size: 40px;
   font-weight: bold;
-  /* margin-bottom: 20px; */
+  margin-bottom: 20px; 
   color: #14213D
 }
 
 
 .innovation-container p {
   flex-wrap: wrap;
-  font-family: "Kodchasan";
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.6;
+  padding: 5rem 0;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 7rem;
 }
 
 .core-values {
+  text-align: center;
   width: 300px;
 }
 
@@ -137,7 +159,7 @@
 }
 .career-openings .highlight {
   font-size: 2rem;
-  color: #1E90FF;
+  color: #214e7b;
 }
 
 
@@ -180,7 +202,7 @@
 
 .openings-table {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 50px;
   border-collapse: collapse;
 }
 
@@ -223,6 +245,7 @@
   flex-direction: column;
   gap: 20px;
   width: 100%;
+  margin-bottom: 40px;
 }
 
 .job-card {
@@ -237,6 +260,7 @@
   /* max-width: 600px; */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
+  margin-top: 30px;
 }
 
 .job-card:hover {
@@ -254,8 +278,8 @@
 
 .job-info {
   display: flex;
-  /* justify-content: space-around; */
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   gap: 200px;
 }
 
