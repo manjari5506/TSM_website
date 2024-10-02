@@ -1,14 +1,12 @@
 import React from "react";
 const keywords = [
-  { name: "Mobile Apps" },
-  { name: "Native Development" },
-  { name: " Cross-Platform Development" },
-  { name: " Hybrid Apps" },
-  { name: "Mobile App Testing" },
-  { name: " Agile Development" },
-  { name: "Mobile Apps" },
+  { name: "Custom Theme Development" },
+  { name: "Plugin Integration & Development" },
+  { name: "E-commerce Solutions with WooCommerce" },
+  { name: "Website Performance Optimization" },
+  { name: "Ongoing Support & Maintenance" },
 ];
-const AppDevelopment = () => {
+const WordPressDevelopment = () => {
   return (
     <div className="mt-8 flex gap-14 px-[6rem]">
       <img
@@ -19,13 +17,14 @@ const AppDevelopment = () => {
         <div>
           {/* <img src="" alt="" /> */}
           <h2 className="inline-block bg-gradient-to-r from-navy via-gray-700 to-gray-400 bg-clip-text pb-7 font-playfair text-4xl font-bold text-transparent">
-            Transforming Ideas into Innovative Mobile Experiences
+            Empowering Your Online Presence with Expert WordPress Development
           </h2>
           <p className=" py-2 text-lg font-medium">
-            Unlock the potential of your business with our tailored app
-            development solutions. From innovative mobile apps to seamless user
-            experiences, we create applications that engage users and drive
-            growth. Let us transform your ideas into reality.
+            Elevate your website with our customized WordPress development
+            solutions. We create stunning, user-friendly websites that are
+            optimized for performance and scalability. Let us help you harness
+            the power of WordPress to build an engaging online experience that
+            drives results.
           </p>
         </div>
         <div className="flex flex-wrap gap-4 py-4">
@@ -43,4 +42,4 @@ const AppDevelopment = () => {
   );
 };
 
-export default AppDevelopment;
+export default WordPressDevelopment;

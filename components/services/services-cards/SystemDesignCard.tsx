@@ -1,13 +1,10 @@
 import React from "react";
 const keywords = [
-  { name: "Mobile Apps" },
-  { name: "Native Development" },
-  { name: " Cross-Platform Development" },
-  { name: " Hybrid Apps" },
-  { name: "Mobile App Testing" },
-
-  { name: " Agile Development" },
-  { name: "Mobile Apps" },
+  { name: "Architectural Design & Planning" },
+  { name: "Microservices Architecture" },
+  { name: "API Design & Integration" },
+  { name: "Performance Optimization" },
+  { name: "Scalability & Load Balancing Solutions" },
 ];
 const SystemDesignCard = () => {
   return (
@@ -20,18 +17,19 @@ const SystemDesignCard = () => {
         <div>
           {/* <img src="" alt="" /> */}
           <h2 className="inline-block bg-gradient-to-r from-navy via-gray-700 to-gray-400 bg-clip-text pb-7 font-playfair text-4xl font-bold text-transparent">
-            Transforming Ideas into Innovative Mobile Experiences
+            Crafting Robust Solutions through Expert System Design
           </h2>
           <p className=" py-2 text-lg font-medium">
-            Unlock the potential of your business with our tailored app
-            development solutions. From innovative mobile apps to seamless user
-            experiences, we create applications that engage users and drive
-            growth. Let us transform your ideas into reality.
+            Unlock the potential of your applications with our tailored system
+            design services. We specialize in creating scalable, efficient, and
+            resilient systems that align with your business objectives. Let us
+            help you build a strong foundation for your digital solutions,
+            ensuring optimal performance and adaptability.
           </p>
         </div>
         <div className="flex flex-wrap gap-4 py-4">
           {keywords.map((k, ind) => (
-            <button className="text-md rounded-xl border-2 border-navy px-7 py-[0.4rem] font-semibold text-navy hover:bg-navy hover:text-white">
+            <button className="rounded-xl border-2 border-navy px-3 py-[0.2rem] text-sm font-semibold text-navy hover:bg-navy hover:text-white">
               {k.name}
             </button>
           ))}

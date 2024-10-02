@@ -1,50 +1,61 @@
 .client-section {
-    border: 2px solid rgb(219, 218, 218);
-    border-radius: 10px;
-    min-height: 350px;
+  border: 2px solid rgb(219, 218, 218);
+  border-radius: 10px;
+  min-height: 350px;
 }
 .clients-box {
-    background: linear-gradient(180deg, #ffffff 0%, #c5cee5 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #c5cee5 100%);
 }
 .testimonial-card {
-    max-width: 100%; 
-    height: 400px;    
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    // background-color: white;
-    overflow: hidden;
+  max-width: 100%;
+  height: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  // background-color: white;
+  overflow: hidden;
 
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url('/images/client-bg.jpg'); 
-        background-size: cover;
-        background-position: center;
-        opacity: 0.5; /* 50% opacity */
-        z-index: 0; /* Ensure it stays behind the content */
-      }
-    
-      > * {
-        position: relative;
-        z-index: 1;
-      }
-  
-    .company-logo {
-      /* Add styling for the logo if necessary */
-    }
-  
-    .avatar-image {
-      /* Add styling for the avatar */
-      border: 2px solid #eee;
-    }
-  
-    .shadow-custom {
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); 
-    }
+  &::before {
+    // content: "";
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
+    // height: 100%;
+    // background-image: url("/images/quote-left-icon.svg");
+    // background-size: cover;
+    // background-position: center;
+    // opacity: 0.5; /* 50% opacity */
+    // z-index: 0; /* Ensure it stays behind the content */
+    content: "";
+    background: url("/images/quote-left-icon.svg") no-repeat center; // Adjust the path accordingly
+    background-size: contain; // Ensure the icon fits nicely
+    position: absolute; // Position it absolutely
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    opacity: 0.02; // Low opacity for the background
+    z-index: 0; // Send it to the back
+    width: 200px;
+    height: 200px;
   }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
+  .company-logo {
+    /* Add styling for the logo if necessary */
+  }
+
+  .avatar-image {
+    /* Add styling for the avatar */
+    border: 2px solid #eee;
+  }
+
+  .shadow-custom {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+}

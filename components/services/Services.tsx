@@ -8,6 +8,8 @@ import IotCard from "./services-cards/IotCard";
 import SystemDesignCard from "./services-cards/SystemDesignCard";
 import UiCard from "./services-cards/UiCard";
 import CyberCard from "./services-cards/CyberCard";
+import WordPressDevelopment from "./services-cards/WordPressDevelopmentCard";
+import BigData from "./services-cards/BigDataCard";
 
 export default function Home() {
   //   useEffect(() => {
@@ -56,9 +58,11 @@ export default function Home() {
           <DataScience />
           <CloudCard />
           <IotCard />
-          <SystemDesignCard />
+          <WordPressDevelopment />
+          <BigData />
           <UiCard />
           <CyberCard />
+          <SystemDesignCard />
           {/* {services.map((service) => (
           <div
             key={service.id}

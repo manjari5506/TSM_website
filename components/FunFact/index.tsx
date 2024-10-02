@@ -8,16 +8,14 @@ const FunFact = () => {
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
-      <section className="funfact-background relative my-12 py-15">
-      <video
-          className="video-box absolute object-cover h-full "
+      <section className="funfact-background relative">
+        <video
+          className="video-box absolute h-full object-cover "
           src="/images/hero-video.mp4"
           autoPlay
           loop
           muted
-           
-        >
-        </video>
+        ></video>
         <div className="relative z-1 mx-auto max-w-c-1390 rounded-lg py-22.5 dark:bg-blacksection dark:bg-gradient-to-t dark:from-transparent dark:to-transparent dark:stroke-strokedark xl:py-27.5">
           <motion.div
             variants={{
@@ -37,12 +35,15 @@ const FunFact = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
-            <h2 className="mb-20 text-5xl font-bold text-navy font-playfair">
+            <h2 className="my-12 mb-20 py-15 font-playfair text-5xl font-bold text-navy">
               Creativity Meets Technology,
               <br></br> Innovation Happens
             </h2>
-            <p className="text-xl text-navy font-semibold font-kodchasan change-color">
-            At Stackmentalist, we specialize in creating exceptional software solutions tailored to empower businesses. Our mission is to deliver seamless and efficient software that accelerates growth and success
+            <p className="change-color font-kodchasan text-xl font-semibold text-navy">
+              At Stackmentalist, we specialize in creating exceptional software
+              solutions tailored to empower businesses. Our mission is to
+              deliver seamless and efficient software that accelerates growth
+              and success
             </p>
           </motion.div>
 
@@ -64,8 +65,7 @@ const FunFact = () => {
               transition={{ duration: 1, delay: 0.5 }}
               viewport={{ once: true }}
               className="animate_top text-center"
-            >
-            </motion.div>
+            ></motion.div>
             <motion.div
               variants={{
                 hidden: {
@@ -83,8 +83,7 @@ const FunFact = () => {
               transition={{ duration: 1, delay: 0.7 }}
               viewport={{ once: true }}
               className="animate_top text-center"
-            >
-            </motion.div>
+            ></motion.div>
             <motion.div
               variants={{
                 hidden: {
@@ -102,8 +101,7 @@ const FunFact = () => {
               transition={{ duration: 1, delay: 0.8 }}
               viewport={{ once: true }}
               className="animate_top text-center"
-            >
-            </motion.div>
+            ></motion.div>
           </div>
         </div>
       </section>

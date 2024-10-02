@@ -27,29 +27,29 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
   });
-
+  console.log(stickyMenu, "stickyMenu");
   return (
     <header
-      className={`fixed left-0 top-0 z-99999 w-full py-6 ${
+      className={`fixed left-0 top-0 z-99999 w-full py-2 ${
         stickyMenu
-          ? "bg-white !py-4 shadow transition duration-100 dark:bg-black"
-          : ""
-      } header-container` }
+          ? "header-container"
+          : "header-container-sticky transition duration-100 dark:bg-black"
+      } `}
     >
-      <div className="relative mx-auto max-w-c-1390 items-center justify-between xl:flex 2xl:px-0 header-div">
-        <div className="flex w-full h-15 items-center justify-between xl:w-1/4">
+      <div className="header-div relative mx-auto max-w-c-1390 items-center justify-between xl:flex 2xl:px-0">
+        <div className="flex h-15 w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
               src="/images/logo/logo.svg"
               alt="logo"
-              width={80}
+              width={60}
               height={20}
               className="hidden dark:block"
             />
             <Image
               src="/images/logo/logo.svg"
               alt="logo"
-              width={80}
+              width={60}
               height={20}
               className="dark:hidden"
             />
@@ -85,7 +85,7 @@ const Header = () => {
 
         {/* Nav Menu Start   */}
         <div
-          className={`invisible h-0 w-full items-center gap-x-10  ml-96 xl:visible xl:flex xl:h-auto xl:w-full ${
+          className={`invisible ml-96 h-0 w-full items-center  gap-x-10 xl:visible xl:flex xl:h-auto xl:w-full ${
             navigationOpen &&
             "navbar !visible mt-4 h-auto max-h-[400px] rounded-md bg-white p-7.5 shadow-solid-5 dark:bg-blacksection xl:h-auto xl:p-0 xl:shadow-none xl:dark:bg-transparent"
           }`}
@@ -96,9 +96,7 @@ const Header = () => {
                 <li key={key} className={menuItem.submenu && "group relative"}>
                   {menuItem.submenu ? (
                     <>
-                      <button
-                        className="flex cursor-pointer items-center justify-between gap-3 hover:text-navy"
-                      >
+                      <button className="flex cursor-pointer items-center justify-between gap-3 hover:text-navy">
                         {menuItem.title}
                         <span>
                           <svg
@@ -114,7 +112,16 @@ const Header = () => {
                       <ul className="nav-submenu dropdown">
                         {menuItem.submenu.map((item, key) => (
                           <li key={key} className="hover:text-navy">
-                            <Link href={item.path || "#"}>{item.title}</Link>
+                            {item.type === "button" ? (
+                              <Link
+                                href={item.path || "#"}
+                                className="flex items-center justify-center rounded-full bg-navy px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:scale-110"
+                              >
+                                {item.title}
+                              </Link>
+                            ) : (
+                              <Link href={item.path || "#"}>{item.title}</Link>
+                            )}
                           </li>
                         ))}
                       </ul>
@@ -144,7 +151,7 @@ const Header = () => {
               Contact Us
             </Link>
             <ThemeToggler />
-            <LanguageToggler/>
+            <LanguageToggler />
           </div>
         </div>
       </div>
@@ -153,4 +160,3 @@ const Header = () => {
 };
 
 export default Header;
-

@@ -34,7 +34,7 @@ const featuresData: Feature[] = [
     icon: "/images/icon/icon-05.svg",
     title: "WordPress Development",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.",
+      "Design and build websites using the popular open-source content management system (CMS).",
   },
   {
     id: 6,

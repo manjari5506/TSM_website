@@ -1,28 +1,26 @@
 import React from "react";
 const keywords = [
-  { name: "Risk Assessment & Management" },
-  { name: "Threat Detection & Response" },
-  { name: "Data Encryption & Protection" },
-  { name: "Security Awareness Training" },
-  { name: "Compliance & Regulatory Support" },
+  { name: "Data Collection & Storage Solutions" },
+  { name: "Advanced Analytics & Visualization" },
+  { name: "Predictive Modeling & Forecasting" },
+  { name: "Data Governance & Management" },
+  { name: "Custom Big Data Architecture" },
 ];
-
-const CyberCard = () => {
+const BigData = () => {
   return (
     <div className="my-14  flex gap-14   px-[5rem]">
       <div>
         <div>
           {/* <img src="" alt="" /> */}
           <h2 className="inline-block bg-gradient-to-r from-navy via-gray-700 to-gray-400 bg-clip-text pb-7 font-playfair text-4xl font-bold text-transparent">
-            Safeguarding Your Digital Assets with Comprehensive Cyber Security
-            Solutions
+            Unlocking Insights with Comprehensive Big Data Solutions
           </h2>
           <p className=" py-2 text-lg font-medium">
-            Protect your business from evolving threats with our robust cyber
-            security services. We employ advanced strategies and technologies to
-            secure your systems, data, and applications, ensuring peace of mind
-            in an increasingly digital world. Let us help you fortify your
-            defenses against cyber risks.
+            Harness the power of your data with our advanced Big Data services.
+            We help you collect, analyze, and visualize vast amounts of
+            information to uncover valuable insights that drive strategic
+            decision-making. Let us transform your data into a competitive
+            advantage.
           </p>
         </div>
         <div className="flex flex-wrap gap-4 py-4">
@@ -44,4 +42,4 @@ const CyberCard = () => {
   );
 };
 
-export default CyberCard;
+export default BigData;

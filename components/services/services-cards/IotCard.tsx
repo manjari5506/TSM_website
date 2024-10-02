@@ -1,13 +1,10 @@
 import React from "react";
 const keywords = [
-  { name: "Mobile Apps" },
-  { name: "Native Development" },
-  { name: " Cross-Platform Development" },
-  { name: " Hybrid Apps" },
-  { name: "Mobile App Testing" },
-
-  { name: " Agile Development" },
-  { name: "Mobile Apps" },
+  { name: "Smart Device Integration" },
+  { name: "Industrial Automation Solutions" },
+  { name: "Real-time Data Analytics" },
+  { name: "Predictive Maintenance" },
+  { name: "Customized IoT Solutions" },
 ];
 const IotCard = () => {
   return (
@@ -16,18 +13,19 @@ const IotCard = () => {
         <div>
           {/* <img src="" alt="" /> */}
           <h2 className="inline-block bg-gradient-to-r from-navy via-gray-700 to-gray-400 bg-clip-text pb-7 font-playfair text-4xl font-bold text-transparent">
-            Transforming Ideas into Innovative Mobile Experiences
+            Transforming Industries with IoT & Automation Solutions
           </h2>
           <p className=" py-2 text-lg font-medium">
-            Unlock the potential of your business with our tailored app
-            development solutions. From innovative mobile apps to seamless user
-            experiences, we create applications that engage users and drive
-            growth. Let us transform your ideas into reality.
+            Unlock new opportunities and drive efficiency with our cutting-edge
+            IoT and automation solutions. We connect devices and systems to
+            streamline processes, enhance productivity, and gather valuable
+            insights. Let us help you harness the power of IoT to create a
+            smarter, more automated future.
           </p>
         </div>
         <div className="flex flex-wrap gap-4 py-4">
           {keywords.map((k, ind) => (
-            <button className="text-md rounded-xl border-2 border-navy px-7 py-[0.4rem] font-semibold text-navy hover:bg-navy hover:text-white">
+            <button className="rounded-xl border-2 border-navy px-3 py-[0.2rem] text-sm font-semibold text-navy hover:bg-navy hover:text-white">
               {k.name}
             </button>
           ))}

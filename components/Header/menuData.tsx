@@ -51,6 +51,12 @@ const menuData: Menu[] = [
       },
       {
         id: 35,
+        title: "WordPress Development",
+        newTab: false,
+        path: "/services/wordpress-development",
+      },
+      {
+        id: 35,
         title: "System Design",
         newTab: false,
         path: "/services/system-design",
@@ -73,13 +79,20 @@ const menuData: Menu[] = [
         newTab: false,
         path: "/services/cyber-security",
       },
+      {
+        id: 35,
+        title: "View All",
+        newTab: false,
+        path: "/services",
+        type: "button",
+      },
     ],
   },
   {
     id: 2.1,
     title: "Careers",
     newTab: false,
-    path: "/careers",
+    path: "/career",
   },
   {
     id: 2.3,

@@ -1,13 +1,10 @@
 import React from "react";
 const keywords = [
-  { name: "Mobile Apps" },
-  { name: "Native Development" },
-  { name: " Cross-Platform Development" },
-  { name: " Hybrid Apps" },
-  { name: "Mobile App Testing" },
-
-  { name: " Agile Development" },
-  { name: "Mobile Apps" },
+  { name: "Cloud Infrastructure Setup" },
+  { name: "Continuous Integration & Continuous Deployment (CI/CD)" },
+  { name: "Cloud Migration Services" },
+  { name: "Infrastructure as Code (IaC)" },
+  { name: "Monitoring & Performance Optimization" },
 ];
 const CloudCard = () => {
   return (
@@ -20,18 +17,19 @@ const CloudCard = () => {
         <div>
           {/* <img src="" alt="" /> */}
           <h2 className="inline-block bg-gradient-to-r from-navy via-gray-700 to-gray-400 bg-clip-text pb-7 font-playfair text-4xl font-bold text-transparent">
-            Transforming Ideas into Innovative Mobile Experiences
+            Elevate Your Business with Cloud & DevOps Solutions
           </h2>
           <p className=" py-2 text-lg font-medium">
-            Unlock the potential of your business with our tailored app
-            development solutions. From innovative mobile apps to seamless user
-            experiences, we create applications that engage users and drive
-            growth. Let us transform your ideas into reality.
+            Unlock the full potential of your IT infrastructure with our
+            comprehensive Cloud and DevOps services. We streamline development
+            and operations, ensuring rapid deployment and scalability while
+            enhancing collaboration across teams. Let us help you harness the
+            power of the cloud for improved efficiency and innovation.
           </p>
         </div>
         <div className="flex flex-wrap gap-4 py-4">
           {keywords.map((k, ind) => (
-            <button className="text-md rounded-xl border-2 border-navy px-7 py-[0.4rem] font-semibold text-navy hover:bg-navy hover:text-white">
+            <button className="rounded-xl border-2 border-navy px-3 py-[0.2rem] text-sm font-semibold text-navy hover:bg-navy hover:text-white">
               {k.name}
             </button>
           ))}
