@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HeroService = () => {
@@ -21,9 +22,11 @@ const HeroService = () => {
           forward, turning technological hurdles into opportunities for growth
           and success.
         </p>
-        <button className="mt-10 rounded-lg bg-navy px-6 py-4 text-lg tracking-wide text-white">
-          Let’s Work Together
-        </button>
+       <button className="mt-10 rounded-lg bg-navy px-6 py-4 text-lg tracking-wide text-white">
+       <Link href='/contact' >
+          Let's Work Together
+        </Link>
+       </button>
       </div>
     </section>
   );
