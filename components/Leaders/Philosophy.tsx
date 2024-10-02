@@ -8,15 +8,17 @@ const { Title, Paragraph } = Typography;
 const Philosophy = () => {
   return (
     <div className="leadership-philosophy-grid   ">
-      <Title className="section-title">
-        Leadership that Inspires Transformation
-      </Title>
-      <Paragraph className="section-description py-2">
-        At Stackmentalis, our leadership is driven by innovation, collaboration,
-        and excellence. We don't just lead—we inspire growth, empower our teams,
-        and pursue impactful solutions with relentless passion. Discover the
-        core principles that define our journey.
-      </Paragraph>
+      <div className="flex flex-col items-center justify-center text-center">
+        <Title className="section-title">
+          Leadership that Inspires Transformation
+        </Title>
+        <Paragraph className="section-description  w-[60rem] py-2 font-medium text-gray-600">
+          At Stackmentalis, our leadership is driven by innovation,
+          collaboration, and excellence. We don't just lead—we inspire growth,
+          empower our teams, and pursue impactful solutions with relentless
+          passion. Discover the core principles that define our journey.
+        </Paragraph>
+      </div>
 
       <Row gutter={[32, 32]} className="py-8">
         {/* Card 1: Innovation */}
