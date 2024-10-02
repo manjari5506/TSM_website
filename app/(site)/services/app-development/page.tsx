@@ -14,7 +14,7 @@ const page = () => {
             Crafting innovative, scalable applications tailored to your business
             needs
           </p>
-          <button className="mt-5 rounded-3xl bg-navy px-9 py-3 hover:opacity-80">
+          <button className="mt-5 rounded-3xl bg-navy px-9 py-3 text-white   hover:opacity-80">
             Contact Us
           </button>
         </div>

@@ -3,8 +3,8 @@ import React from "react";
 const HeroService = () => {
   return (
     <section className="relative z-1  ">
-      <div className="relative z-10 h-screen pl-[10rem] pt-[13rem]">
-        <h1 className="  w-[45rem] py-6 font-playfair text-6xl font-bold leading-[4rem] tracking-wide text-navy">
+      <div className="relative z-10 h-screen pl-[10rem] pt-[10rem]">
+        <h1 className="  w-[35rem] py-4 font-playfair text-5xl font-bold leading-[4rem] tracking-wide text-navy">
           We Are{" "}
           <span className=" font-playfair    text-[#fca311]">
             {" "}
