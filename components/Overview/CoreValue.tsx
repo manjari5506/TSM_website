@@ -51,11 +51,21 @@ const coreValues = [
 const CoreValues = () => {
   return (
     <div className="core-values-section">
-      <h2 className="section-heading">Our Core Values</h2>
+      <div className="flex flex-col items-center ">
+        <h2 className="section-heading font-playfair  font-bold text-navy">
+          Our Core Values
+        </h2>
+        <p className=" w-[50rem] pb-8  text-center  text-gray-600">
+          Our core values inspire us to innovate, collaborate, and deliver
+          excellence. With integrity at the heart of everything we do, we are
+          committed to creating meaningful impact for our clients and
+          communities.
+        </p>
+      </div>
       <Row gutter={[24, 24]} justify="space-around">
         {coreValues.map((value, index) => (
           <Col key={index} xs={24} sm={12} md={8} className="value-col">
-            <div className="core-value-item">
+            <div className="core-value-item ">
               <div className="value-icon">{value.icon}</div>
               <div className="value-content">
                 <h3 className="value-title">{value.title}</h3>

@@ -3,17 +3,17 @@ import "./style.scss";
 
 const Vission = () => {
   return (
-    <section className="mt-[1.4rem] px-[9rem]  ">
+    <section className="mt-[1.4rem] px-[7rem]  ">
       <div className="flex gap-[6rem] rounded-3xl   px-[5rem] py-[3rem]">
         <div className="py-7">
-          <h2 className=" mb-2 w-[17rem] border-b-2 border-red-400 py-3 font-playfair text-4xl font-bold text-black">
+          <h2 className=" mb-2 w-[17rem] border-b-2 border-navy py-3 font-playfair text-4xl font-bold text-black">
             Our Vision
           </h2>
-          <h3 className=" w-[27rem] py-3 font-playfair text-3xl font-bold text-black">
+          <h3 className=" w-[30rem] py-3 font-playfair text-3xl font-bold text-navy">
             Leading the future with seamless tech solutions
           </h3>
 
-          <p className="text-md w-[40rem] py-4 font-semibold text-black">
+          <p className="text-md w-[28rem] py-4 font-semibold text-gray-600">
             At Stackmentalist, our vision is to be a global leader in technology
             innovation, empowering organizations of all sizes to thrive in the
             digital era. We aspire to create a world where technology seamlessly
@@ -26,7 +26,7 @@ const Vission = () => {
         </div>
         <img
           src="/images/overview/vission.jpg"
-          className="  h-[30rem] w-[35rem] rounded-3xl bg-cover"
+          className="  ml-9 h-[30rem] w-[35rem] rounded-3xl bg-cover"
         />
       </div>
     </section>

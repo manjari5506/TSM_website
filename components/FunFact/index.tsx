@@ -35,7 +35,7 @@ const FunFact = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
-            <h2 className="my-12 mb-20 py-15 font-playfair text-5xl font-bold text-navy">
+            <h2 className="my-12 mb-20 pt-15  font-playfair text-5xl font-bold text-navy">
               Creativity Meets Technology,
               <br></br> Innovation Happens
             </h2>
