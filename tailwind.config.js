@@ -13,8 +13,8 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ["Inter", "sans-serif"],
-      kodchasan: ["Kodchasan", "sans-serif"],
-      playfair: ["Playfair Display", "sans-serif"],
+      playfair: ['"Playfair Display"', 'serif'],
+      kodchasan: ['"Kodchasan"', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -41,6 +41,7 @@ module.exports = {
         alabaster: "#FBFBFB",
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
+        navy: "#191242",
       },
       fontSize: {
         metatitle: ["12px", "20px"],

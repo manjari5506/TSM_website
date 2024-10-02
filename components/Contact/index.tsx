@@ -4,10 +4,6 @@ import Image from "next/image";
 import React from "react";
 
 const Contact = () => {
-  /**
-   * Source: https://www.joshwcomeau.com/react/the-perils-of-rehydration/
-   * Reason: To fix rehydration error
-   */
   const [hasMounted, setHasMounted] = React.useState(false);
   React.useEffect(() => {
     setHasMounted(true);
@@ -19,7 +15,11 @@ const Contact = () => {
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
-      <section id="support" className="px-4 md:px-8 2xl:px-0">
+      <section id="support" className="px-4 py-30 md:px-8 2xl:px-0">
+      <div className="relative mx-auto max-w-c-900 px-7.5 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20 text-center">
+            <p className="mb-10 text-3xl font-semibold text-navy xl:text-sectiontitle2 font-playfair">Thinking About a New Project or Collaboration?</p>
+            <p className="mb-10 text-xl font-semibold text-navy">Tell us more, and we'll reach out within a day to discuss your ideas.</p>
+          </div>
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
@@ -57,12 +57,10 @@ const Contact = () => {
               className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15"
             >
               <h2 className="mb-15 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">
-                Send a message
+                Get In Touch With Us
               </h2>
 
               <form
-                action="https://formbold.com/s/unique_form_id"
-                method="POST"
               >
                 <div className="mb-7.5 flex flex-col gap-7.5 lg:flex-row lg:justify-between lg:gap-14">
                   <input
@@ -102,7 +100,11 @@ const Contact = () => {
 
                 <div className="flex flex-wrap gap-4 xl:justify-between ">
                   <div className="mb-4 flex md:mb-0">
-                    <input
+                    <label
+                      htmlFor="default-checkbox"
+                      className="flex max-w-[425px] cursor-pointer select-none pl-5"
+                    >
+                      <input
                       id="default-checkbox"
                       type="checkbox"
                       className="peer sr-only"
@@ -124,18 +126,17 @@ const Contact = () => {
                         />
                       </svg>
                     </span>
-                    <label
-                      htmlFor="default-checkbox"
-                      className="flex max-w-[425px] cursor-pointer select-none pl-5"
-                    >
+                    <p className="flex max-w-[425px] cursor-pointer select-none pl-5">
                       By clicking Checkbox, you agree to use our “Form” terms
                       And consent cookie usage in browser.
+                      </p>
                     </label>
                   </div>
 
                   <button
                     aria-label="send message"
-                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 py-3 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
+                    onClick={()=>(alert("Message Send Successfully!"))}
+                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
                   >
                     Send Message
                     <svg
@@ -182,14 +183,18 @@ const Contact = () => {
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Our Loaction
                 </h3>
-                <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+                <a href="https://www.google.com/maps/place/Hinjawadi,+Pune,+Pimpri-Chinchwad,+Maharashtra/@18.5993813,73.6348173,12z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bbc048041bef:0xd0c9eb5ac3c3dee5!8m2!3d18.5912716!4d73.738909!16s%2Fm%2F02qwznq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-navy">
+                  Hinjewadi, Pune, Maharashtra
+                </a>
               </div>
               <div className="5 mb-7">
                 <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">
                   Email Address
                 </h3>
                 <p>
-                  <a href="#">yourmail@domainname.com</a>
+                  <a href="mailto:work@stackmentalist.com" className="hover:text-navy">
+                    work@stackmentalist.com
+                  </a>
                 </p>
               </div>
               <div>
@@ -197,7 +202,9 @@ const Contact = () => {
                   Phone Number
                 </h4>
                 <p>
-                  <a href="#">+009 42334 6343 843</a>
+                  <a href="tel:+123456789" className="hover:text-navy">
+                    +91 7771810723
+                  </a>
                 </p>
               </div>
             </motion.div>

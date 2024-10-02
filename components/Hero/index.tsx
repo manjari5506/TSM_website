@@ -1,99 +1,145 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import "./Hero.scss";
 
 const Hero = () => {
-  const [email, setEmail] = useState("");
+  const [activeIndex, setActiveIndex] = useState(0);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+  const cards = [
+    {
+      id: 0,
+      logo: "/images/brand/partner-1.png", // Add the path for your logo image
+      title: "App Development (Web/Mobile)",
+      description: "Frontend, Backend",
+    },
+    {
+      id: 1,
+      logo: "/images/brand/partner-1.png",
+      title: "Cyber Security",
+      description: "Full Stack Development",
+    },
+    {
+      id: 2,
+      logo: "/images/brand/partner-1.png",
+      title: "Data Science (AI/ML, Web Scraping)",
+      description: "API Integration",
+    },
+    {
+      id: 3,
+      logo: "/images/brand/partner-1.png",
+      title: "Cloud and DevOps",
+      description: "Web Development",
+    },
+    {
+      id: 4,
+      logo: "/images/brand/partner-2.png",
+      title: "IOT and Automation",
+      description: "DevOps",
+    },
+    {
+      id: 5,
+      logo: "/images/brand/partner-1.png",
+      title: "System Design",
+      description: "DevOps",
+    },
+    {
+      id: 6,
+      logo: "/images/brand/partner-2.png",
+      title: "Big Data",
+      description: "DevOps",
+    },
+    {
+      id: 7,
+      logo: "/images/brand/partner-1.png",
+      title: "UI/UX",
+      description: "DevOps",
+    },
+    {
+      id: 8,
+      logo: "/images/brand/partner-2.png",
+      title: "IOT and Automation",
+      description: "DevOps",
+    },
+  ];
+
+  // Auto-play effect
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveIndex((prevIndex) => (prevIndex + 1) % cards.length);
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [cards.length]);
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
-        <div className="mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
-          <div className="flex lg:items-center lg:gap-8 xl:gap-32.5">
-            <div className=" md:w-1/2">
-              <h4 className="mb-4.5 text-lg font-medium text-black dark:text-white">
-                🔥 Solid - A Complete SaaS Web Template
-              </h4>
-              <h1 className="mb-5 pr-16 text-3xl font-bold text-black dark:text-white xl:text-hero ">
-                Free Next.js Template for {"   "}
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full before:bg-titlebg dark:before:bg-titlebgdark ">
-                  SaaS
-                </span>
-              </h1>
-              <p>
-                Solid Pro - Packed with all the key integrations you need for
-                swift SaaS startup launch, including - Auth, Database, Sanity
-                Blog, Essential Components, Pages and More. Built-winth -
-                Next.js 13, React 18 and TypeScript.
-              </p>
-
-              <div className="mt-10">
-                <form onSubmit={handleSubmit}>
-                  <div className="flex flex-wrap gap-5">
-                    <input
-                      value={email}
-                      onChange={(e) => setEmail(e.target.value)}
-                      type="text"
-                      placeholder="Enter your email address"
-                      className="rounded-full border border-stroke px-6 py-2.5 shadow-solid-2 focus:border-primary focus:outline-none dark:border-strokedark dark:bg-black dark:shadow-none dark:focus:border-primary"
-                    />
-                    <button
-                      aria-label="get started button"
-                      className="flex rounded-full bg-black px-7.5 py-2.5 text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark dark:hover:bg-blackho"
-                    >
-                      Get Started
-                    </button>
+      <section className="hero-section overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
+        <video
+          className="video-box absolute h-full object-cover "
+          src="/images/hero-video.mp4"
+          autoPlay
+          loop
+          muted
+        ></video>
+        <div className="py-100 mx-auto max-w-c-1390 px-4 md:px-8 2xl:px-0">
+          <div className="flex lg:items-center lg:gap-5 xl:gap-32.5">
+            <div className="animate_right hidden md:w-1/2 lg:block">
+              {/* Carousel Container */}
+              <div className="relative flex h-full flex-col items-center justify-center transition-all duration-700 ease-in-out">
+                {cards.map((card, index) => (
+                  <div
+                    key={card.id}
+                    className={`carousel-hero absolute mb-20 flex w-4/5 items-center justify-between rounded-lg border-2 border-blue-700 bg-white p-4 shadow-lg transition-transform duration-700 ease-in-out ${
+                      index === activeIndex
+                        ? "scale-120 opacity-100"
+                        : index ===
+                            (activeIndex - 1 + cards.length) % cards.length ||
+                          index === (activeIndex + 1) % cards.length
+                        ? "scale-100 opacity-50 "
+                        : "scale-100 opacity-50"
+                    }`}
+                    style={{
+                      height: "130px", // Adjusting the height to 80% of the container
+                      transform: `translateY(${
+                        ((index - activeIndex + cards.length) % cards.length) *
+                        100
+                      }%)`,
+                    }}
+                  >
+                    {/* Left section for the logo */}
+                    <div className="flex w-1/5 items-center">
+                      <img
+                        src={card.logo}
+                        alt="Logo"
+                        className="h-auto w-full"
+                      />
+                    </div>
+                    {/* Right section for title and description */}
+                    <div className="w-3/5 pl-4 text-left">
+                      <h2 className="text-xl font-bold text-blue-600">
+                        {card.title}
+                      </h2>
+                      <p className="text-sm text-gray-600">
+                        {card.description}
+                      </p>
+                    </div>
                   </div>
-                </form>
-
-                <p className="mt-5 text-black dark:text-white">
-                  Try for free no credit card required.
-                </p>
+                ))}
               </div>
             </div>
 
-            <div className="animate_right hidden md:w-1/2 lg:block">
-              <div className="relative 2xl:-mr-7.5">
-                <Image
-                  src="/images/shape/shape-01.png"
-                  alt="shape"
-                  width={46}
-                  height={246}
-                  className="absolute -left-11.5 top-0"
-                />
-                <Image
-                  src="/images/shape/shape-02.svg"
-                  alt="shape"
-                  width={36.9}
-                  height={36.7}
-                  className="absolute bottom-0 right-0 z-10"
-                />
-                <Image
-                  src="/images/shape/shape-03.svg"
-                  alt="shape"
-                  width={21.64}
-                  height={21.66}
-                  className="absolute -right-6.5 bottom-0 z-1"
-                />
-                <div className=" relative aspect-[700/444] w-full">
-                  <Image
-                    className="shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-light.svg"
-                    alt="Hero"
-                    fill
-                  />
-                  <Image
-                    className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
-                    alt="Hero"
-                    fill
-                  />
-                </div>
-              </div>
+            <div className="md:w-1/2">
+              <h1 className="mb-5 pr-16 font-playfair text-4xl font-bold text-navy xl:text-hero">
+                Creativity Meets Technology, Innovation Happens
+              </h1>
+              <p className="change-color font-kodchasan text-2xl font-semibold text-navy">
+                A Visionary Company Committed To Crafting and Delivering
+                Exceptional Software Solutions.
+                <br></br>
+                <br></br>
+                Our mission is to empower businesses by providing seamless and
+                efficient software that drives growth.
+              </p>
             </div>
           </div>
         </div>
