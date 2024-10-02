@@ -1,0 +1,17 @@
+.send-button {
+    all: unset;
+    height: 30px;
+    border-radius: 30px;
+    width: 140px;
+}
+
+.send-button :hover {
+    all: unset;
+    height: 190px;
+    border-radius: 30px;
+    width: 250px;
+    background-color: #191242;
+    color: #ffffff;
+    border: 1px solid #191242;
+    padding: 10px;
+}

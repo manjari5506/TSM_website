@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import "./Footer.scss";
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt} from "react-icons/fa"
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
 
 const Footer = () => {
   return (
@@ -64,7 +64,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/overview"
                         className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         About Us
@@ -72,7 +72,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/services"
                         className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Services
@@ -80,7 +80,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/blog"
                         className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Blogs
@@ -109,7 +109,7 @@ const Footer = () => {
                   <ul>
                     <li>
                       <a
-                        href="#"
+                        href="/career"
                         className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
                       >
                         Careers
@@ -157,19 +157,19 @@ const Footer = () => {
                       <li className="flex items-center mb-2">
                         <FaMapMarkerAlt className="text-navy mr-2" />
                         <a href="https://www.google.com/maps/place/Hinjawadi,+Pune,+Pimpri-Chinchwad,+Maharashtra/@18.5993813,73.6348173,12z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bbc048041bef:0xd0c9eb5ac3c3dee5!8m2!3d18.5912716!4d73.738909!16s%2Fm%2F02qwznq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-navy">
-                        Hinjewadi, Pune, Maharashtra
+                          Hinjewadi, Pune, Maharashtra
                         </a>
                       </li>
                       <li className="flex items-center mb-2">
                         <FaEnvelope className="text-navy mr-2" />
                         <a href="mailto:work@stackmentalist.com" className="hover:text-navy">
-                        work@stackmentalist.com
+                          work@stackmentalist.com
                         </a>
                       </li>
                       <li className="flex items-center">
                         <FaPhoneAlt className="text-navy mr-2" />
                         <a href="tel:+123456789" className="hover:text-navy">
-                        +91 7771810723
+                          +91 7771810723
                         </a>
                       </li>
                     </ul>
@@ -296,31 +296,7 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="social icon">
-                    <svg
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g clipPath="url(#clip0_48_1502)">
-                        <path
-                          d="M22.162 5.65593C21.3985 5.99362 20.589 6.2154 19.76 6.31393C20.6337 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4803 3.89489 16.5709 3.74451C15.6615 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6067 7.93171 11.818 8.82893C10.1551 8.74558 8.52832 8.31345 7.04328 7.56059C5.55823 6.80773 4.24812 5.75098 3.19799 4.45893C2.82628 5.09738 2.63095 5.82315 2.63199 6.56193C2.63199 8.01193 3.36999 9.29293 4.49199 10.0429C3.828 10.022 3.17862 9.84271 2.59799 9.51993V9.57193C2.59819 10.5376 2.93236 11.4735 3.54384 12.221C4.15532 12.9684 5.00647 13.4814 5.95299 13.6729C5.33661 13.84 4.6903 13.8646 4.06299 13.7449C4.32986 14.5762 4.85 15.3031 5.55058 15.824C6.25117 16.345 7.09712 16.6337 7.96999 16.6499C7.10247 17.3313 6.10917 17.8349 5.04687 18.1321C3.98458 18.4293 2.87412 18.5142 1.77899 18.3819C3.69069 19.6114 5.91609 20.2641 8.18899 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.2301 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z"
-                          fill=""
-                        />
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_48_1502">
-                          <rect width="24" height="24" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" aria-label="social icon">
+                  <a href="https://www.linkedin.com/company/the-stackmentalist/posts/?feedView=all" aria-label="social icon">
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy"
                       width="24"
@@ -341,6 +317,28 @@ const Footer = () => {
                         </clipPath>
                       </defs>
                     </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://x.com/StackMentalist" aria-label="social icon">
+                    <img
+                      src="images/footer/twitter_11823292.png" 
+                      alt="LinkedIn Icon" 
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy opacity-20 hover:opacity-100"
+                      width="18" 
+                      height="18" 
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/the_stackmentalist/?igsh=MWxubjJicTY5dDBiZw%3D%3D" aria-label="social icon">
+                    <img
+                      src="images/footer/instagram_2111491.png" 
+                      alt="LinkedIn Icon" 
+                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy opacity-20 hover:opacity-100"
+                      width="24" 
+                      height="24" 
+                    />
                   </a>
                 </li>
               </ul>

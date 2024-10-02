@@ -2,9 +2,13 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
+import { Button, message, Space } from 'antd';
+import "./Contact.scss";
+
 
 const Contact = () => {
   const [hasMounted, setHasMounted] = React.useState(false);
+  const [messageApi, contextHolder] = message.useMessage();
   React.useEffect(() => {
     setHasMounted(true);
   }, []);
@@ -12,14 +16,33 @@ const Contact = () => {
     return null;
   }
 
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   message.success({
+  //     content: 'Message sent successfully!',
+  //     duration: 5,
+  //   });
+  // };
+
+  const success = () => {
+    messageApi.open({
+      type: 'success',
+      content: 'Message sent successfully!',
+      style: {
+        marginTop: '60px',
+      },
+    });
+  };
+
   return (
     <>
       {/* <!-- ===== Contact Start ===== --> */}
+      {/* {contextHolder} */}
       <section id="support" className="px-4 py-30 md:px-8 2xl:px-0">
-      <div className="relative mx-auto max-w-c-900 px-7.5 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20 text-center">
-            <p className="mb-10 text-3xl font-semibold text-navy xl:text-sectiontitle2 font-playfair">Thinking About a New Project or Collaboration?</p>
-            <p className="mb-10 text-xl font-semibold text-navy">Tell us more, and we'll reach out within a day to discuss your ideas.</p>
-          </div>
+        <div className="relative mx-auto max-w-c-900 px-7.5 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20 text-center">
+          <p className="mb-10 text-3xl font-semibold text-navy xl:text-sectiontitle2 font-playfair">Thinking About a New Project or Collaboration?</p>
+          <p className="mb-10 text-xl font-semibold text-navy">Tell us more, and we'll reach out within a day to discuss your ideas.</p>
+        </div>
         <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
           <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-gradient-to-t from-transparent to-[#dee7ff47] dark:bg-gradient-to-t dark:to-[#252A42]"></div>
           <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
@@ -98,49 +121,50 @@ const Contact = () => {
                   ></textarea>
                 </div>
 
-                <div className="flex flex-wrap gap-4 xl:justify-between ">
+                <div className="flex flex-wrap gap-3 xl:justify-between ">
                   <div className="mb-4 flex md:mb-0">
                     <label
                       htmlFor="default-checkbox"
                       className="flex max-w-[425px] cursor-pointer select-none pl-5"
                     >
                       <input
-                      id="default-checkbox"
-                      type="checkbox"
-                      className="peer sr-only"
-                    />
-                    <span className="border-gray-300 bg-gray-100 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
-                      <svg
-                        className="opacity-0 peer-checked:group-[]:opacity-100"
-                        width="10"
-                        height="8"
-                        viewBox="0 0 10 8"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M9.70704 0.792787C9.89451 0.980314 9.99983 1.23462 9.99983 1.49979C9.99983 1.76495 9.89451 2.01926 9.70704 2.20679L4.70704 7.20679C4.51951 7.39426 4.26521 7.49957 4.00004 7.49957C3.73488 7.49957 3.48057 7.39426 3.29304 7.20679L0.293041 4.20679C0.110883 4.01818 0.0100885 3.76558 0.0123669 3.50339C0.0146453 3.24119 0.119814 2.99038 0.305222 2.80497C0.490631 2.61956 0.741443 2.51439 1.00364 2.51211C1.26584 2.50983 1.51844 2.61063 1.70704 2.79279L4.00004 5.08579L8.29304 0.792787C8.48057 0.605316 8.73488 0.5 9.00004 0.5C9.26521 0.5 9.51951 0.605316 9.70704 0.792787Z"
-                          fill="white"
-                        />
-                      </svg>
-                    </span>
-                    <p className="flex max-w-[425px] cursor-pointer select-none pl-5">
-                      By clicking Checkbox, you agree to use our “Form” terms
-                      And consent cookie usage in browser.
+                        id="default-checkbox"
+                        type="checkbox"
+                        className="peer sr-only"
+                      />
+                      <span className="border-gray-300 bg-gray-100 text-blue-600 dark:border-gray-600 dark:bg-gray-700 group mt-2 flex h-5 min-w-[20px] items-center justify-center rounded peer-checked:bg-primary">
+                        <svg
+                          className="opacity-0 peer-checked:group-[]:opacity-100"
+                          width="10"
+                          height="8"
+                          viewBox="0 0 10 8"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            clipRule="evenodd"
+                            d="M9.70704 0.792787C9.89451 0.980314 9.99983 1.23462 9.99983 1.49979C9.99983 1.76495 9.89451 2.01926 9.70704 2.20679L4.70704 7.20679C4.51951 7.39426 4.26521 7.49957 4.00004 7.49957C3.73488 7.49957 3.48057 7.39426 3.29304 7.20679L0.293041 4.20679C0.110883 4.01818 0.0100885 3.76558 0.0123669 3.50339C0.0146453 3.24119 0.119814 2.99038 0.305222 2.80497C0.490631 2.61956 0.741443 2.51439 1.00364 2.51211C1.26584 2.50983 1.51844 2.61063 1.70704 2.79279L4.00004 5.08579L8.29304 0.792787C8.48057 0.605316 8.73488 0.5 9.00004 0.5C9.26521 0.5 9.51951 0.605316 9.70704 0.792787Z"
+                            fill="white"
+                          />
+                        </svg>
+                      </span>
+                      <p className="flex max-w-[425px] cursor-pointer select-none pl-5">
+                        By clicking Checkbox, you agree to use our “Form” terms
+                        And consent cookie usage in browser.
                       </p>
                     </label>
                   </div>
-
-                  <button
+                  {contextHolder}
+                  <Button
                     aria-label="send message"
-                    onClick={()=>(alert("Message Send Successfully!"))}
-                    className="inline-flex items-center gap-2.5 rounded-full bg-black px-6 font-medium text-white duration-300 ease-in-out hover:bg-blackho dark:bg-btndark"
+                    onClick={success}
+                    className="send-button"
+                    //className="send-button inline-flex items-center py-0 border h-12 rounded-full bg-white px-5 text-sm  text-navy duration-300 ease-in-out hover:scale-110 hover:bg-navy hover:text-white"
                   >
                     Send Message
-                    <svg
-                      className="fill-white"
+                    {/* <svg
+                      className="fill-white ml-1"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
@@ -151,8 +175,8 @@ const Contact = () => {
                         d="M10.4767 6.16664L6.00668 1.69664L7.18501 0.518311L13.6667 6.99998L7.18501 13.4816L6.00668 12.3033L10.4767 7.83331H0.333344V6.16664H10.4767Z"
                         fill=""
                       />
-                    </svg>
-                  </button>
+                    </svg> */}
+                  </Button>
                 </div>
               </form>
             </motion.div>

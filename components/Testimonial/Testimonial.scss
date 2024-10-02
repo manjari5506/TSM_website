@@ -17,17 +17,6 @@
   overflow: hidden;
 
   &::before {
-    // content: "";
-    // position: absolute;
-    // top: 0;
-    // left: 0;
-    // width: 100%;
-    // height: 100%;
-    // background-image: url("/images/quote-left-icon.svg");
-    // background-size: cover;
-    // background-position: center;
-    // opacity: 0.5; /* 50% opacity */
-    // z-index: 0; /* Ensure it stays behind the content */
     content: "";
     background: url("/images/quote-left-icon.svg") no-repeat center; // Adjust the path accordingly
     background-size: contain; // Ensure the icon fits nicely
@@ -35,7 +24,7 @@
     top: 0;
     right: 20px;
     bottom: 0;
-    opacity: 0.02; // Low opacity for the background
+    opacity: 0.05; // Low opacity for the background
     z-index: 0; // Send it to the back
     width: 200px;
     height: 200px;
