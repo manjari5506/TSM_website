@@ -42,10 +42,10 @@ export default function Home() {
 
   return (
     <section className="py-3">
-      <h1 className="pb-15 pt-8 text-center font-playfair text-5xl font-bold text-navy">
+      <h1 className="pb-15 pt-3 text-center font-playfair text-5xl font-bold text-navy">
         Our Services.
       </h1>
-      <div className="relative flex gap-[3rem]   ">
+      <div className="relative flex gap-[1rem]   ">
         {/* Sidebar Component */}
 
         <Sidebar />
