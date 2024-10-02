@@ -1,11 +1,11 @@
 /* Core Values Section Styling */
 
 .core-values-section {
-  padding: 50px 20px;
+  padding: 4rem 6rem;
   background: linear-gradient(180deg, #ffffff 0%, #c5cee5 100%);
   color: white;
   text-align: center;
-  border-radius: 16px;
+
   position: relative; /* For z-index stacking */
   overflow: hidden; /* To hide any overflow */
 }
@@ -13,7 +13,6 @@
 .section-heading {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: black;
 }
 
 /* Layout for Values */

@@ -10,7 +10,7 @@ const Journey = () => {
         <h3 className=" py-2 font-playfair text-5xl font-bold text-navy">
           The Evolution of Leadership
         </h3>
-        <p className="text-md py-6 text-center font-semibold text-gray-700">
+        <p className="text-md py-6 text-center font-semibold text-gray-600">
           Discover the key moments that shaped our leadership approach, driven
           by innovation, resilience, and a vision for the future. This journey
           is a testament to our growth and commitment to excellence.
