@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import AppDevelopment from "./services-cards/AppDevelopmentCard";
 import DataScience from "./services-cards/DataScienceCard";
@@ -12,35 +12,32 @@ import WordPressDevelopment from "./services-cards/WordPressDevelopmentCard";
 import BigData from "./services-cards/BigDataCard";
 
 export default function Home() {
-  //   useEffect(() => {
-  //     const observer = new IntersectionObserver(
-  //       (entries) => {
-  //         entries.forEach((entry) => {
-  //           const id = entry.target.getAttribute("id");
-  //           const menuItem = document.querySelector(`#menu-${id}`);
+  // const [activeId, setActiveId] = useState("");
 
-  //           if (entry.isIntersecting) {
-  //             menuItem?.classList.add("active");
-  //           } else {
-  //             menuItem?.classList.remove("active");
-  //           }
-  //         });
-  //       },
-  //       { threshold: 0.5 },
-  //     );
-
-  //     services.forEach((service) => {
-  //       const section = document.getElementById(service.id);
-  //       if (section) observer.observe(section);
-  //     });
-
-  //     return () => {
-  //       services.forEach((service) => {
-  //         const section = document.getElementById(service.id);
-  //         if (section) observer.unobserve(section);
+  // useEffect(() => {
+  //   const observer = new IntersectionObserver(
+  //     (entries) => {
+  //       entries.forEach((entry) => {
+  //         const id = entry.target.getAttribute("id");
+  //         if (entry.isIntersecting) {
+  //           setActiveId(id);
+  //         }
   //       });
-  //     };
-  //   }, []);
+  //     },
+  //     { threshold: 0.5 } // Adjust threshold as needed
+  //   );
+
+  //   const sections = document.querySelectorAll('[id^="section"]'); // Select all sections
+  //   sections.forEach((section) => {
+  //     observer.observe(section);
+  //   });
+
+  //   return () => {
+  //     sections.forEach((section) => {
+  //       observer.unobserve(section);
+  //     });
+  //   };
+  // }, []);
 
   return (
     <section className="py-3">

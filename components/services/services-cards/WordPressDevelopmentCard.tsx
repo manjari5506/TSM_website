@@ -8,7 +8,7 @@ const keywords = [
 ];
 const WordPressDevelopment = () => {
   return (
-    <div className="mt-8 flex gap-14 px-[6rem]">
+    <div className="mt-8 flex gap-14 px-[6rem]" id="section5">
       <img
         src="/images/services/generative-ai.png"
         className="h-100 w-[30rem] rounded-2xl"

@@ -8,23 +8,24 @@ const keywords = [
 ];
 const DataScience = () => {
   return (
-    <div className="  my-16 flex  gap-14  px-[5rem]" id="section2">
+    <div className="  my-14 flex  gap-14  px-[5rem]" id="section2">
       <div>
         <div>
           {/* <img src="" alt="" /> */}
-          <h2 className="inline-block bg-gradient-to-r from-navy via-gray-700 to-gray-400 bg-clip-text pb-3 font-playfair text-3xl font-bold text-transparent">
-            Transforming Ideas into Innovative Mobile Experiences
+          <h2 className="inline-block bg-gradient-to-r from-navy via-gray-700 to-gray-400 bg-clip-text pb-7 font-playfair text-4xl font-bold text-transparent">
+            Harnessing the Power of Data for Intelligent Insights
           </h2>
-          <p className=" text-md py-2 font-medium">
-            Unlock the potential of your business with our tailored app
-            development solutions. From innovative mobile apps to seamless user
-            experiences, we create applications that engage users and drive
-            growth. Let us transform your ideas into reality.
+          <p className=" py-2 text-lg font-medium">
+            Unlock the potential of your business with our comprehensive data
+            science solutions. From advanced analytics to predictive modeling,
+            we empower organizations to make data-driven decisions that enhance
+            performance and drive innovation. Let us transform your data into
+            actionable insights.
           </p>
         </div>
         <div className="flex flex-wrap gap-4 py-4">
           {keywords.map((k, ind) => (
-            <button className="rounded-xl border-2 border-navy px-7 py-[0.4rem] text-sm font-semibold text-navy hover:bg-navy hover:text-white">
+            <button className="rounded-xl border-2 border-navy px-3 py-[0.2rem] text-sm font-semibold text-navy hover:bg-navy hover:text-white">
               {k.name}
             </button>
           ))}

@@ -1,53 +1,49 @@
 import React from "react";
 import "./style.scss";
-import { Timeline } from "antd";
-import { ClockCircleOutlined } from "@ant-design/icons";
 
 const Journey = () => {
-  return (
-    <section className=" z-100 relative flex flex-col items-center justify-center  px-[6rem] py-[6rem] text-center">
-      <div className="w-[60rem] ">
-        <h3 className=" py-2 font-playfair text-5xl font-bold text-navy">
-          The Evolution of Leadership
-        </h3>
-        <p className="text-md py-6 text-center font-semibold text-gray-700">
-          Discover the key moments that shaped our leadership approach, driven
-          by innovation, resilience, and a vision for the future. This journey
-          is a testament to our growth and commitment to excellence.
-        </p>
-      </div>
-      <div className="relative pt-[4rem]">
-        <Timeline
-          mode="alternate"
-          items={[
-            {
-              children: "Create a services site 2015-09-01",
-            },
-            {
-              children: "Solve initial network problems 2015-09-01",
-              color: "green",
-            },
-            {
-              dot: <ClockCircleOutlined style={{ fontSize: "16px" }} />,
-              children: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`,
-            },
-            {
-              color: "red",
-              children: "Network problems being solved 2015-09-01",
-            },
-            {
-              children: "Create a services site 2015-09-01",
-            },
-            {
-              dot: <ClockCircleOutlined style={{ fontSize: "16px" }} />,
-              children: "Technical testing 2015-09-01",
-            },
-          ]}
-        />
+  const journeySteps = [
+    {
+      id: 1,
+      title: "Founded",
+      description: "Our journey began in 2010.",
+    },
+    {
+      id: 2,
+      title: "First Product Launch",
+      description: "Launched our first product in 2012.",
+    },
+    {
+      id: 3,
+      title: "1000 Customers",
+      description: "Reached 1000 customers in 2015.",
+    },
+    {
+      id: 4,
+      title: "Global Expansion",
+      description: "Expanded globally in 2018.",
+    },
+    {
+      id: 5,
+      title: "IPO",
+      description: "Went public in 2021.",
+    },
+  ];
 
-        <div className="absolute bottom-0 left-8 top-0 w-0.5 bg-[#e5e5e5]"></div>
-      </div>
-    </section>
+  return (
+    <div className="company-journey-container">
+      {journeySteps.map((step, index) => (
+        <div key={step.id} className="journey-step-container">
+          <div className="journey-step">
+            <h3>{step.title}</h3>
+            <p>{step.description}</p>
+          </div>
+          {index < journeySteps.length - 1 && (
+            <div className={`diagonal-connector connector-${index}`} />
+          )}
+        </div>
+      ))}
+    </div>
   );
 };
 

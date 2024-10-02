@@ -8,7 +8,7 @@ const keywords = [
 ];
 const BigData = () => {
   return (
-    <div className="my-14  flex gap-14   px-[5rem]">
+    <div className="my-14 flex gap-14 px-[5rem]" id="section6">
       <div>
         <div>
           {/* <img src="" alt="" /> */}

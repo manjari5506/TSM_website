@@ -74,60 +74,46 @@
 .innovation-section {
   margin-top: 5rem;
   padding-top: 8rem;
-  
-  
   background-color: #f9f9f9;
 }
-.left-side h2{
-  margin-top: 20px;
-  text-wrap: nowrap
-}
+
 
 .innovation-container {
-  margin-top: 80rem;
+  
   display: flex;
-  /* flex-direction: row; */
-  justify-content: space-between;
-  /* align-items: flex-start; */
-  max-width: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 70%;
   margin: 0 auto;
-  gap: 70px;
+  
 }
 
 .ventures {
+  font-size: 36px;
   font-weight: 800;
-  color: blueviolet;
-}
-
-
-.left-side {
-  font-weight: bold;
-  padding-right: 20px;
-}
-
-.right-side {
-  
-  font-size: 40px;
-  padding-left: 20px;
+  color: #6256CA;
+  text-align: center;
 }
 
 .innovation-container h2 {
+
+  text-align: center;
   font-family: 'Playfair Display';
-  flex-wrap: nowrap;
   font-size: 40px;
   font-weight: bold;
-  margin-bottom: 20px; 
-  color: #14213D
+  margin-bottom: 1rem; 
+  color: #14213D;
 }
 
-
 .innovation-container p {
-  flex-wrap: wrap;
+  text-align: center;
   font-size: 30px;
   line-height: 1.6;
-  padding: 5rem 0;
+  padding: 1rem 0;
   color: black;
-  margin-bottom: 7rem;
+  max-width: 80%;
+  margin-bottom: 4rem;
 }
 
 .core-values {

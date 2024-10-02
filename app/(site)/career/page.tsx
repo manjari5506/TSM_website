@@ -44,18 +44,15 @@ const Careerspage = () => {
       {/* Innovation Section */}
       <section className="innovation-section">
         <div className="innovation-container">
-          <div className="left-side">
             <h2>
               Our <span className="ventures">Ventures</span> Work
             </h2>
-          </div>
-
-          <div className="right-side">
+   
             <p>
               StackMentalist is dedicated to delivering platform-independent, customer-centric software solutions. With extensive experience across diverse industries and business domains, our proven delivery model guarantees high-quality, cost-effective application development tailored to specific business requirements.
             </p>
             
-          </div>
+          
         </div>
       </section>
 
