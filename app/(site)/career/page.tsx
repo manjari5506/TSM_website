@@ -29,12 +29,12 @@ const Careerspage = () => {
   
   <div className="hero-content relative z-1">
     <div className="hero-text">
-      <h1>"Empower Your Future with StackMentalist:<br/> Innovation and Growth Awaits"</h1>
+      <h1>Empower Your Future with StackMentalist:<br/> Innovation and Growth Awaits</h1>
       <p>
-        "Be part of an open and collaborative environment where freedom and opportunity thrive. Together, we’re more than colleagues - we’re a team!"
+        Be part of an open and collaborative environment where freedom and opportunity thrive. Together, we're more than colleagues - we're a team!
       </p>
       <div className="button-container">
-        <button className="job-button">Job Openings →</button>
+        <button className="job-button ease-in-out hover:scale-110">Job Openings →</button>
       </div>
     </div>
   </div>

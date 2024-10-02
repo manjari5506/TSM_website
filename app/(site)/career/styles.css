@@ -24,8 +24,8 @@
 
  
 .hero-text {
-  margin-left: 50px;
-  color: rgb(4, 4, 4);
+  margin-left: 44px;
+  color: #191242 ;
   align-items: center;
 }
 
@@ -33,9 +33,10 @@
   text-align: center;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
-  font-size: 4rem;
+  font-size: 44px;
   line-height: 1.2;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 .hero-text p {
@@ -57,19 +58,18 @@
  justify-content: center;
 }
 .job-button {
- 
-  background-color: #0063EC ;
+  background-color: #191242 ;
   color: white;
   padding: 10px 20px;
   border: none;
   font-size: 1.1rem;
   float: right;
-  border-radius: 10px;
+  border-radius: 30px;
 }
 
-.job-button:hover {
-  background-color:#333;
-}
+/* .job-button:hover {
+  transform: scale(1.1);
+} */
 
 .innovation-section {
   margin-top: 5rem;
