@@ -26,7 +26,7 @@ const Vission = () => {
         </div>
         <img
           src="/images/overview/vission.jpg"
-          className="  ml-9 h-[30rem] w-[30rem] rounded-3xl bg-cover"
+          className="  ml-9 h-[30rem] w-[35rem] rounded-3xl bg-cover"
         />
       </div>
     </section>
