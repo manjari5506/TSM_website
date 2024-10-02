@@ -1,82 +1,88 @@
-/* Core Values Section Styling */
-
-.core-values-section {
-  padding: 50px 20px;
-  background: linear-gradient(180deg, #ffffff 0%, #c5cee5 100%);
-  color: white;
-  text-align: center;
-  border-radius: 16px;
-  position: relative; /* For z-index stacking */
-  overflow: hidden; /* To hide any overflow */
-}
-
-.section-heading {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: black;
-}
-
-/* Layout for Values */
-.value-col {
+.company-journey-container {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
-  margin-bottom: 2rem; /* Spacing between rows */
-}
+  justify-content: space-evenly;
+  position: relative;
+  padding: 50px 0;
+  max-width: 100%;
 
-.core-value-item {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.1
-  ); /* Semi-transparent white for contrast */
-  border-radius: 12px;
-  padding: 20px;
-  text-align: left;
-  transition:
-    transform 0.3s,
-    background 0.3s;
-  position: relative; /* For z-index stacking */
-  overflow: hidden; /* Hide overflow for animations */
-}
+  .journey-step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 
-.core-value-item:hover {
-  transform: translateY(-5px); /* Slight lift effect */
-  background: rgba(255, 255, 255, 0.3); /* Change background on hover */
-}
+    .journey-step {
+      width: 150px;
+      height: 150px;
+      transform: rotate(45deg); // Make the card diamond-shaped
+      background: linear-gradient(0deg, #ecf1f9 0%, #c4d3fc 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      border: 2px solid #120e43; // New border color
+      box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.3);
+      position: relative;
+      z-index: 1;
 
-/* Icon Styling */
-.value-icon {
-  font-size: 3rem; /* Increased icon size */
-  color: navy; /* Highlight color */
-  margin-bottom: 1rem;
-}
+      h3,
+      p {
+        transform: rotate(-45deg); // Rotate content back
+        color: #120e43; // Text color matching border
+        font-size: 14px;
+        margin: 0;
+      }
 
-/* Title and Description */
-.value-title {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: black; /* Highlight color */
-}
+      p {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+    }
 
-.value-description {
-  font-size: 1rem;
-  color: black; /* Description color */
-}
+    .diagonal-connector {
+      width: 200px;
+      height: 2px;
+      background: linear-gradient(to top right, #ff9a9e, #fad0c4);
+      position: absolute;
+      top: 50%;
+      right: -100px; // Move the line horizontally to connect the next card
+      z-index: 0;
+      transform: rotate(45deg);
 
-/* Animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+      &.connector-0,
+      &.connector-2,
+      &.connector-4 {
+        right: -100px;
+        transform: rotate(
+          45deg
+        ); // Adjusted for diagonal connection to the next card
+      }
+      &.connector-1,
+      &.connector-3 {
+        right: -100px;
+        transform: rotate(
+          -45deg
+        ); // Invert the diagonal for alternating connections
+      }
+    }
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
-.value-col {
-  animation: fadeIn 0.5s forwards;
+// Responsive styles for smaller screens
+@media (max-width: 1024px) {
+  .company-journey-container {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .journey-step-container {
+      margin-bottom: 40px;
+
+      .diagonal-connector {
+        display: none; // Hide connectors for mobile
+      }
+    }
+  }
 }
