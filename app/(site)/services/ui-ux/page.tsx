@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
-import AppServices from "@/components/services/app-development/AppServices";
-import IotCard from "@/components/services/services-cards/IotCard";
+ 
 import Cards from "@/components/services/IotComponents/Cards";
+import Offerings from "@/components/services/big-data/Offerings-card/Offerings";
+import { uiOfferings } from "@/components/services/big-data/Offerings-card/offeringsData";
+import ReachOut from "@/components/services/big-data/ReachOut-card/ReachOut";
 const page = () => {
   return (
     <section className=" border-b-1 h-[30rem] ">
@@ -24,6 +26,9 @@ const page = () => {
           className=" absolute right-[9rem] top-[8rem]   w-[40rem]  bg-cover"
         />
       </div>
+      
+     <Offerings offerings={uiOfferings}/>
+   
       <section className="px-[6rem] py-[5rem]">
         <div className="  py-5">
           <h1 className="w-[40rem] font-playfair text-3xl font-bold tracking-wide text-navy ">
@@ -36,7 +41,10 @@ const page = () => {
         </div>
         <Cards />
       </section>
-      <AppServices />
+
+      <ReachOut />
+      
+      
     </section>
   );
 };
