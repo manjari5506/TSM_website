@@ -1,0 +1,57 @@
+.techstack-section {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    h2 {
+      color: #1c4350;
+    }
+  
+    p {
+      color: #4a4a4a;
+    }
+  
+    .categories {
+      display: flex;
+      gap: 2rem;
+  
+      .category-btn {
+        color: #808080;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover {
+          color: #1c4350;
+        }
+  
+        &.active {
+          color: #4ea2b9;
+          font-weight: bold;
+        }
+      }
+    }
+  
+    .stack-logos {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+  
+      .tech-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        img {
+          max-height: 80px;
+          width: auto;
+        }
+        p {
+          margin-top: 0.5rem;
+          font-size: 1rem;
+          color: #333;
+        }
+      }
+    }
+  }
+  

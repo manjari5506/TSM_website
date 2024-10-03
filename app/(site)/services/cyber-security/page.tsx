@@ -27,8 +27,8 @@ const page = () => {
           </button> */}
           </div>
           <img
-            src="/images/cloud-bg.png"
-            className="mt-40 mr-30"
+            src="/images/cyber-security-bg.png"
+            className=""
           />
         </div>
       </section>
