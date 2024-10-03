@@ -6,6 +6,7 @@ import Cards from "@/components/services/IotComponents/Cards";
 import Offerings from "@/components/services/big-data/Offerings-card/Offerings";
 import { uiOfferings } from "@/components/services/big-data/Offerings-card/offeringsData";
 import ReachOut from "@/components/services/big-data/ReachOut-card/ReachOut";
+import TechStack from "@/components/services/common/tech-stack/TechStack";
 const page = () => {
   return (
     <section className=" border-b-1 h-[30rem] ">
@@ -28,6 +29,7 @@ const page = () => {
       </div>
       
      <Offerings offerings={uiOfferings}/>
+     <TechStack />
    
       <section className="px-[6rem] py-[5rem]">
         <div className="  py-5">

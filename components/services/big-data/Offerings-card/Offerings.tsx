@@ -42,17 +42,19 @@ const Offerings = ({offerings}) => {
             </ul>
           </div>
 
-          <div className="w-2/3 pl-10">
-            <div className="bg-white p-8 shadow-lg rounded-lg">
+          <div className="w-2/3 px-10  py-2  ">
+            <div className="bg-white pl-[2rem] pr-[10rem]   py-5   shadow-lg rounded-lg relative flex flex-col">
+              <img src="/images/ui-ux/ui.png"  className="h-20 w-20 mb-5  "/>
               <h3 className="text-2xl font-bold mb-4">{selectedOffering.heading}</h3>
-              <h4 className="text-xl font-medium mb-2">{selectedOffering.subheading}</h4>
-              <ul className="list-disc list-inside space-y-2">
+              <h4 className="text-lg font-medium mb-2">{selectedOffering.subheading}</h4>
+              <ul className="list-disc list-inside py-5">
                 {selectedOffering.description.map((point, index) => (
-                  <li key={index} className="text-lg">
+                  <li key={index} className="text-md py-2">
                     {point}
                   </li>
                 ))}
               </ul>
+              <img src="/images/ui-ux/ui.png"  className="absolute bottom-0 right-3 h-30 w-30 mb-5 opacity-30"/>
             </div>
           </div>
         </div>

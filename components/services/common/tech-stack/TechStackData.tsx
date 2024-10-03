@@ -6,27 +6,32 @@ export const techStackData = {
       {
         categoryName: "Frontend",
         stack: [
-          { name: "React", img: "/images/react-logo.png" },
-          { name: "Next.js", img: "/images/nextjs-logo.png" },
-          { name: "Vue.js", img: "/images/vue-logo.png" },
+          { name: "React", img: "/images/ui-ux/react.png" },
+          { name: "Next.js",img: "/images/ui-ux/react.png" },
+          { name: "Vue.js", img: "/images/ui-ux/react.png"},
+          { name: "Vue.js", img: "/images/ui-ux/react.png"},
+          { name: "Vue.js", img: "/images/ui-ux/react.png"},
+          { name: "Vue.js", img: "/images/ui-ux/react.png"},
+          { name: "Vue.js", img: "/images/ui-ux/react.png"},
         ],
       },
       {
         categoryName: "Backend",
         stack: [
-          { name: "Node.js", img: "/images/nodejs-logo.png" },
-          { name: "Django", img: "/images/django-logo.png" },
-          { name: "Ruby on Rails", img: "/images/rails-logo.png" },
+          { name: "Node.js", img: "/images/ui-ux/react.png"},
+          { name: "Django", img: "/images/ui-ux/react.png" },
+          { name: "Ruby on Rails",img: "/images/ui-ux/react.png"},
         ],
       },
       {
         categoryName: "Database",
         stack: [
-          { name: "MongoDB", img: "/images/mongodb-logo.png" },
-          { name: "PostgreSQL", img: "/images/postgresql-logo.png" },
-          { name: "MySQL", img: "/images/mysql-logo.png" },
+          { name: "MongoDB", img: "/images/ui-ux/react.png" },
+          { name: "PostgreSQL", img: "/images/ui-ux/react.png" },
+          { name: "MySQL", img: "/images/ui-ux/react.png" },
         ],
       },
+      
     ],
   };
   
