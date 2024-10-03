@@ -10,19 +10,18 @@ const page = () => {
       <div className="relative  mb-[5rem]">
         <div className="relative z-1 w-[50rem] px-[10rem] pt-[12rem] ">
           <h1 className="inline-block bg-gradient-to-r from-[#c0392b] to-[#8e44ad] bg-clip-text py-3 font-playfair text-5xl font-bold text-transparent">
-            UI/UX
+          Transforming Ideas into Intuitive Designs
           </h1>
-          <p className="py-3 text-lg ">
-            Crafting innovative, scalable applications tailored to your business
-            needs
+          <p className="pt-4 text-md ">
+          We bridge the gap between creativity and usability, transforming your vision into intuitive, user-centered designs that drive engagement and deliver seamless experiences.
           </p>
-          <button className="mt-8 rounded-3xl bg-navy bg-gradient-to-r from-[#c0392b] to-[#8e44ad] px-9 py-3 text-white   hover:opacity-80">
+          <button className="mt-9 rounded-3xl bg-navy bg-gradient-to-r from-[#c0392b] to-[#8e44ad] px-9 py-3 text-white   hover:opacity-80">
             <Link href="/career">Contact Us</Link>
           </button>
         </div>
         <img
           src="/images/ui-ux/ui-hero.png"
-          className=" absolute right-[9rem] top-[6rem]   w-[40rem]  bg-cover"
+          className=" absolute right-[9rem] top-[8rem]   w-[40rem]  bg-cover"
         />
       </div>
       <section className="px-[6rem] py-[5rem]">
