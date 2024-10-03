@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
+ 
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -8,10 +8,14 @@ import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
 import LanguageToggler from "./LanguageToggler";
 import "./Header.scss";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
+ 
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
   const [stickyMenu, setStickyMenu] = useState(false);
+  const t = useTranslations("navbar");
 
   const pathUrl = usePathname();
 
@@ -97,7 +101,7 @@ const Header = () => {
                   {menuItem.submenu ? (
                     <>
                       <button className="flex cursor-pointer items-center justify-between gap-3 hover:text-navy">
-                        {menuItem.title}
+                        {t(menuItem.title)}
                         <span>
                           <svg
                             className="h-3 w-3 cursor-pointer fill-waterloo group-hover:fill-navy"
@@ -116,11 +120,11 @@ const Header = () => {
                               <Link
                                 href={item.path || "#"}
                                 className="flex items-center justify-center rounded-full bg-navy px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:scale-110"
-                              >
-                                {item.title}
+                              > 
+                                 {t(item.title)} 
                               </Link>
                             ) : (
-                              <Link href={item.path || "#"}>{item.title}</Link>
+                              <Link href={item.path || "#"}>{t(item.title)}</Link>
                             )}
                           </li>
                         ))}
@@ -135,7 +139,7 @@ const Header = () => {
                           : "hover:text-navy"
                       }
                     >
-                      {menuItem.title}
+                      {t(menuItem.title)}
                     </Link>
                   )}
                 </li>
@@ -146,9 +150,9 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <Link
               href="/contact"
-              className="flex items-center justify-center rounded-full bg-navy px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:scale-110"
+              className="flex items-center justify-center rounded-full bg-navy w-[14rem] px-7.5 py-2.5 text-normal text-white duration-300 ease-in-out hover:scale-110"
             >
-              Contact Us
+              {t("contactUs")}
             </Link>
             <ThemeToggler />
             <LanguageToggler />

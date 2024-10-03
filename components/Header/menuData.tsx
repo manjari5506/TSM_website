@@ -1,20 +1,20 @@
-import { Menu } from "@/types/menu";
+import SubMenu from "antd/es/menu/SubMenu";
 
-const menuData: Menu[] = [
+const menuData = [
   {
     id: 3,
-    title: "Company",
+    title: "company.title", // Use translation key for titles
     newTab: false,
     submenu: [
       {
         id: 31,
-        title: "Overview",
+        title: "company.overview", // Use translation key
         newTab: false,
         path: "/overview",
       },
       {
         id: 35,
-        title: "Leaders",
+        title: "company.leaders", // Use translation key
         newTab: false,
         path: "/leaders",
       },
@@ -22,66 +22,66 @@ const menuData: Menu[] = [
   },
   {
     id: 2,
-    title: "Services",
+    title: "services.title", // Use translation key
     newTab: false,
     submenu: [
       {
-        id: 31,
-        title: "App Development",
+        id: 36,
+        title: "services.appDevelopment", // Use translation key
         newTab: false,
         path: "/services/app-development",
       },
       {
-        id: 35,
-        title: "Data Science",
+        id: 37,
+        title: "services.dataScience", // Use translation key
         newTab: false,
         path: "/services/data-science",
       },
       {
-        id: 35,
-        title: "Cloud & DevOps",
+        id: 38,
+        title: "services.cloudDevOps", // Use translation key
         newTab: false,
         path: "/services/cloud-devops",
       },
       {
-        id: 35,
-        title: "IOT & Automation",
+        id: 39,
+        title: "services.iotAutomation", // Use translation key
         newTab: false,
         path: "/services/iot",
       },
       {
-        id: 35,
-        title: "WordPress Development",
+        id: 40,
+        title: "services.wordpressDevelopment", // Use translation key
         newTab: false,
         path: "/services/wordpress-development",
       },
       {
-        id: 35,
-        title: "System Design",
+        id: 41,
+        title: "services.systemDesign", // Use translation key
         newTab: false,
         path: "/services/system-design",
       },
       {
-        id: 35,
-        title: "Big Data",
+        id: 42,
+        title: "services.bigData", // Use translation key
         newTab: false,
         path: "/services/big-data",
       },
       {
-        id: 35,
-        title: "UI/UX",
+        id: 43,
+        title: "services.uiUx", // Use translation key
         newTab: false,
         path: "/services/ui-ux",
       },
       {
-        id: 35,
-        title: "Cyber Security",
+        id: 44,
+        title: "services.cyberSecurity", // Use translation key
         newTab: false,
         path: "/services/cyber-security",
       },
       {
-        id: 35,
-        title: "View All",
+        id: 45,
+        title: "services.viewAll", // Use translation key
         newTab: false,
         path: "/services",
         type: "button",
@@ -90,16 +90,35 @@ const menuData: Menu[] = [
   },
   {
     id: 2.1,
-    title: "Careers",
+    title: "careers", // Use translation key
     newTab: false,
     path: "/career",
   },
   {
     id: 2.3,
-    title: "Blogs",
+    title: "blogs", // Use translation key
     newTab: false,
     path: "/blog",
   },
+  
 ];
+export const LanguageData = [{
+      
+  id: 1,
+  title: "english",  
+  newTab: false,
+  path: "/en",
+  
 
+
+},{
+
+id: 2,
+title: "french",  
+newTab: false,
+path: "/",
+
+
+
+}]
 export default menuData;
