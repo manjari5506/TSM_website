@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "company": {
+      "title": "Entreprise",
+      "leaders": "Dirigeants",
+      "overview": "Aperçu"
+    },
+    "services": {
+      "title": "Services",
+      "appDevelopment": "Développement d'applications",
+      "cloudDevOps": "Cloud & DevOps",
+      "dataScience": "Science des données",
+      "iotAutomation": "IoT & Automatisation",
+      "systemDesign": "Conception de systèmes",
+      "bigData": "Big Data",
+      "wordpressDevelopment": "Développement Wordpress",
+      "uiUx": "UI/UX",
+      "cyberSecurity": "Cybersécurité",
+      "viewall": "Voir tout"
+    },
+    "careers": "Carrières",
+    "blogs": "Blogs",
+    "contactUs": "Nous contacter"
+   
+  } 
+}
