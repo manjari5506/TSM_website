@@ -26,61 +26,61 @@ const menuData = [
     newTab: false,
     submenu: [
       {
-        id: 31,
+        id: 36,
         title: "services.appDevelopment", // Use translation key
         newTab: false,
         path: "/services/app-development",
       },
       {
-        id: 35,
+        id: 37,
         title: "services.dataScience", // Use translation key
         newTab: false,
         path: "/services/data-science",
       },
       {
-        id: 35,
+        id: 38,
         title: "services.cloudDevOps", // Use translation key
         newTab: false,
         path: "/services/cloud-devops",
       },
       {
-        id: 35,
+        id: 39,
         title: "services.iotAutomation", // Use translation key
         newTab: false,
         path: "/services/iot",
       },
       {
-        id: 35,
+        id: 40,
         title: "services.wordpressDevelopment", // Use translation key
         newTab: false,
         path: "/services/wordpress-development",
       },
       {
-        id: 35,
+        id: 41,
         title: "services.systemDesign", // Use translation key
         newTab: false,
         path: "/services/system-design",
       },
       {
-        id: 35,
+        id: 42,
         title: "services.bigData", // Use translation key
         newTab: false,
         path: "/services/big-data",
       },
       {
-        id: 35,
+        id: 43,
         title: "services.uiUx", // Use translation key
         newTab: false,
         path: "/services/ui-ux",
       },
       {
-        id: 35,
+        id: 44,
         title: "services.cyberSecurity", // Use translation key
         newTab: false,
         path: "/services/cyber-security",
       },
       {
-        id: 35,
+        id: 45,
         title: "services.viewAll", // Use translation key
         newTab: false,
         path: "/services",
