@@ -1,12 +1,14 @@
+"use client"
 import React, { useState } from "react";
 import { offerings } from "./offeringsData";
 import "./styles.scss";
+import { off } from "process";
 
-const Offerings = () => {
-  const [selectedOffering, setSelectedOffering] = useState(offerings[0]);
+const Offerings = ({offerings}) => {
+  const [selectedOffering, setSelectedOffering] = useState(offerings.content[0]);
 
   const handleSelectOffering = (offeringId: number) => {
-    const offering = offerings.find((item) => item.id === offeringId);
+    const offering = offerings.content.find((item) => item.id === offeringId);
     if (offering) {
       setSelectedOffering(offering);
     }
@@ -15,17 +17,16 @@ const Offerings = () => {
   return (
     <section className="offerings-section py-16">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold text-left mb-4 font-playfair text-navy">Our Big Data Services</h1>
+        <h1 className="text-4xl font-bold text-left mb-4 font-playfair text-navy">{offerings.heading}</h1>
 
         <p className="text-lg text-left mb-12">
-        Harnessing Big Data allows businesses to gain critical insights, optimize operations, <br></br>and make informed decisions. Our team of experts is dedicated to delivering <br></br>world-class Big Data 
-        solutions that cater to your specific needs.
+        {offerings.subheading}
         </p>
 
         <div className="flex flex-row">
           <div className="w-1/3">
             <ul className="space-y-4">
-              {offerings.map((offering) => (
+              {offerings.content.map((offering) => (
                 <li
                   key={offering.id}
                   className={`cursor-pointer py-3 px-5 text-lg font-semibold ${
