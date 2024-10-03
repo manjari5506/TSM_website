@@ -2,14 +2,15 @@ import React from "react";
 import Link from "next/link";
 
  
-import Cards from "@/components/services/IotComponents/Cards";
+import Cards from "@/components/services/common/process-card/Cards";
 import Offerings from "@/components/services/big-data/Offerings-card/Offerings";
 import { uiOfferings } from "@/components/services/big-data/Offerings-card/offeringsData";
 import ReachOut from "@/components/services/big-data/ReachOut-card/ReachOut";
 import TechStack from "@/components/services/common/tech-stack/TechStack";
+import { uidetails } from "@/components/services/common/process-card/CardsData";
 const page = () => {
   return (
-    <section className=" border-b-1 h-[30rem] ">
+    <section className="   ">
       <div className="relative  mb-[5rem]">
         <div className="relative z-1 w-[50rem] px-[10rem] pt-[12rem] ">
           <h1 className="inline-block bg-gradient-to-r from-[#c0392b] to-[#8e44ad] bg-clip-text py-3 font-playfair text-5xl font-bold text-transparent">
@@ -31,8 +32,8 @@ const page = () => {
      <Offerings offerings={uiOfferings}/>
      <TechStack />
    
-      <section className="px-[6rem] py-[5rem]">
-        <div className="  py-5">
+      <section className="px-[6rem]  ">
+        {/* <div className="  py-5">
           <h1 className="w-[40rem] font-playfair text-3xl font-bold tracking-wide text-navy ">
             Why StackMentalist Is Best For UI/UX Designing Services?
           </h1>
@@ -40,8 +41,8 @@ const page = () => {
             Take your business to the next level by hiring our expert designers
             and leveraging our world-class UI/UX design services.
           </p>
-        </div>
-        <Cards />
+        </div> */}
+        <Cards details={uidetails}/>
       </section>
 
       <ReachOut />

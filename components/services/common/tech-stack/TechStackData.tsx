@@ -1,4 +1,3 @@
-// data/techStackData.ts
 export const techStackData = {
     heading: "Our Technology Stack",
     subheading: "Explore the tools we use to create outstanding solutions",

@@ -20,7 +20,7 @@ const ReachOut = () => {
 
         <div className="relative w-1/3 h-full">
           <img
-            src="/images/big-data.jpg"
+            src="/images/reachout.jpg"
             alt="Contact Us"
             className="w-full h-full object-cover"
           />
