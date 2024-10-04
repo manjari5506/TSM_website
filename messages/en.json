@@ -1,0 +1,271 @@
+{
+  "navbar": {
+    "company": {
+      "title": "Company",
+      "leaders": "Leaders",
+      "overview": "Overview"
+    },
+    "services": {
+      "title": "Services",
+      "appDevelopment": "App Development",
+      "cloudDevOps": "Cloud & DevOps",
+      "dataScience": "Data Science",
+      "iotAutomation": "IoT & Automation",
+      "systemDesign": "System Design",
+      "bigData": "Big Data",
+      "wordpressDevelopment": "Wordpress Development",
+      "uiUx": "UI/UX",
+      "cyberSecurity": "Cybersecurity",
+      "viewAll": "View All"
+    },
+    "careers": "Careers",
+    "blogs": "Blogs",
+    "contactUs": "Contact Us",
+    "locales": {
+      "en": "English",
+      "fr": "French"
+    }
+  },
+  "footer": {
+    "aboutus": "About Us",
+    "services": "Services",
+    "blogs": "Blogs",
+    "careers": "Careers",
+    "getquotes": "Get Quotes",
+    "contactus": "contact Us",
+    "address": "Address",
+    "address2": "Hinjewadi, Pune, Maharashtra",
+    "email": "work@Stackmentalist.com",
+    "cookies": "Cookies Policy",
+    "legalterm": "Legal Term",
+    "privacy": "Privacy Policy"
+  },
+  "homepage": {
+    "hero": {
+      "heading": ["Creativity Meets Technology,", "Innovation Happens"],
+      "subheading": "At Stackmentalist, we specialize in creating exceptional software solutions tailored to empower businesses. Our mission is to deliver seamless and efficient software that accelerates growth and success"
+    },
+    "about": {
+      "heading": "UNLIKE ANYTHINGYOU'VE EXPERIENCED BEFORE",
+      "subheading": "At StackMentalist, we're redefining what's possible. Our innovative approach, collaborative culture, and cutting-edge solutions set us apart from the rest."
+    },
+    "services": {
+      "heading": "Services We Provide",
+      "subheading": "Discover the ways our clients trust us to bring their visions to life.",
+      "cards": [
+        {
+          "title": "App Development",
+          "description": "Crafting innovative mobile and web applications tailored to user needs."
+        },
+        {
+          "title": "Data Science",
+          "description": "Turning raw data into actionable insights through analysis and machine learning."
+        },
+        {
+          "title": "Cloud & DevOps",
+          "description": "Streamlining operations with scalable cloud solutions and efficient deployment practices."
+        },
+        {
+          "title": "IOT & Automation",
+          "description": "Connecting devices for smart automation and seamless interconnectivity."
+        },
+        {
+          "title": "WordPress Development",
+          "description": "Design and build websites using the popular open-source content management system (CMS)."
+        },
+        {
+          "title": "Big Data",
+          "description": "Harnessing vast data sets to drive informed business decisions and innovation."
+        },
+        {
+          "title": "UI/UX",
+          "description": "Designing intuitive and engaging interfaces that enhance user experiences."
+        },
+        {
+          "title": "Cyber Security",
+          "description": "Safeguarding digital assets with advanced security protocols and solutions."
+        },
+        {
+          "title": "System Design",
+          "description": "Building robust, scalable architectures for complex software systems."
+        }
+      ]
+    },
+    "tech": {
+      "heading": "Tech-Driven Excellence: Our Stack",
+      "description": "Our diverse tech stack combines the latest tools and frameworks to create solutions that are not only effective but also future-proof."
+    },
+    "client": {
+      "heading": "Client Testimonials",
+      "subheading": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+      "cards": [
+        {
+          "description": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+          "client": "client 1",
+          "title": "HR department"
+        },
+        {
+          "description": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+          "client": "client 1",
+          "title": "HR department"
+        },
+        {
+          "description": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+          "client": "client 1",
+          "title": "HR department"
+        }
+      ]
+    },
+    "blogs": {
+      "heading": "Latest Blogs",
+      "description": "Stay ahead of the curve with our curated selection of articles that delve into the latest trends and innovations. Discover fresh perspectives and expert opinions that will inspire your next big idea.",
+      "cards": [
+        {
+          "heading": "Free advertising for your online busines...",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Read More"
+        },
+        {
+          "heading": "9 simple ways to improve your design ski...",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Read More"
+        },
+        {
+          "heading": "Tips to quickly improve your coding spee...",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Read More"
+        }
+      ],
+      "btn": "Read More"
+    }
+  },
+  "overviewpage": {
+    "hero": {
+      "heading": " Streamline, Innovate, Succeed: The Stackmentalist Way",
+      "subheading": "At Stackmentalist, we provide innovative solutions across every domain. From web development to AI and cloud computing, we leverage diverse expertise to bring your vision to life and drive success.",
+      "no": "2017",
+      "innovation": "Innovation Since",
+      "no1": "350+",
+      "success": "Successful Projects"
+    },
+    "mission": {
+      "heading": "Our Mission",
+      "subheading": "Innovating technology for a future-ready world",
+      "description": " At Stackmentalist, our mission is to empower businesses with innovative, scalable, and future-ready solutions. We are committed to pushing the boundaries of what's possible across every industry, leveraging our deep expertise in cutting-edgetechnologies. Our goal is to drive digital transformation, foster innovation, and deliver solutions that help our clients achieve their strategic vision while embracing the rapid evolution of the tech landscape."
+    },
+    "vission": {
+      "heading": "Our Vision",
+      "subheading": "Leading the future with seamless tech solutions",
+      "description": " At Stackmentalist, our vision is to be a global leader in technology innovation, empowering organizations of all sizes to thrive in the digital era. We aspire to create a world where technology seamlessly integrates with every aspect of life and business, driving progress, innovation, and sustainable growth. By continuously pushing the boundaries of possibility, we aim to shape a future where every  business has the tools to excel in an ever-evolving technological landscape."
+    },
+    "corevalue": {
+      "heading": "Our Core Values",
+      "subheading": "Our core values inspire us to innovate, collaborate, and deliver excellence. With integrity at the heart of everything we do, we are committed to creating meaningful impact for our clients and communities.",
+      "cards": [
+        {
+          "title": "Innovation",
+          "description": "Pushing the boundaries of technology  deliver groundbreaking solutions."
+        },
+        {
+          "title": "Integrity",
+          "description": "Building trust through transparency and ethical practices in every interaction."
+        },
+        {
+          "title": "Collaboration",
+          "description": "Harnessing the power of teamwork to solve complex challenges and create impactful results."
+        },
+        {
+          "title": "Customer-Centricity",
+          "description": "Putting our clients at the heart of everything we do, ensuring their success drives our success."
+        },
+        {
+          "title": "Excellence",
+          "description": "Striving for perfection in every solution, delivering quality that exceeds expectations."
+        },
+        {
+          "title": "Adaptability",
+          "description": "Staying agile and embracing change to continuously evolve in a fast-moving digital world."
+        }
+      ]
+    }
+  },
+  "leaderpage": {
+    "hero": {
+      "heading": "We Build Leaders of Tomorrow",
+      "subheading": "Empowering leadership for a better future and integrity."
+    },
+    "philosophy": {
+      "heading": "Leadership that Inspires Transformation",
+      "subheading": "At Stackmentalis, our leadership is driven by innovation, collaboration, and excellence. We don't just lead—we inspire growth, empower our teams, and pursue impactful solutions with relentless passion. Discover the core principles that define our journey.",
+      "cards": [
+        {
+          "heading": "Innovation at Core",
+          "subheading": "At Stackmentalis, we believe in fostering a of innovation that allows us to stay at the cutting edge of technology. Our leadership encourages creative problem-solving, out-of-the-box thinking, and a continuous push for breakthroughs that can transform the industry and create value for our clients."
+        },
+        {
+          "heading": "Empowering Teams",
+          "subheading": "Our leadership philosophy is built on the belief that empowered teams are the foundation of success. We cultivate environments where collaboration thrives, and individual voices are heard. Through trust, support, and opportunity, we aim to nurture each team member's potential to grow both personally and professionally."
+        },
+        {
+          "heading": " Excellence in Execution",
+          "subheading": " Our commitment to excellence drives every aspect of our work, from strategy to execution. We set high standards for ourselves and strive for perfection in delivering solutions that meet and exceed expectations. Continuous learning and refinement are part of our DNA, ensuring that we remain focused on delivering impactful results."
+        }
+      ]
+    },
+    "teams": {
+      "heading": " Meet the Team",
+      "subheading": "Introducing the visionary leaders behind Stackmentalis. Our leadership team embodies a harmonious blend of skill, creativity, and unwavering commitment to technological excellence. Together, we navigate challenges and seize opportunities, driving our mission forward. Discover the minds shaping our future."
+    },
+    "jointeam": {
+      "heading": "Join Our Team",
+      "subheading": " At StackMentalist, we are always looking for and passionate individuals who want to make a difference. Our team thrives on collaboration, innovation, and a shared commitment to excellence.",
+      "btn": "View Open Positions"
+    }
+  },
+  "careerpage": {
+    "hero": {
+      "heading": {
+        "h1": "Empower Your Future with StackMentalist:",
+        "h2": "Innovation and Growth Awaits"
+      },
+      "subheading": " Be part of an open and collaborative environment where freedom and opportunity thrive. Together, we're more than colleagues - we're a team!",
+      "btn": "Job Openings "
+    },
+    "section2": {
+      "heading": "Our Ventures Work",
+      "subheading": {
+        "h1": "StackMentalist is dedicated to delivering platform-independent,",
+        "h2": "customer-centric software solutions."
+      },
+      "cards": {
+        "c1": {
+          "heading": "Enjoy What You Do",
+          "subheading": "We have cultivated a culture where we carry lightness and fun into what we do. We celebrate all important occasions, have offsite trips, and conduct engaging events throughout the year. We find joy in building solutions we're proud of."
+        },
+        "c2": {
+          "heading": "Come Up With Ideas",
+          "subheading": "We are a place that cherishes ideas. We strive to create an environment where our tribe can have clear opinions and share them without any hesitation, and at the same time be humble & open to new ideas."
+        },
+        "c3": {
+          "heading": "A Venture in Unity",
+          "subheading": " We believe in creating a community where everyone feels at home, regardless of their background. Our tribe is built on the principles of inclusion, respect, and shared leadership, ensuring that each individual is heard, valued, and uplifted."
+        }
+      }
+    },
+    "jobopening": {
+      "heading": "Current Openings",
+      "cards": {
+        "c1": {
+          "heading": "React Native Developer",
+          "subheading": "Software Development",
+          "description": "0-6 months"
+        },
+        "c2": {
+          "heading": "React Native Developer",
+          "subheading": "Software Development",
+          "description": "6-12 months"
+        }
+      }
+    }
+  }
+}

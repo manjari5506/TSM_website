@@ -3,8 +3,12 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import "./About.scss";
+import { useTranslations } from "next-intl";
 
 const About = () => {
+  const t = useTranslations("homepage");
+  const fullHeading = t("about.heading");
+  const [firstPart, secondPart] = fullHeading.split("YOU'VE");
   return (
     <>
       {/* <!-- ===== About Start ===== --> */}
@@ -29,14 +33,14 @@ const About = () => {
               viewport={{ once: true }}
               className="animate_right md:w-1/2"
             >
-              <h2 className="relative mb-6 text-3xl font-bold text-black dark:text-white xl:text-hero font-playfair ">
-                UNLIKE ANYTHING
-                <span className="relative inline-block before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full font-playfair ">
-                  YOU'VE EXPERIENCED  BEFORE
+              <h2 className="relative mb-6 font-playfair text-3xl font-bold text-black dark:text-white xl:text-hero">
+                {firstPart.trim()}
+                <span className="relative inline-block font-playfair before:absolute before:bottom-2.5 before:left-0 before:-z-1 before:h-3 before:w-full">
+                  YOU'VE{secondPart}
                 </span>
               </h2>
-              <p className="change-color text-xl font-semibold font-kodchasan">
-                At StackMentalist, we're redefining what's possible. Our innovative approach, collaborative culture, and cutting-edge solutions set us apart from the rest.
+              <p className="change-color font-kodchasan text-xl font-semibold">
+                {t("about.subheading")}
               </p>
             </motion.div>
             <motion.div
@@ -58,18 +62,16 @@ const About = () => {
               className="animate_left relative mx-auto hidden aspect-[990/550] md:block md:w-1/2"
             >
               <video
-                className="w-full h-full object-cover rounded-lg"
+                className="h-full w-full rounded-lg object-cover"
                 src="/images/dummy-video.mp4"
                 //autoPlay
                 controls
                 muted
-              >
-              </video>
+              ></video>
             </motion.div>
           </div>
         </div>
       </section>
-
     </>
   );
 };

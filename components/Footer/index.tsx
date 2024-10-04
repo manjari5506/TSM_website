@@ -2,9 +2,12 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import "./Footer.scss";
-import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa"
+import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("footer");
+
   return (
     <>
       <footer className="border-t border-stroke bg-white">
@@ -41,7 +44,7 @@ const Footer = () => {
                 </a>
               </motion.div>
 
-              <div className="flex w-full flex-col gap-50 md:flex-row md:justify-between md:gap-0  xl:w-9/12 py-0 font-kodchasan">
+              <div className="flex w-full flex-col gap-50 py-0 font-kodchasan md:flex-row  md:justify-between md:gap-0 xl:w-9/12">
                 <motion.div
                   variants={{
                     hidden: {
@@ -60,30 +63,29 @@ const Footer = () => {
                   viewport={{ once: true }}
                   className="animate_top"
                 >
-
                   <ul>
                     <li>
                       <a
                         href="/overview"
-                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
+                        className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
-                        About Us
+                        {t("aboutus")}
                       </a>
                     </li>
                     <li>
                       <a
                         href="/services"
-                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
+                        className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
-                        Services
+                        {t("services")}
                       </a>
                     </li>
                     <li>
                       <a
                         href="/blog"
-                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
+                        className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
-                        Blogs
+                        {t("blogs")}
                       </a>
                     </li>
                   </ul>
@@ -110,30 +112,30 @@ const Footer = () => {
                     <li>
                       <a
                         href="/career"
-                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
+                        className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
-                        Careers
+                        {t("careers")}
                       </a>
                     </li>
                     <li>
                       <a
                         href="#"
-                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
+                        className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
-                        Get Quotes
+                        {t("getquotes")}
                       </a>
                     </li>
                     <li>
                       <a
                         href="#"
-                        className="mb-3 px-4 py-2 inline-block hover:text-white hover:bg-navy rounded-2xl"
+                        className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
-                        Contact Us
+                        {t("contactus")}
                       </a>
                     </li>
                   </ul>
                 </motion.div>
-                <div className="hidden lg:block border-l border-gray-300 h-auto mx-20"></div>
+                <div className="mx-20 hidden h-auto border-l border-gray-300 lg:block"></div>
                 <motion.div
                   variants={{
                     hidden: {
@@ -149,25 +151,35 @@ const Footer = () => {
                   whileInView="visible"
                   transition={{ duration: 1, delay: 0.1 }}
                   viewport={{ once: true }}
-                  className="animate_top w-full lg:w-1/2 gap-20 flex justify-between"
+                  className="animate_top flex w-full justify-between gap-20 lg:w-1/2"
                 >
                   <div className="w-2/3">
-                    <h4 className="text-2xl font-semibold text-navy w-30">Address</h4>
+                    <h4 className="w-30 text-2xl font-semibold text-navy">
+                      {t("address")}
+                    </h4>
                     <ul className="mt-4">
-                      <li className="flex items-center mb-2">
-                        <FaMapMarkerAlt className="text-navy mr-2" />
-                        <a href="https://www.google.com/maps/place/Hinjawadi,+Pune,+Pimpri-Chinchwad,+Maharashtra/@18.5993813,73.6348173,12z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bbc048041bef:0xd0c9eb5ac3c3dee5!8m2!3d18.5912716!4d73.738909!16s%2Fm%2F02qwznq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="hover:text-navy">
-                          Hinjewadi, Pune, Maharashtra
+                      <li className="mb-2 flex items-center">
+                        <FaMapMarkerAlt className="mr-2 text-navy" />
+                        <a
+                          href="https://www.google.com/maps/place/Hinjawadi,+Pune,+Pimpri-Chinchwad,+Maharashtra/@18.5993813,73.6348173,12z/data=!3m1!4b1!4m6!3m5!1s0x3bc2bbc048041bef:0xd0c9eb5ac3c3dee5!8m2!3d18.5912716!4d73.738909!16s%2Fm%2F02qwznq?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-navy"
+                        >
+                          {t("address")}
                         </a>
                       </li>
-                      <li className="flex items-center mb-2">
-                        <FaEnvelope className="text-navy mr-2" />
-                        <a href="mailto:work@stackmentalist.com" className="hover:text-navy">
-                          work@stackmentalist.com
+                      <li className="mb-2 flex items-center">
+                        <FaEnvelope className="mr-2 text-navy" />
+                        <a
+                          href="mailto:work@stackmentalist.com"
+                          className="hover:text-navy"
+                        >
+                          {t("email")}
                         </a>
                       </li>
                       <li className="flex items-center">
-                        <FaPhoneAlt className="text-navy mr-2" />
+                        <FaPhoneAlt className="mr-2 text-navy" />
                         <a href="tel:+123456789" className="hover:text-navy">
                           +91 7771810723
                         </a>
@@ -213,17 +225,17 @@ const Footer = () => {
               <ul className="flex items-center gap-8">
                 <li>
                   <a href="#" className="hover:text-navy">
-                    Cookies Policy
+                    {t("cookies")}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-navy">
-                    Legal Terms
+                    {t("legalterm")}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-navy">
-                    Privacy Policy
+                    {t("privacy")}
                   </a>
                 </li>
               </ul>
@@ -247,9 +259,7 @@ const Footer = () => {
               viewport={{ once: true }}
               className="animate_top"
             >
-              <p>
-                &copy; Stackmentalist Ventures Pvt. Ltd.
-              </p>
+              <p>&copy; Stackmentalist Ventures Pvt. Ltd.</p>
             </motion.div>
 
             <motion.div
@@ -296,7 +306,10 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/company/the-stackmentalist/posts/?feedView=all" aria-label="social icon">
+                  <a
+                    href="https://www.linkedin.com/company/the-stackmentalist/posts/?feedView=all"
+                    aria-label="social icon"
+                  >
                     <svg
                       className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy"
                       width="24"
@@ -320,24 +333,30 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://x.com/StackMentalist" aria-label="social icon">
+                  <a
+                    href="https://x.com/StackMentalist"
+                    aria-label="social icon"
+                  >
                     <img
-                      src="images/footer/twitter_11823292.png" 
-                      alt="LinkedIn Icon" 
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy opacity-20 hover:opacity-100"
-                      width="18" 
-                      height="18" 
+                      src="images/footer/twitter_11823292.png"
+                      alt="LinkedIn Icon"
+                      className="fill-[#D1D8E0] opacity-20 transition-all duration-300 hover:fill-navy hover:opacity-100"
+                      width="18"
+                      height="18"
                     />
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/the_stackmentalist/?igsh=MWxubjJicTY5dDBiZw%3D%3D" aria-label="social icon">
+                  <a
+                    href="https://www.instagram.com/the_stackmentalist/?igsh=MWxubjJicTY5dDBiZw%3D%3D"
+                    aria-label="social icon"
+                  >
                     <img
-                      src="images/footer/instagram_2111491.png" 
-                      alt="LinkedIn Icon" 
-                      className="fill-[#D1D8E0] transition-all duration-300 hover:fill-navy opacity-20 hover:opacity-100"
-                      width="24" 
-                      height="24" 
+                      src="images/footer/instagram_2111491.png"
+                      alt="LinkedIn Icon"
+                      className="fill-[#D1D8E0] opacity-20 transition-all duration-300 hover:fill-navy hover:opacity-100"
+                      width="24"
+                      height="24"
                     />
                   </a>
                 </li>

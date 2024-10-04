@@ -32,10 +32,12 @@ const SectionHeader = ({ headerInfo }: { headerInfo: HeaderInfo }) => {
         viewport={{ once: true }}
         className="animate_top text-left"
       >
-        <h2 className="mx-10 my-10 mb-4 text-3xl font-bold text-navy dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3 font-playfair">
+        <h2 className="mx-10 my-10 mb-4 font-playfair text-3xl font-bold text-navy dark:text-white md:w-4/5 xl:w-1/2 xl:text-sectiontitle3">
           {subtitle}
         </h2>
-        <p className="mx-10  my-2 text-xl font-semibold md:w-4/5 lg:w-3/5 xl:w-[46%] font-kodchasan change-color">{description}</p>
+        <p className="change-color  mx-10 my-2 font-kodchasan text-xl font-semibold md:w-4/5 lg:w-3/5 xl:w-[46%]">
+          {description}
+        </p>
       </motion.div>
       {/* <!-- Section Title End --> */}
     </>

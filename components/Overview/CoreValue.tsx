@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Row, Col } from "antd";
 import {
@@ -8,6 +9,7 @@ import {
   FaSync,
 } from "react-icons/fa"; // Import icons
 import "./style.scss"; // Add custom styles
+import { useTranslations } from "use-intl";
 
 const coreValues = [
   {
@@ -49,27 +51,27 @@ const coreValues = [
 ];
 
 const CoreValues = () => {
+  const t = useTranslations("overviewpage.corevalue");
   return (
     <div className="core-values-section">
       <div className="flex flex-col items-center ">
         <h2 className="section-heading font-playfair  font-bold text-navy">
-          Our Core Values
+          {t("heading")}
         </h2>
         <p className=" w-[50rem] pb-8  text-center  text-gray-600">
-          Our core values inspire us to innovate, collaborate, and deliver
-          excellence. With integrity at the heart of everything we do, we are
-          committed to creating meaningful impact for our clients and
-          communities.
+          {t("subheading")}
         </p>
       </div>
       <Row gutter={[24, 24]} justify="space-around">
         {coreValues.map((value, index) => (
           <Col key={index} xs={24} sm={12} md={8} className="value-col">
-            <div className="core-value-item ">
+            <div className="core-value-item">
               <div className="value-icon">{value.icon}</div>
               <div className="value-content">
-                <h3 className="value-title">{value.title}</h3>
-                <p className="value-description">{value.description}</p>
+                <h3 className="value-title">{t(`cards.${index}.title`)}</h3>
+                <p className="value-description">
+                  {t(`cards.${index}.description`)}
+                </p>
               </div>
             </div>
           </Col>

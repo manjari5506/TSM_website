@@ -3,10 +3,17 @@ import { Feature } from "@/types/feature";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import "./Features.scss";
+import { useTranslations } from "next-intl";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
+const SingleFeature = ({
+  feature,
+  index,
+}: {
+  feature: Feature;
+  index: number;
+}) => {
   const { icon, title, description } = feature;
-
+  const t = useTranslations("homepage.services");
   return (
     <>
       <motion.div
@@ -31,9 +38,9 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
           {icon}
         </div>
         <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
-          {title}
+          {t(`cards.${index}.title`)}
         </h3>
-        <p>{description}</p>
+        <p>{t(`cards.${index}.description`)}</p>
       </motion.div>
     </>
   );

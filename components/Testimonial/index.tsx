@@ -11,8 +11,10 @@ import { motion } from "framer-motion";
 import SingleTestimonial from "./SingleTestimonial";
 import { testimonialData } from "./testimonialData";
 import "./Testimonial.scss";
+import { useTranslations } from "next-intl";
 
 const Testimonial = () => {
+  const t = useTranslations("homepage");
   return (
     <>
       <section className="my-0 text-left md:px-[6rem]">
@@ -21,9 +23,9 @@ const Testimonial = () => {
           <div className="animate_top text-left">
             <SectionHeader
               headerInfo={{
-                title: ``,
-                subtitle: `Client Testimonials`,
-                description: `Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.`,
+                title: "", // Use translation for the title
+                subtitle: t("client.heading"), // Use translation for the subtitle
+                description: t("client.subheading"), // Use translation for the description if needed
               }}
             />
           </div>
