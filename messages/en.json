@@ -25,5 +25,105 @@
       "en": "English",
       "fr": "French"
     }
+  },
+  "footer": {},
+  "homepage": {
+    "hero": {
+      "heading": ["Creativity Meets Technology,", "Innovation Happens"],
+      "subheading": "At Stackmentalist, we specialize in creating exceptional software solutions tailored to empower businesses. Our mission is to deliver seamless and efficient software that accelerates growth and success"
+    },
+    "about": {
+      "heading": "UNLIKE ANYTHINGYOU'VE EXPERIENCED BEFORE",
+      "subheading": "At StackMentalist, we're redefining what's possible. Our innovative approach, collaborative culture, and cutting-edge solutions set us apart from the rest."
+    },
+    "services": {
+      "heading": "Services We Provide",
+      "subheading": "Discover the ways our clients trust us to bring their visions to life.",
+      "cards": [
+        {
+          "heading": "App Development",
+          "description": "Crafting innovative mobile and web applications tailored to user needs."
+        },
+        {
+          "heading": "Data Science",
+          "description": "Turning raw data into actionable insights through analysis and machine learning."
+        },
+        {
+          "heading": "Cloud & DevOps",
+          "description": "Streamlining operations with scalable cloud solutions and efficient deployment practices."
+        },
+        {
+          "heading": "IOT & Automation",
+          "description": "Connecting devices for smart automation and seamless interconnectivity."
+        },
+        {
+          "heading": "WordPress Development",
+          "description": "Design and build websites using the popular open-source content management system (CMS)."
+        },
+        {
+          "heading": "Big Data",
+          "description": "Harnessing vast data sets to drive informed business decisions and innovation."
+        },
+        {
+          "heading": "UI/UX",
+          "description": "Designing intuitive and engaging interfaces that enhance user experiences."
+        },
+        {
+          "heading": "Cyber Security",
+          "description": "Safeguarding digital assets with advanced security protocols and solutions."
+        },
+        {
+          "heading": "System Design",
+          "description": "Building robust, scalable architectures for complex software systems."
+        }
+      ]
+    },
+    "tech": {
+      "heading": "Tech-Driven Excellence: Our Stack",
+      "description": "Our diverse tech stack combines the latest tools and frameworks to create solutions that are not only effective but also future-proof."
+    },
+    "client": {
+      "heading": "Client Testimonials",
+      "subheading": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+      "cards": [
+        {
+          "description": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+          "client": "client 1",
+          "title": "HR department"
+        },
+        {
+          "description": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+          "client": "client 1",
+          "title": "HR department"
+        },
+        {
+          "description": "Our customers consider us as a partner, not just a vendor. We believe in creating business value at the intersection of your industry and the latest technology innovation.",
+          "client": "client 1",
+          "title": "HR department"
+        }
+      ]
+    },
+    "blogs": {
+      "heading": "Latest Blogs",
+      "description": "Stay ahead of the curve with our curated selection of articles that delve into the latest trends and innovations. Discover fresh perspectives and expert opinions that will inspire your next big idea.",
+      "cards": [
+        {
+          "heading": "Free advertising for your online busines...",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Read More"
+        },
+        {
+          "heading": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Read More"
+        },
+        {
+          "heading": "",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Read More"
+        }
+      ],
+      "btn": "Read More"
+    }
   }
 }

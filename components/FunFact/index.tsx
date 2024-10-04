@@ -3,8 +3,11 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import "./Funfacts.scss";
+import { useTranslations } from "next-intl";
 
 const FunFact = () => {
+  const t = useTranslations("homepage");
+  const lines = t("hero.heading", { returnObjects: true });
   return (
     <>
       {/* <!-- ===== Funfact Start ===== --> */}
@@ -35,15 +38,16 @@ const FunFact = () => {
             viewport={{ once: true }}
             className="animate_top mx-auto mb-12.5 px-4 text-center md:w-4/5 md:px-0 lg:mb-17.5 lg:w-2/3 xl:w-1/2"
           >
-            <h2 className="my-12 mb-20 pt-15  font-playfair text-5xl font-bold text-navy">
-              Creativity Meets Technology,
-              <br></br> Innovation Happens
+            <h2 className="my-12 mb-20 pt-15 font-playfair text-5xl font-bold text-navy">
+              {t.raw("hero.heading").map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  {index === 0 && <br />}
+                </React.Fragment>
+              ))}
             </h2>
             <p className="change-color font-kodchasan text-xl font-semibold text-navy">
-              At Stackmentalist, we specialize in creating exceptional software
-              solutions tailored to empower businesses. Our mission is to
-              deliver seamless and efficient software that accelerates growth
-              and success
+              {t("hero.subheading")}
             </p>
           </motion.div>
 
