@@ -3,10 +3,17 @@ import { Feature } from "@/types/feature";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import "./Features.scss";
+import { useTranslations } from "next-intl";
 
-const SingleFeature = ({ feature }: { feature: Feature }) => {
+const SingleFeature = ({
+  feature,
+  index,
+}: {
+  feature: Feature;
+  index: number;
+}) => {
   const { icon, title, description } = feature;
-
+  const t = useTranslations("homepage.services");
   return (
     <>
       <motion.div
@@ -25,15 +32,20 @@ const SingleFeature = ({ feature }: { feature: Feature }) => {
         whileInView="visible"
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="animate_top z-40 rounded-lg border border-gray bg-white p-7.5 shadow-solid-4 transition-all hover:shadow-solid-8 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5 border-4 service-text"
+        className="animate_top border-gray service-text z-40 rounded-lg border border-4 bg-white p-7.5 shadow-solid-4 transition-all hover:shadow-solid-8 dark:border-strokedark dark:bg-blacksection dark:hover:bg-hoverdark xl:p-12.5"
       >
         <div className="relative flex h-16 w-16 items-center justify-center rounded-full bg-navy">
-          <Image src={icon} width={36} height={36} alt="title" />
+          <Image
+            src={icon}
+            width={36}
+            height={36}
+            alt={t(`cards.${index}.title`)}
+          />
         </div>
         <h3 className="mb-5 mt-7.5 text-xl font-semibold text-black dark:text-white xl:text-itemtitle">
-          {title}
+          {t(`cards.${index}.title`)}
         </h3>
-        <p>{description}</p>
+        <p>{t(`cards.${index}.description`)}</p>
       </motion.div>
     </>
   );

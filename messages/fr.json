@@ -1,29 +1,274 @@
 {
   "navbar": {
     "company": {
-      "title": "Entreprise",
-      "leaders": "Dirigeants",
+      "title": "Société",
+      "leaders": "Leaders",
       "overview": "Aperçu"
     },
     "services": {
       "title": "Services",
-      "appDevelopment": "Développement d'applications",
+      "appDevelopment": "Développement d'Applications",
       "cloudDevOps": "Cloud & DevOps",
-      "dataScience": "Science des données",
+      "dataScience": "Science des Données",
       "iotAutomation": "IoT & Automatisation",
-      "systemDesign": "Conception de systèmes",
+      "systemDesign": "Conception de Systèmes",
       "bigData": "Big Data",
-      "wordpressDevelopment": "Développement Wordpress",
+      "wordpressDevelopment": "Développement WordPress",
       "uiUx": "UI/UX",
       "cyberSecurity": "Cybersécurité",
-      "viewall": "Voir tout"
+      "viewAll": "Voir Tout"
     },
     "careers": "Carrières",
     "blogs": "Blogs",
-    "contactUs": "Nous contacter",
+    "contactUs": "Contactez Nous",
     "locales": {
       "en": "Anglais",
       "fr": "Français"
+    }
+  },
+  "footer": {
+    "aboutus": "À Propos de Nous",
+    "services": "Services",
+    "blogs": "Blogs",
+    "careers": "Carrières",
+    "getquotes": "Obtenir des Devis",
+    "contactus": "Contactez Nous",
+    "address": "Adresse",
+    "address2": "Hinjewadi, Pune, Maharashtra",
+    "email": "work@Stackmentalist.com",
+    "cookies": "Politique de Cookies",
+    "legalterm": "Conditions Légales",
+    "privacy": "Politique de Confidentialité"
+  },
+  "homepage": {
+    "hero": {
+      "heading": [
+        "La créativité rencontre la technologie,",
+        "L'innovation se produit"
+      ],
+      "subheading": "Chez Stackmentalist, nous sommes spécialisés dans la création de solutions logicielles exceptionnelles conçues pour autonomiser les entreprises. Notre mission est de fournir un logiciel fluide et efficace qui accélère la croissance et le succès."
+    },
+    "about": {
+      "heading": "UNE EXPÉRIENCE INÉGALÉE",
+      "subheading": "Chez StackMentalist, nous redéfinissons ce qui est possible. Notre approche innovante, notre culture collaborative et nos solutions à la pointe de la technologie nous distinguent des autres."
+    },
+    "services": {
+      "heading": "Services Que Nous Fournissons",
+      "subheading": "Découvrez comment nos clients nous font confiance pour donner vie à leurs visions.",
+      "cards": [
+        {
+          "title": "Développement d'Applications",
+          "description": "Création d'applications mobiles et web innovantes adaptées aux besoins des utilisateurs."
+        },
+        {
+          "title": "Science des Données",
+          "description": "Transformer des données brutes en informations exploitables grâce à l'analyse et à l'apprentissage automatique."
+        },
+        {
+          "title": "Cloud & DevOps",
+          "description": "Rationaliser les opérations avec des solutions cloud évolutives et des pratiques de déploiement efficaces."
+        },
+        {
+          "title": "IoT & Automatisation",
+          "description": "Connecter des dispositifs pour une automatisation intelligente et une interconnectivité transparente."
+        },
+        {
+          "title": "Développement WordPress",
+          "description": "Concevoir et construire des sites Web en utilisant le populaire système de gestion de contenu (CMS) open-source."
+        },
+        {
+          "title": "Big Data",
+          "description": "Exploiter d'énormes ensembles de données pour prendre des décisions commerciales éclairées et innover."
+        },
+        {
+          "title": "UI/UX",
+          "description": "Concevoir des interfaces intuitives et engageantes qui améliorent l'expérience utilisateur."
+        },
+        {
+          "title": "Cybersécurité",
+          "description": "Protéger les actifs numériques avec des protocoles et des solutions de sécurité avancés."
+        },
+        {
+          "title": "Conception de Systèmes",
+          "description": "Construire des architectures robustes et évolutives pour des systèmes logiciels complexes."
+        }
+      ]
+    },
+    "tech": {
+      "heading": "Excellence Axée sur la Technologie : Notre Stack",
+      "description": "Notre diverse pile technologique combine les derniers outils et frameworks pour créer des solutions efficaces et pérennes."
+    },
+    "client": {
+      "heading": "Témoignages Clients",
+      "subheading": "Nos clients nous considèrent comme un partenaire, pas seulement un fournisseur. Nous croyons en la création de valeur commerciale à l'intersection de votre secteur et de la dernière innovation technologique.",
+      "cards": [
+        {
+          "description": "Nos clients nous considèrent comme un partenaire, pas seulement un fournisseur. Nous croyons en la création de valeur commerciale à l'intersection de votre secteur et de la dernière innovation technologique.",
+          "client": "client 1",
+          "title": "Département RH"
+        },
+        {
+          "description": "Nos clients nous considèrent comme un partenaire, pas seulement un fournisseur. Nous croyons en la création de valeur commerciale à l'intersection de votre secteur et de la dernière innovation technologique.",
+          "client": "client 1",
+          "title": "Département RH"
+        },
+        {
+          "description": "Nos clients nous considèrent comme un partenaire, pas seulement un fournisseur. Nous croyons en la création de valeur commerciale à l'intersection de votre secteur et de la dernière innovation technologique.",
+          "client": "client 1",
+          "title": "Département RH"
+        }
+      ]
+    },
+    "blogs": {
+      "heading": "Derniers Blogs",
+      "description": "Restez à la pointe avec notre sélection d'articles qui explorent les dernières tendances et innovations. Découvrez des perspectives fraîches et des opinions d'experts qui inspireront votre prochaine grande idée.",
+      "cards": [
+        {
+          "heading": "Publicité gratuite pour votre entreprise en ligne...",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Lire la Suite"
+        },
+        {
+          "heading": "9 façons simples d'améliorer vos compétences en design...",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Lire la Suite"
+        },
+        {
+          "heading": "Conseils pour améliorer rapidement votre vitesse de codage...",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit convallis tortor.",
+          "btn": "Lire la Suite"
+        }
+      ],
+      "btn": "Lire la Suite"
+    }
+  },
+  "overviewpage": {
+    "hero": {
+      "heading": "Rationaliser, Innover, Réussir : La Méthode Stackmentalist",
+      "subheading": "Chez Stackmentalist, nous fournissons des solutions innovantes dans tous les domaines. Du développement web à l'IA et à l'informatique en nuage, nous mettons à profit une expertise diversifiée pour donner vie à votre vision et conduire au succès.",
+      "no": "2017",
+      "innovation": "Innovation Depuis",
+      "no1": "350+",
+      "success": "Projets Réussis"
+    },
+    "mission": {
+      "heading": "Notre Mission",
+      "subheading": "Innover la technologie pour un monde prêt pour l'avenir",
+      "description": "Chez Stackmentalist, notre mission est de donner aux entreprises des solutions innovantes, évolutives et prêtes pour l'avenir. Nous sommes engagés à repousser les limites de ce qui est possible dans tous les secteurs, en tirant parti de notre expertise approfondie dans les technologies de pointe. Notre objectif est de conduire la transformation numérique, de favoriser l'innovation et de fournir des solutions qui aident nos clients à réaliser leur vision stratégique tout en s'adaptant à l'évolution rapide du paysage technologique."
+    },
+    "vission": {
+      "heading": "Notre Vision",
+      "subheading": "Diriger l'avenir avec des solutions technologiques sans couture",
+      "description": "Chez Stackmentalist, notre vision est de devenir un leader mondial en innovation technologique, permettant aux organisations de toutes tailles de prospérer à l'ère numérique. Nous aspirons à créer un monde où la technologie s'intègre parfaitement dans tous les aspects de la vie et des affaires, favorisant le progrès, l'innovation et la croissance durable. En repoussant continuellement les limites du possible, nous visons à façonner un avenir où chaque entreprise dispose des outils nécessaires pour exceller dans un paysage technologique en constante évolution."
+    },
+    "corevalue": {
+      "heading": "Nos Valeurs Fondamentales",
+      "subheading": "Nos valeurs fondamentales nous inspirent à innover, collaborer et fournir l'excellence. Avec l'intégrité au cœur de tout ce que nous faisons, nous sommes engagés à créer un impact significatif pour nos clients et nos communautés.",
+      "cards": [
+        {
+          "title": "Innovation",
+          "description": "Repousser les limites de la technologie pour fournir des solutions révolutionnaires."
+        },
+        {
+          "title": "Intégrité",
+          "description": "Construire la confiance par la transparence et des pratiques éthiques dans chaque interaction."
+        },
+        {
+          "title": "Collaboration",
+          "description": "Exploiter la puissance du travail d'équipe pour résoudre des défis complexes et créer des résultats percutants."
+        },
+        {
+          "title": "Centré sur le Client",
+          "description": "Mettre nos clients au cœur de tout ce que nous faisons, garantissant que leur succès entraîne notre succès."
+        },
+        {
+          "title": "Excellence",
+          "description": "S'efforcer de parvenir à la perfection dans chaque solution, fournissant une qualité qui dépasse les attentes."
+        },
+        {
+          "title": "Adaptabilité",
+          "description": "Rester agile et embrasser le changement pour évoluer continuellement dans un monde numérique en rapide évolution."
+        }
+      ]
+    }
+  },
+  "leaderpage": {
+    "hero": {
+      "heading": "Nous Formons les Leaders de Demain",
+      "subheading": "Renforcer le leadership pour un avenir meilleur et l'intégrité."
+    },
+    "philosophy": {
+      "heading": "Un Leadership qui Inspire la Transformation",
+      "subheading": "Chez Stackmentalis, notre leadership est guidé par l'innovation, la collaboration et l'excellence. Nous ne nous contentons pas de diriger : nous inspirons la croissance, autonomisons nos équipes et poursuivons des solutions impactantes avec une passion sans relâche. Découvrez les principes fondamentaux qui définissent notre parcours.",
+      "cards": [
+        {
+          "heading": "Innovation au Cœur",
+          "subheading": "Chez Stackmentalis, nous croyons en la promotion d'une culture de l'innovation qui nous permet de rester à la pointe de la technologie. Notre leadership encourage la résolution créative de problèmes, la pensée novatrice et une recherche continue de percées qui peuvent transformer l'industrie et créer de la valeur pour nos clients."
+        },
+        {
+          "heading": "Autonomiser les Équipes",
+          "subheading": "Notre philosophie de leadership repose sur la conviction que des équipes autonomisées sont la clé du succès. Nous cultivons des environnements où la collaboration prospère et où chaque voix est entendue. Grâce à la confiance, au soutien et aux opportunités, nous visons à développer le potentiel de chaque membre de l'équipe pour grandir tant sur le plan personnel que professionnel."
+        },
+        {
+          "heading": "Excellence dans l'Exécution",
+          "subheading": "Notre engagement envers l'excellence guide chaque aspect de notre travail, de la stratégie à l'exécution. Nous fixons des normes élevées pour nous-mêmes et nous nous efforçons d'atteindre la perfection dans la fourniture de solutions qui répondent et dépassent les attentes. L'apprentissage continu et le perfectionnement font partie de notre ADN, garantissant que nous restons concentrés sur la délivrance de résultats impactants."
+        }
+      ]
+    },
+    "teams": {
+      "heading": "Rencontrez l'Équipe",
+      "subheading": "Présentation des leaders visionnaires derrière Stackmentalis. Notre équipe de direction incarne un mélange harmonieux de compétences, de créativité et d'engagement indéfectible envers l'excellence technologique. Ensemble, nous naviguons à travers les défis et saisissons les opportunités, propulsant notre mission vers l'avant. Découvrez les esprits qui façonnent notre avenir."
+    },
+    "jointeam": {
+      "heading": "Rejoignez Notre Équipe",
+      "subheading": "Chez Stackmentalist, nous recherchons toujours des personnes passionnées qui souhaitent faire la différence. Notre équipe prospère grâce à la collaboration, à l'innovation et à un engagement partagé envers l'excellence.",
+      "btn": "Voir les Postes Ouverts"
+    }
+  },
+  "careerpage": {
+    "hero": {
+      "heading": {
+        "h1": "Renforcez Votre Avenir avec StackMentalist :",
+        "h2": "L'Innovation et la Croissance Vous Attendent"
+      },
+      "subheading": "Faites partie d'un environnement ouvert et collaboratif où la liberté et les opportunités prospèrent. Ensemble, nous sommes plus que des collègues - nous sommes une équipe !",
+      "btn": "Offres d'Emploi"
+    },
+    "section2": {
+      "heading": "Notre Travail dans les Ventures",
+      "subheading": {
+        "h1": "StackMentalist s'engage à fournir des solutions logicielles indépendantes des plateformes,",
+        "h2": "axées sur le client."
+      },
+      "cards": {
+        "c1": {
+          "heading": "Profitez de ce que Vous Faites",
+          "subheading": "Nous avons cultivé une culture où légèreté et plaisir font partie de notre travail. Nous célébrons toutes les occasions importantes, organisons des sorties et des événements engageants tout au long de l'année. Nous trouvons de la joie à construire des solutions dont nous sommes fiers."
+        },
+        "c2": {
+          "heading": "Proposez des Idées",
+          "subheading": "Nous sommes un endroit qui chérit les idées. Nous nous efforçons de créer un environnement où notre équipe peut avoir des opinions claires et les partager sans hésitation, tout en restant humbles et ouverts aux nouvelles idées."
+        },
+        "c3": {
+          "heading": "Une Aventure dans l'Unité",
+          "subheading": "Nous croyons en la création d'une communauté où chacun se sent chez soi, quel que soit son parcours. Notre équipe est fondée sur les principes d'inclusion, de respect et de leadership partagé, garantissant que chaque individu soit entendu, valorisé et soutenu."
+        }
+      }
+    },
+    "jobopening": {
+      "heading": "Offres Actuelles",
+      "cards": {
+        "c1": {
+          "heading": "Développeur React Native",
+          "subheading": "Développement Logiciel",
+          "description": "0-6 mois"
+        },
+        "c2": {
+          "heading": "Développeur React Native",
+          "subheading": "Développement Logiciel",
+          "description": "6-12 mois"
+        }
+      }
     }
   }
 }

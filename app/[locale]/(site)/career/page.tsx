@@ -6,10 +6,12 @@ import ApplicationForm from "@/components/Apply";
 
 // import Cards from '@/components/Core';
 import CoreValues from "@/components/Overview/CoreValue";
+import { useTranslations } from "next-intl";
 
 const Careerspage = () => {
   // State to manage form visibility
   const [showForm, setShowForm] = useState(false);
+  const t = useTranslations("careerpage");
 
   // Function to handle form visibility
   const toggleForm = () => {
@@ -23,20 +25,16 @@ const Careerspage = () => {
         <div className="hero-content relative z-1">
           <div className="hero-text">
             <h1>
-              Empower Your Future with StackMentalist:
-              <br /> Innovation and Growth Awaits
+              {t("hero.heading.h1")}
+              <br /> {t("heading.h2")}
             </h1>
-            <p>
-              Be part of an open and collaborative environment where freedom and
-              opportunity thrive. Together, we're more than colleagues - we're a
-              team!
-            </p>
+            <p>{t("hero.subheading")}</p>
             <div className="button-container">
               <a
                 className="job-button ease-in-out hover:scale-110 "
                 href="#career-opening"
               >
-                Job Openings →
+                {t("hero.btn")}→
               </a>
             </div>
           </div>
@@ -44,10 +42,10 @@ const Careerspage = () => {
       </section>
       <section className="innovation-section bg-white-100  py-20">
         <div className="innovation-container">
-          <h2>Our Ventures Work</h2>
+          <h2>{t("section2.heading")}</h2>
           <p>
-            StackMentalist is dedicated to delivering platform-independent,
-            <br /> customer-centric software solutions.
+            {t("section2.subheading.h1")}
+            <br /> {t("section2.subheading,h2")}
           </p>
           {/* Cards Section */}
           <div className="card-section">
@@ -61,13 +59,8 @@ const Careerspage = () => {
                 />
               </div>
               <div className="content py-2">
-                <h3>Enjoy What You Do</h3>
-                <p>
-                  We have cultivated a culture where we carry lightness and fun
-                  into what we do. We celebrate all important occasions, have
-                  offsite trips, and conduct engaging events throughout the
-                  year. We find joy in building solutions we're proud of.
-                </p>
+                <h3>{t("section2.cards.c1.heading")}</h3>
+                <p>{t("section2.cards.c1.subheading")}</p>
               </div>
             </div>
             {/* Card 2 */}
@@ -80,13 +73,8 @@ const Careerspage = () => {
                 />
               </div>
               <div className="content">
-                <h3>Come Up With Ideas</h3>
-                <p>
-                  We are a place that cherishes ideas. We strive to create an
-                  environment where our tribe can have clear opinions and share
-                  them without any hesitation, and at the same time be humble &
-                  open to new ideas.
-                </p>
+                <h3>{t("section2.cards.c2.heading")}</h3>
+                <p>{t("section2.cards.c2.subheading")}</p>
               </div>
             </div>
             {/* Card 3 */}
@@ -99,13 +87,8 @@ const Careerspage = () => {
                 />
               </div>
               <div className="content">
-                <h3>A Venture in Unity</h3>
-                <p>
-                  We believe in creating a community where everyone feels at
-                  home, regardless of their background. Our tribe is built on
-                  the principles of inclusion, respect, and shared leadership,
-                  ensuring that each individual is heard, valued, and uplifted.
-                </p>
+                <h3>{t("section2.cards.c3.heading")}</h3>
+                <p>{t("section2.cards.c3.subheading")}</p>
               </div>
             </div>
           </div>
@@ -113,7 +96,7 @@ const Careerspage = () => {
       </section>
       {/* Current Openings Section */}
       <section className="career-openings" id="career-opening">
-        <p>Current Openings</p>
+        <p>{t("jobopening.heading")}</p>
         <div className="job-listings">
           {/* Job Opening Cards */}
           <div className="job-cards-container">
@@ -121,9 +104,9 @@ const Careerspage = () => {
             <div className="job-card-container">
               <div className="job-card">
                 <div className="job-info">
-                  <h3>React Native Developer</h3>
-                  <p>Software Development</p>
-                  <p>0-6 months</p>
+                  <h3>{t("jobopening.cards.c1.heading")}</h3>
+                  <p>{t("jobopening.cards.c1.subheading")}</p>
+                  <p>{t("jobopening.cards.c1.description")}</p>
                   <div className="job-action" onClick={toggleForm}>
                     <span className="icon">
                       <svg
@@ -152,9 +135,9 @@ const Careerspage = () => {
               <div className="job-card">
                 {/* <img src="full-stack-developer.jpg" alt="Full Stack Developer" className="job-image" /> */}
                 <div className="job-info">
-                  <h3>React Native Developer</h3>
-                  <p>Software Development</p>
-                  <p>6-12 months</p>
+                  <h3>{t("jobopening.cards.c2.heading")}</h3>
+                  <p>{t("jobopening.cards.c2.subheading")}</p>
+                  <p>{t("jobopening.cards.c2.description")}</p>
                   <div className="job-action" onClick={toggleForm}>
                     <span className="icon">
                       <svg

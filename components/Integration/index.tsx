@@ -2,8 +2,10 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import SectionHeader from "../Common/SectionHeader";
+import { useTranslations } from "next-intl";
 
 const Integration = () => {
+  const t = useTranslations("homepage");
   return (
     <>
       <section className="my-120">
@@ -11,15 +13,9 @@ const Integration = () => {
           {/* <!-- Section Title Start --> */}
           <SectionHeader
             headerInfo={{
-              title: ``,
-              subtitle: (
-                <>
-                  Tech-Driven Excellence:
-                  <br />
-                  Our Stack
-                </>
-              ),
-              description: `Our diverse tech stack combines the latest tools and frameworks to create solutions that are not only effective but also future-proof.`,
+              title: "", // Use translation for the title
+              subtitle: t("tech.heading"), // Use translation for the subtitle
+              description: t("tech.description"), // Use translation for the description if needed
             }}
           />
 

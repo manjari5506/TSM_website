@@ -1,16 +1,17 @@
 import React from "react";
 import "./style.scss";
+import { useTranslations } from "next-intl";
 
 const Hero = () => {
+  const t = useTranslations("leaderpage.hero");
   return (
     <section className=" hero__section animate_top  relative   w-full     lg:h-screen">
       <div className=" relative z-10 w-[43rem] px-[5rem] py-[14rem] max-md:text-center">
         <h1 className="w-[50rem] pt-9 font-playfair text-6xl font-bold   text-navy">
-          We Build Leaders of Tomorrow
+          {t("heading")}
         </h1>
         <p className="mt-4 pt-4 font-kodchasan text-lg text-gray-800">
-          Empowering leadership for a better future with innovation and
-          integrity.
+          {t("subheading")}
         </p>
       </div>
       <div className="absolute right-[28rem] top-[6rem] z-0 max-lg:hidden">
