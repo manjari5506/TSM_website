@@ -1,0 +1,19 @@
+.offerings-section {
+    background-color: #ffffff;
+  
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  
+    .bg-navy {
+      background-color: #9aa1a3;
+    }
+
+    .offerings-list {
+      li {
+        transition: background-color 0.3s ease;
+      }
+    }
+  }
+  

@@ -42,6 +42,7 @@ module.exports = {
         zumthor: "#EDF5FF",
         socialicon: "#D1D8E0",
         navy: "#191242",
+        beige: "#e1e5f2",
       },
       fontSize: {
         metatitle: ["12px", "20px"],
