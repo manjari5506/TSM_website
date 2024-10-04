@@ -1,6 +1,8 @@
+import React from "react";
+
 export type Feature = {
   id: number;
-  icon: string;
+  icon: React.FC<{ color?: string; size?: number }>;
   title: string;
   description: string;
 };
