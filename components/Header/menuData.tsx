@@ -47,13 +47,13 @@ const menuData: Menu[] = [
         id: 35,
         title: "IOT & Automation",
         newTab: false,
-        path: "/services/iot",
+        path: "/services/automation",
       },
       {
         id: 35,
         title: "WordPress Development",
         newTab: false,
-        path: "/services/wordpress-development",
+        path: "/services/wordpress",
       },
       {
         id: 35,

@@ -1,8 +1,6 @@
 "use client"
 import React, { useState } from "react";
-import { offerings } from "./offeringsData";
 import "./styles.scss";
-import { off } from "process";
 
 const Offerings = ({offerings}) => {
   const [selectedOffering, setSelectedOffering] = useState(offerings.content[0]);

@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
-
- 
 import Cards from "@/components/services/common/process-card/Cards";
-import Offerings from "@/components/services/big-data/Offerings-card/Offerings";
-import { uiOfferings } from "@/components/services/big-data/Offerings-card/offeringsData";
-import ReachOut from "@/components/services/big-data/ReachOut-card/ReachOut";
+import Offerings from "@/components/services/common/Offerings-card/Offerings";
+import { uiuxOfferings } from "@/components/services/common/Offerings-card/offeringsData";
+import ReachOut from "@/components/services/common/ReachOut-card/ReachOut";
 import TechStack from "@/components/services/common/tech-stack/TechStack";
 import { uidetails } from "@/components/services/common/process-card/CardsData";
+import { uiux } from "@/components/services/common/ReachOut-card/ReachOutData";
+
 const page = () => {
   return (
     <section className="   ">
@@ -19,9 +19,9 @@ const page = () => {
           <p className="pt-4 text-md ">
           We bridge the gap between creativity and usability, transforming your vision into intuitive, user-centered designs that drive engagement and deliver seamless experiences.
           </p>
-          <button className="mt-9 rounded-3xl bg-navy bg-gradient-to-r from-[#c0392b] to-[#8e44ad] px-9 py-3 text-white   hover:opacity-80">
+          {/* <button className="mt-9 rounded-3xl bg-navy bg-gradient-to-r from-[#c0392b] to-[#8e44ad] px-9 py-3 text-white   hover:opacity-80">
             <Link href="/career">Contact Us</Link>
-          </button>
+          </button> */}
         </div>
         <img
           src="/images/ui-ux/ui-hero.png"
@@ -29,7 +29,7 @@ const page = () => {
         />
       </div>
       
-     <Offerings offerings={uiOfferings}/>
+     <Offerings offerings={uiuxOfferings}/>
      <TechStack />
    
       <section className="px-[6rem]  ">
@@ -45,7 +45,11 @@ const page = () => {
         <Cards details={uidetails}/>
       </section>
 
-      <ReachOut />
+      <ReachOut 
+        heading={uiux.heading} 
+        subheading={uiux.subheading} 
+        image={uiux.image} 
+      />
       
       
     </section>

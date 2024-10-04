@@ -1,0 +1,199 @@
+// .area-of-expertise-section {
+//     .container {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: flex-start;
+//     }
+  
+//     .carousel-container {
+//       position: relative;
+//       display: flex;
+//       align-items: center;
+  
+//       .carousel-arrow {
+//         background-color: #e5e5e5;
+//         border: none;
+//         padding: 10px;
+//         border-radius: 50%;
+//         cursor: pointer;
+//         transition: background-color 0.3s ease;
+  
+//         &:hover {
+//           background-color: #1c4350;
+//           color: white;
+//         }
+//       }
+  
+//       .left-arrow {
+//         position: absolute;
+//         left: -2rem;
+//       }
+  
+//       .right-arrow {
+//         position: absolute;
+//         right: -2rem;
+//       }
+  
+//       .carousel-content {
+//         display: flex;
+//         transition: transform 0.5s ease-in-out;
+//         width: 90%;
+//         overflow: hidden;
+  
+//         .carousel-card {
+//           display: flex;
+//           flex-direction: column;
+//           justify-content: center;
+//           align-items: center;
+//           transition: transform 0.3s ease-in-out;
+//           cursor: pointer;
+  
+//           &.small-card {
+//             flex: 1;
+//             opacity: 0.7;
+//             transform: scale(0.8);
+//             transition: all 0.3s ease;
+//             &:hover {
+//               opacity: 1;
+//               transform: scale(0.9);
+//             }
+//           }
+  
+//           &.active-card {
+//             flex: 2;
+//             opacity: 1;
+//             transform: scale(1);
+//           }
+  
+//           .expanded-card {
+//             h3 {
+//               font-size: 1.5rem;
+//               color: #1c4350;
+//             }
+  
+//             p {
+//               color: #808080;
+//             }
+//           }
+  
+//           .collapsed-card {
+//             h3 {
+//               font-size: 1.2rem;
+//               color: #1c4350;
+//             }
+//           }
+  
+//           img {
+//             width: 100%;
+//             height: auto;
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   .carousel-container {
+//     width: 1000px; /* Fixed width for the entire carousel */
+//     display: flex;
+//     justify-content: space-between;
+//     overflow: hidden;
+// }
+
+// .carousel-card {
+//     width: 300px; /* Fixed width for each card */
+//     margin: 0 10px; /* Adjust gap between cards */
+//     flex-shrink: 0; /* Prevents cards from shrinking */
+// }
+
+  
+.carouselContainer {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+
+  .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card {
+  width: 300px;
+  height: 350px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.activeCard {
+  width: 500px;
+  height: 400px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+
+  a {
+    margin-top: 10px;
+    text-decoration: underline;
+    color: #0081fc;
+    cursor: pointer;
+  }
+
+  .activeImage {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.cardContentSmall {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.arrowLeft {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 10;
+  cursor: pointer;
+  transform: translateY(-50%);
+}

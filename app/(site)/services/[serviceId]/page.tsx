@@ -1,3 +1,4 @@
+'use client';
 import { useParams } from "next/navigation";
 
 const serviceData = {
@@ -16,11 +17,11 @@ const serviceData = {
     description:
       "Unlock insights and drive decisions with our data science expertise.",
   },
-  "iot-automation": {
-    title: "IoT & Automation",
-    description:
-      "Integrating smart IoT solutions for automation and optimization.",
-  },
+  // "iot-automation": {
+  //   title: "IoT & Automation",
+  //   description:
+  //     "Integrating smart IoT solutions for automation and optimization.",
+  // },
   // Add other services as needed
 };
 

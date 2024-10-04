@@ -2,14 +2,14 @@
 import React from "react";
 import Link from "next/link";
 import "./styles.scss";
-
-import AppServices from "@/components/services/app-development/AppServices";
-import Offerings from "@/components/services/big-data/Offerings-card/Offerings";
-import ReachOut from "@/components/services/big-data/ReachOut-card/ReachOut";
+import Offerings from "@/components/services/common/Offerings-card/Offerings";
+import ReachOut from "@/components/services/common/ReachOut-card/ReachOut";
 import Cards from "@/components/services/common/process-card/Cards"
 import TechStack from "@/components/services/common/tech-stack/TechStack";
-import { cyberofferings } from "@/components/services/big-data/Offerings-card/offeringsData";
+import { cyberSecurityOfferings } from "@/components/services/common/Offerings-card/offeringsData";
 import { uidetails } from "@/components/services/common/process-card/CardsData";
+import { cyberSecurity } from "@/components/services/common/ReachOut-card/ReachOutData";
+import Expertise from "@/components/services/common/expertise/Expertise";
 
 const page = () => {
   return (
@@ -24,9 +24,9 @@ const page = () => {
             Ensure your digital assets are secure with our advanced cybersecurity services. From network protection to endpoint security, we 
             safeguard your business against cyber threats.
             </p>
-            <button className="mt-5 rounded-3xl bg-navy px-9 py-3 text-white linear-gradient(to right, #1c4350 0%, #428da2 100%)  hover:opacity-80">
+            {/* <button className="mt-5 rounded-3xl bg-navy px-9 py-3 text-white linear-gradient(to right, #1c4350 0%, #428da2 100%)  hover:opacity-80">
             Contact Us
-          </button>
+          </button> */}
           </div>
           <img
             src="/images/cyber-security-bg.png"
@@ -34,10 +34,15 @@ const page = () => {
           />
         </div>
       </section>
-      <Offerings offerings={cyberofferings}/>
+      <Offerings offerings={cyberSecurityOfferings}/>
       <TechStack/>
       <Cards details={uidetails}/>
-      <ReachOut/>
+      {/* <Expertise/> */}
+      <ReachOut 
+        heading={cyberSecurity.heading} 
+        subheading={cyberSecurity.subheading} 
+        image={cyberSecurity.image} 
+      />
     </>
   );
 };
