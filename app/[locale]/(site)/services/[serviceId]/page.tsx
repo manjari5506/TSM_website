@@ -1,3 +1,4 @@
+"use client";
 import { useParams } from "next/navigation";
 
 const serviceData = {
@@ -27,7 +28,6 @@ const serviceData = {
 export default function ServiceDetail() {
   const params = useParams();
   const { serviceId } = params;
-  console.log(serviceId); // Get the dynamic serviceId from the route
 
   const service = serviceData;
 

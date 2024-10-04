@@ -1,5 +1,4 @@
 "use client";
-// import SimpleButton from "../Button/SimpleButton";
 import { useEffect, useState } from "react";
 import "./style.scss";
 import {
@@ -27,7 +26,6 @@ const items: MenuItem[] = [
             Overview
           </a>
         ),
-
         key: "overview",
       },
       { label: "Leaders", key: "leader" },
@@ -75,13 +73,19 @@ const items: MenuItem[] = [
 const Navbar = () => {
   const [stickyMenu, setStickyMenu] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [submenuOpen, setSubmenuOpen] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
-  });
+    return () => {
+      window.removeEventListener("scroll", handleStickyMenu);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
+
   const handleStickyMenu = () => {
     if (window.scrollY >= 80) {
       setStickyMenu(true);
@@ -90,10 +94,14 @@ const Navbar = () => {
     }
   };
 
+  const handleSubmenuOpen = (isOpen: boolean) => {
+    setSubmenuOpen(isOpen);
+  };
+
   return (
     <>
       <Header
-        className={`nav__header fixed left-0 top-0 z-99999  flex items-center justify-between       ${
+        className={`nav__header fixed left-0 top-0 z-99999 flex items-center justify-between ${
           stickyMenu
             ? "!bg-white !opacity-100 shadow-xl transition duration-100 dark:bg-black"
             : ""
@@ -104,10 +112,16 @@ const Navbar = () => {
         {/* Fullscreen menu for desktop */}
         <Menu
           mode="horizontal"
-          items={items}
-          className="menu__items hidden md:flex  "
+          items={items.map((item) => ({
+            ...item,
+            onTitleMouseEnter: () => handleSubmenuOpen(true),
+            onTitleMouseLeave: () => handleSubmenuOpen(false),
+          }))}
+          className="menu__items hidden md:flex"
         />
+
         <div className="nav__header--card"></div>
+
         {/* Hamburger button for mobile */}
         <MenuOutlined onClick={toggleMenu} className="block md:hidden" />
       </Header>
@@ -118,8 +132,16 @@ const Navbar = () => {
         onClick={() => setMenuOpen(false)}
       >
         <CloseOutlined onClick={toggleMenu} className="close-button" />
-        <Menu mode="vertical" items={items} className="vertical__menu " />
+        <Menu mode="vertical" items={items} className="vertical__menu" />
       </div>
+
+      {/* Fix Submenu positioning */}
+      <style jsx>{`
+        .menu__items .ant-menu-submenu-popup {
+          position: ${stickyMenu ? "fixed" : "absolute"};
+          top: ${stickyMenu ? "80px" : "auto"};
+        }
+      `}</style>
     </>
   );
 };
