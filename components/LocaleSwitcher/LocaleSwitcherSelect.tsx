@@ -28,7 +28,7 @@ const LanguageSwitcher = () => {
     <div className="relative" onClick={handleClick}>
       <div className={`${isOpen && `rounded-xl bg-navy p-2`}`}>
         <Globe
-          className={` h-5 w-5 cursor-pointer text-gray-600 hover:text-gray-800 ${isOpen && "text-white hover:text-gray-300"}`}
+          className={` h-5 w-5 cursor-pointer text-gray-600   ${isOpen && "text-white hover:text-gray-300"}`}
         />
       </div>
 
