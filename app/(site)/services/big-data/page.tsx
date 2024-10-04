@@ -6,8 +6,9 @@ import ReachOut from "@/components/services/common/ReachOut-card/ReachOut";
 import Cards from "@/components/services/common/process-card/Cards"
 import TechStack from "@/components/services/common/tech-stack/TechStack";
 import { bigDataOfferings } from "@/components/services/common/Offerings-card/offeringsData";
-import { uidetails } from "@/components/services/common/process-card/CardsData";
+import { bigDataApproach } from "@/components/services/common/process-card/CardsData";
 import { bigData } from "@/components/services/common/ReachOut-card/ReachOutData";
+import { bigDataStack } from "@/components/services/common/tech-stack/TechStackData";
 
 const page = () => {
   return (
@@ -15,8 +16,8 @@ const page = () => {
       <section className=" bg-beige pb-10">
         <div className="relative mx-auto w-[90%] mb-[5rem] flex flex-row">
           <div className="relative z-1 w-[50rem] px-[5rem] pt-[15rem] text-left">
-            <h1 className="hero-heading py-2 font-playfair text-4xl font-bold text-left">
-              Leverage the Power of <br></br><span className="text-5xl font-playfair">Big Data</span> <br></br>
+            <h1 className="hero-heading py-2 font-playfair text-5xl font-bold text-left">
+              Leverage the Power <br></br>of <span className="text-5xl font-playfair">Big Data</span> <br></br>
             </h1>
             <p className="py-3 text-lg text-navy">
               Take your business to the next level by hiring our expert Big Data analysts and engineers
@@ -33,8 +34,8 @@ const page = () => {
         </div>
       </section>
       <Offerings offerings={bigDataOfferings}/>
-      <TechStack/>
-      <Cards details={uidetails}/>
+      <TechStack techStackData={bigDataStack}/>
+      <Cards details={bigDataApproach}/>
       <ReachOut 
         heading={bigData.heading} 
         subheading={bigData.subheading} 

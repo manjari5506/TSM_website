@@ -1,7 +1,7 @@
 export const bigDataOfferings = {
   heading: "Our Big Data Services",
   subheading: "Take your business to the next level by leveraging our expert UI/UX design services. We focus on creating immersive and engaging designs that drive user satisfaction and business success.",
-  logo: "",
+  logo: "/images/logo/bigDataLogo.svg" ,
   content: [
     {
       id: 1,
@@ -79,6 +79,7 @@ export const bigDataOfferings = {
   export const uiuxOfferings ={
     heading : "Our UI/UX Services",
     subheading : "Take your business to the next level by leveraging our expert UI/UX design services. We focus on creating immersive and engaging designs that drive user satisfaction and business success.",
+    logo:  "/images/logo/uiuxLogo.svg" ,
     content : [{
       id: 1,
       heading: "UI/UX Research & Strategy",
@@ -142,8 +143,8 @@ export const bigDataOfferings = {
 
   export const cyberSecurityOfferings = {
     heading: "Cyber Security Services We Offer",
-    subheading: "Enhance your business’s security with our expert cybersecurity solutions, designed to protect your network, applications, and data from evolving threats.",
-    logo: "",
+    subheading: "Enhance your business's security with our expert cybersecurity solutions, designed to protect your network, applications, and data from evolving threats.",
+    logo:  "/images/logo/cyberSecurityLogo.svg" ,
     content: [
       {
         id: 1,
@@ -231,7 +232,7 @@ export const bigDataOfferings = {
   export const appDevelopmentOfferings= {
     heading: "Our App Development Services",
     subheading: "Take your business to the next level by leveraging our expert app development services. We focus on creating scalable, secure, and high-performing applications that drive business success.",
-    logo: "",
+    logo:  "/images/logo/appDevelopmentLogo.svg" ,
     content: [
       {
         id: 1,
@@ -289,7 +290,7 @@ export const bigDataOfferings = {
   export const wordpressOfferings={
     heading: "Our WordPress Development Services",
     subheading: "Take your business to the next level by leveraging our expert WordPress development services. We focus on creating custom solutions that drive user engagement and business success.",
-    logo: "",
+    logo: "/images/logo/wordpressLogo.svg" ,
     content: [
       {
         id: 1,
@@ -367,7 +368,7 @@ export const bigDataOfferings = {
   export const systemDesignOfferings= {
     heading: "Our Key System Design Services",
     subheading: "Take your business to the next level by leveraging our expert UI/UX design services. We focus on creating immersive and engaging designs that drive user satisfaction and business success.",
-    logo: "",
+    logo:  "/images/logo/systemDesignLogo.svg" ,
     content: [
       {
         id: 1,
@@ -445,7 +446,7 @@ export const bigDataOfferings = {
   export const automationOfferings= {
     heading: "Our IoT & Automation Services",
     subheading: "Take your business to the next level by leveraging our expert UI/UX design services. We focus on creating immersive and engaging designs that drive user satisfaction and business success.",
-    logo: "",
+    logo: "/images/logo/automationLogo.svg" ,
     content: [
       {
         id: 1,
@@ -523,7 +524,7 @@ export const bigDataOfferings = {
   export const DataScienceOfferings= {
     heading: "Our Data Science Services",
     subheading: "Take your business to the next level by leveraging our expert Data Science services. We focus on creating data-driven strategies, insights, and solutions that drive business success.",
-    logo: "",
+    logo:  "/images/logo/dataScienceLogo.svg" ,
     content: [
       {
         id: 1,
@@ -593,7 +594,7 @@ export const bigDataOfferings = {
   export const cloudOfferings= {
     heading: "Our Cloud and DevOps Services",
     subheading: "Take your business to the next level by leveraging our expert Cloud and DevOps services. We focus on creating scalable and secure cloud infrastructures that drive business success.",
-    logo: "",
+    logo:  "/images/logo/cloudDevopsLogo.svg" ,
     content: [
       {
         id: 1,

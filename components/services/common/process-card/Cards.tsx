@@ -1,4 +1,5 @@
 import React from "react";
+import "./styles.scss";
 
 type Detail = {
   src: string;
@@ -28,8 +29,8 @@ const Cards = ({ details }: { details: DetailsType }) => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {details.content.map((detail, ind) => (
           <div key={ind}>
-            <div className="flex flex-col rounded-xl border-2 px-7 py-11 text-left hover:scale-105 hover:duration-300 hover:ease-in-out">
-              <div className="relative flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full bg-blue-300">
+            <div className="card-box flex flex-col rounded-xl border-2 px-7 py-10 text-left hover:scale-105 hover:duration-300 hover:ease-in-out">
+              <div className="img-box relative flex h-[4.5rem] w-[4.5rem] items-center justify-center rounded-full hover:bg-blue-300">
                 <img src={detail.src} className="h-[3rem] w-[3rem]" />
               </div>
               <h2 className="py-3 text-2xl font-bold text-navy">

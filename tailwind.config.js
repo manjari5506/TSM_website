@@ -43,6 +43,8 @@ module.exports = {
         socialicon: "#D1D8E0",
         navy: "#191242",
         beige: "#e1e5f2",
+        beige2: "#fffcf2",
+        grey: "#c0c0c0",
       },
       fontSize: {
         metatitle: ["12px", "20px"],

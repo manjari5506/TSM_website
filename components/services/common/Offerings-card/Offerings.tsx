@@ -23,28 +23,28 @@ const Offerings = ({offerings}) => {
 
         <div className="flex flex-row">
           <div className="w-1/3">
-            <ul className="space-y-4">
+            <ul className="space-y-4 mt-10">
               {offerings.content.map((offering) => (
                 <li
                   key={offering.id}
                   className={`cursor-pointer py-3 px-5 text-lg font-semibold ${
                     selectedOffering.id === offering.id
-                      ? "bg-navy text-white"
-                      : "bg-white text-navy hover:bg-beige hover:text-navy"
+                      ? "bg-beige text-navy"
+                      : "bg-white text-navy hover:bg-beige2 hover:text-navy ease-in-out hover:scale-110"
                   }`}
                   onClick={() => handleSelectOffering(offering.id)}
                 >
-                  {offering.heading}
+                 > {offering.heading}
                 </li>
               ))}
             </ul>
           </div>
 
-          <div className="w-2/3 px-10  py-2  ">
-            <div className="bg-white pl-[2rem] pr-[10rem]   py-5   shadow-lg rounded-lg relative flex flex-col">
-              <img src="/images/ui-ux/ui.png"  className="h-20 w-20 mb-5  "/>
-              <h3 className="text-2xl font-bold mb-4">{selectedOffering.heading}</h3>
-              <h4 className="text-lg font-medium mb-2">{selectedOffering.subheading}</h4>
+          <div className="w-2/3 px-5  py-2 w-200">
+            <div className="data-box bg-white pl-[2rem] pr-[10rem] py-5 shadow-lg rounded-lg relative flex flex-col">
+              <img src={selectedOffering.logo}  className="h-20 w-20 mb-5  "/>
+              <h3 className="text-2xl font-bold mb-4 text-navy">{selectedOffering.heading}</h3>
+              <h4 className="text-md font-semibold mb-2">{selectedOffering.subheading}</h4>
               <ul className="list-disc list-inside py-5">
                 {selectedOffering.description.map((point, index) => (
                   <li key={index} className="text-md py-2">
@@ -52,7 +52,7 @@ const Offerings = ({offerings}) => {
                   </li>
                 ))}
               </ul>
-              <img src="/images/ui-ux/ui.png"  className="absolute bottom-0 right-3 h-30 w-30 mb-5 opacity-30"/>
+              <img src={selectedOffering.logo} className="absolute bottom-0 right-3 h-30 w-30 mb-5 opacity-30"/>
             </div>
           </div>
         </div>

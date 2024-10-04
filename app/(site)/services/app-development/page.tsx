@@ -5,14 +5,15 @@ import Offerings from "@/components/services/common/Offerings-card/Offerings";
 import ReachOut from "@/components/services/common/ReachOut-card/ReachOut";
 import Cards from "@/components/services/common/process-card/Cards"
 import TechStack from "@/components/services/common/tech-stack/TechStack";
-import { bigDataOfferings } from "@/components/services/common/Offerings-card/offeringsData";
-import { uidetails } from "@/components/services/common/process-card/CardsData";
-import { bigData } from "@/components/services/common/ReachOut-card/ReachOutData";
+import { appDevelopmentOfferings } from "@/components/services/common/Offerings-card/offeringsData";
+import { appDevelopmentApproach } from "@/components/services/common/process-card/CardsData";
+import { appDevelopment } from "@/components/services/common/ReachOut-card/ReachOutData";
+import { appDevelopmentStack } from "@/components/services/common/tech-stack/TechStackData";
 
 const page = () => {
   return (
     <>
-      <section className=" bg-beige pb-10">
+      <section className=" bg-grey pb-10">
         <div className="relative mx-auto w-[90%] mb-[5rem] flex flex-row">
           <div className="relative z-1 w-[50rem] px-[5rem] pt-[15rem] text-left">
             <h1 className="hero-heading py-2 font-playfair text-4xl font-bold text-left">
@@ -26,18 +27,18 @@ const page = () => {
           </button> */}
           </div>
           <img
-            src="/images/cloud-bg.png"
-            className="mt-40 mr-10"
+            src="/images/app-development-bg.png"
+            className="mt-40 mr-30"
           />
         </div>
       </section>
-      <Offerings offerings={bigDataOfferings}/>
-      <TechStack/>
-      <Cards details={uidetails}/>
+      <Offerings offerings={appDevelopmentOfferings}/>
+      <TechStack techStackData={appDevelopmentStack}/>
+      <Cards details={appDevelopmentApproach}/>
       <ReachOut 
-        heading={bigData.heading} 
-        subheading={bigData.subheading} 
-        image={bigData.image} 
+        heading={appDevelopment.heading} 
+        subheading={appDevelopment.subheading} 
+        image={appDevelopment.image} 
       />
     </>
   );

@@ -7,9 +7,10 @@ import ReachOut from "@/components/services/common/ReachOut-card/ReachOut";
 import Cards from "@/components/services/common/process-card/Cards"
 import TechStack from "@/components/services/common/tech-stack/TechStack";
 import { cyberSecurityOfferings } from "@/components/services/common/Offerings-card/offeringsData";
-import { uidetails } from "@/components/services/common/process-card/CardsData";
+import { cyberSecurityApproach } from "@/components/services/common/process-card/CardsData";
 import { cyberSecurity } from "@/components/services/common/ReachOut-card/ReachOutData";
 import Expertise from "@/components/services/common/expertise/Expertise";
+import { cyberSecurityStack } from "@/components/services/common/tech-stack/TechStackData";
 
 const page = () => {
   return (
@@ -30,13 +31,13 @@ const page = () => {
           </div>
           <img
             src="/images/cyber-security-bg.png"
-            className=""
+            className="mt-30"
           />
         </div>
       </section>
       <Offerings offerings={cyberSecurityOfferings}/>
-      <TechStack/>
-      <Cards details={uidetails}/>
+      <TechStack techStackData={cyberSecurityStack}/>
+      <Cards details={cyberSecurityApproach}/>
       {/* <Expertise/> */}
       <ReachOut 
         heading={cyberSecurity.heading} 
