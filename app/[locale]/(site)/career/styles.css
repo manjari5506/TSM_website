@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 .hero-section {
   margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   /* padding: 100px; */
 }
 
@@ -22,17 +21,16 @@
   width: 100%; */
 }
 
- 
 .hero-text {
   margin-left: 44px;
-  color: #191242 ;
+  color: #191242;
   align-items: center;
 }
 
 .hero-text h1 {
   text-align: center;
   font-weight: bold;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 44px;
   line-height: 1.2;
   margin-bottom: 30px;
@@ -40,25 +38,24 @@
 }
 
 .hero-text p {
-  
   font-family: "Kodchasan";
   font-size: 1.2vmax;
   width: 60%;
   text-align: center;
   margin: 0 auto;
-  margin-top:1.2vmax;
+  margin-top: 1.2vmax;
   margin-bottom: 30px;
 }
 
-.button-container{
+.button-container {
   width: 100%;
   height: 100px;
- display: flex;
- align-items:center ;
- justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .job-button {
-  background-color: #191242 ;
+  background-color: #191242;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -80,68 +77,60 @@
 .innovation-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: center;
-  max-width: 85%; 
-  margin: 0 auto; 
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 .innovation-container h2 {
-  text-align: left; 
-  font-family: 'Playfair Display'; 
-  font-size: 40px; 
+  text-align: left;
+  font-family: "Playfair Display";
+  font-size: 40px;
   font-weight: bold;
-  margin-bottom: 1rem; 
-  color: #14213D; 
+  margin-bottom: 1rem;
+  color: #14213d;
 }
 
 .innovation-container p {
-  text-align: left; 
-  font-size: 1.2vmax; 
-  padding: 1rem 0; 
-  color: black; 
- 
+  text-align: left;
+  font-size: 1.2vmax;
+  padding: 1rem 0;
+  color: black;
 }
 
 .card-section {
-  display : flex;
-  gap : 2rem;
+  display: flex;
+  gap: 2rem;
   margin-top: 40px;
   border-radius: 15px;
-  
-
 }
 
 .card {
-  
   /* height: 300px;  */
   border-radius: 15px;
   background-color: #fff;
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); 
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
   width: fit-content;
- 
 }
 .card:hover {
-  
   transform: scale(1.05); /* Increase scale on hover */
   box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.3); /* Increased shadow on hover for depth */
-
-  
 }
 
- 
- 
-.content{
-  padding : 2rem 3rem
+.content {
+  padding: 2rem 3rem;
 }
 .card .content h3 {
   color: rgb(25 18 66 / var(--tw-text-opacity));
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   /* margin-bottom: 20px; */
 }
 
@@ -149,7 +138,7 @@
   font-size: 1rem;
   background: (90deg, #232b54 0%, #000b9e 70.87%);
   color: #555;
-  font-family: 'Kodchasan';
+  font-family: "Kodchasan";
 }
 
 .core-values {
@@ -157,56 +146,55 @@
   width: 300px;
 }
 
-
 .values {
-  color: #191242 ;
+  color: #191242;
 }
 
 .career-openings {
-  
   text-align: left;
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   /* margin-top: 70px; */
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
-.current{
- font-family: 'Playfair Display';
- font-size: 2rem;
+.current {
+  font-family: "Playfair Display";
+  font-size: 2rem;
 }
 
-.career-openings 
-{
+.career-openings {
   margin-left: 50px;
-  font-family: 'Playfair Display';
-  font-size:2rem ;
+  font-family: "Playfair Display";
+  font-size: 2rem;
 }
 
 .highlight {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 2rem;
   color: #214e7b;
 }
 
-
 .career-openings {
   padding: 20px;
-
 }
 
-
-
-.career-openings p {
-  margin-left: 50px;
-  margin-top: 50px;
-  font-family: 'Playfair Display';
-  font-size: 2rem;
+.career-openings p:first-child {
+  text-align: left;
+  font-family: "Playfair Display";
   font-weight: bold;
-  color: black
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-bottom: 1rem;
+  color: #14213d;
 }
-.text{
+
+.career-openings p:not(:first-child) {
+  text-align: left;
+  font-family: "Playfair Display";
+  color: #14213d;
+}
+.text {
   margin-left: 40px;
 }
-
 
 .job-listings {
   margin-top: 40px;
@@ -219,9 +207,7 @@
 /* .highlight {
   color: #e84c4f;
   /* Red for highlighted text */
-*/
-
-.openings-table {
+*/ .openings-table {
   margin-left: 40px;
   width: 100%;
   margin-top: 50px;
@@ -284,14 +270,12 @@
   /* max-width: 600px; */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease;
-  margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .job-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  border:  2px solid #94bbff;;
- 
+  border: 2px solid #14213d;
 }
 
 .job-image {
@@ -302,24 +286,23 @@
 }
 
 .job-info {
+  width: 100%;
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-evenly;
   align-items: center;
-  gap: 200px;
+  gap: 150px;
 }
 
 .job-info h3 {
-  font-family:"Kodchasan";
-  font-size: 2rem;
-  font-weight: bold;
+  /* font-family: "Kodchasan"; */
+  font-size: 1.5rem;
   margin-right: 10px;
   color: black;
 }
 
 .job-info p {
   font-size: 1.3rem;
-  color: #555;
-  margin: 5px 0 0;
+  margin: 0;
 }
 
 .job-action {
@@ -330,7 +313,6 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin-top: 20px;
 }
 
 .job-action .icon {
@@ -339,11 +321,12 @@
 }
 
 .job-action:hover {
-  background-color: #0077b6;
+  background-color: #14213d;
 }
 
 .job-action .icon:hover {
   color: white;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {

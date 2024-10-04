@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
- 
+
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -10,7 +10,6 @@ import LanguageToggler from "./LanguageToggler";
 import "./Header.scss";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
- 
 
 const Header = () => {
   const [navigationOpen, setNavigationOpen] = useState(false);
@@ -31,7 +30,6 @@ const Header = () => {
   useEffect(() => {
     window.addEventListener("scroll", handleStickyMenu);
   });
-  console.log(stickyMenu, "stickyMenu");
   return (
     <header
       className={`fixed left-0 top-0 z-99999 w-full py-2 ${
@@ -120,11 +118,13 @@ const Header = () => {
                               <Link
                                 href={item.path || "#"}
                                 className="flex items-center justify-center rounded-full bg-navy px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:scale-110"
-                              > 
-                                 {t(item.title)} 
+                              >
+                                {t(item.title)}
                               </Link>
                             ) : (
-                              <Link href={item.path || "#"}>{t(item.title)}</Link>
+                              <Link href={item.path || "#"}>
+                                {t(item.title)}
+                              </Link>
                             )}
                           </li>
                         ))}
@@ -150,7 +150,7 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <Link
               href="/contact"
-              className="flex items-center justify-center rounded-full bg-navy w-[14rem] px-7.5 py-2.5 text-normal text-white duration-300 ease-in-out hover:scale-110"
+              className="text-normal flex w-[14rem] items-center justify-center rounded-full bg-navy px-7.5 py-2.5 text-white duration-300 ease-in-out hover:scale-110"
             >
               {t("contactUs")}
             </Link>

@@ -100,25 +100,19 @@ const menuData = [
     newTab: false,
     path: "/blog",
   },
-  
 ];
-export const LanguageData = [{
-      
-  id: 1,
-  title: "english",  
-  newTab: false,
-  path: "/en",
-  
-
-
-},{
-
-id: 2,
-title: "french",  
-newTab: false,
-path: "/",
-
-
-
-}]
+export const LanguageData = [
+  {
+    id: 1,
+    title: "english",
+    newTab: false,
+    path: "/en",
+  },
+  {
+    id: 2,
+    title: "french",
+    newTab: false,
+    path: "/",
+  },
+];
 export default menuData;
