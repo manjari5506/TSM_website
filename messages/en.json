@@ -13,14 +13,17 @@
       "iotAutomation": "IoT & Automation",
       "systemDesign": "System Design",
       "bigData": "Big Data",
-      "wordpressDevelopment" : "Wordpress Development",
+      "wordpressDevelopment": "Wordpress Development",
       "uiUx": "UI/UX",
       "cyberSecurity": "Cybersecurity",
-      "viewall" : "View All"
+      "viewall": "View All"
     },
     "careers": "Careers",
     "blogs": "Blogs",
-    "contactUs": "Contact Us"
+    "contactUs": "Contact Us",
+    "locales": {
+      "en": "English",
+      "fr": "French"
+    }
   }
-  
 }

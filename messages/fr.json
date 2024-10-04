@@ -20,7 +20,10 @@
     },
     "careers": "Carrières",
     "blogs": "Blogs",
-    "contactUs": "Nous contacter"
-   
-  } 
+    "contactUs": "Nous contacter",
+    "locales": {
+      "en": "Anglais",
+      "fr": "Français"
+    }
+  }
 }

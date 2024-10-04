@@ -1,3 +1,4 @@
+"use client";
 import { FloatButton } from "antd";
 import { useEffect, useState } from "react";
 import "./style.scss";
