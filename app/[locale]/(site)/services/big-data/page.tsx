@@ -1,9 +1,9 @@
-'use client';
+"use client";
 import React from "react";
 import "./styles.scss";
 import Offerings from "@/components/services/common/Offerings-card/Offerings";
 import ReachOut from "@/components/services/common/ReachOut-card/ReachOut";
-import Cards from "@/components/services/common/process-card/Cards"
+import Cards from "@/components/services/common/process-card/Cards";
 import TechStack from "@/components/services/common/tech-stack/TechStack";
 import { bigDataOfferings } from "@/components/services/common/Offerings-card/offeringsData";
 import { bigDataApproach } from "@/components/services/common/process-card/CardsData";
@@ -14,32 +14,32 @@ const page = () => {
   return (
     <>
       <section className=" bg-beige pb-10">
-        <div className="relative mx-auto w-[90%] mb-[5rem] flex flex-row">
+        <div className="relative mx-auto mb-[5rem] flex w-[90%] flex-row">
           <div className="relative z-1 w-[50rem] px-[5rem] pt-[15rem] text-left">
-            <h1 className="hero-heading py-2 font-playfair text-5xl font-bold text-left">
-              Leverage the Power <br></br>of <span className="text-5xl font-playfair">Big Data</span> <br></br>
+            <h1 className="hero-heading py-2 text-left font-playfair text-5xl font-bold">
+              Leverage the Power <br></br>of{" "}
+              <span className="font-playfair text-5xl">Big Data</span> <br></br>
             </h1>
             <p className="py-3 text-lg text-navy">
-              Take your business to the next level by hiring our expert Big Data analysts and engineers
-              to unlock actionable insights that drive strategic decisions.
+              Take your business to the next level by hiring our expert Big Data
+              analysts and engineers to unlock actionable insights that drive
+              strategic decisions.
             </p>
             {/* <button className="mt-5 rounded-3xl bg-navy px-9 py-3 text-white   hover:opacity-80">
             Contact Us
           </button> */}
           </div>
-          <img
-            src="/images/cloud-bg.png"
-            className="mt-40 mr-10"
-          />
+          <img src="/images/cloud-bg.png" className="mr-10 mt-40" />
         </div>
       </section>
-      <Offerings offerings={bigDataOfferings}/>
-      <TechStack techStackData={bigDataStack}/>
-      <Cards details={bigDataApproach}/>
-      <ReachOut 
-        heading={bigData.heading} 
-        subheading={bigData.subheading} 
-        image={bigData.image} 
+      <Offerings offerings={bigDataOfferings} type="appservices" />
+      <TechStack techStackData={bigDataStack} type="appservices" />
+      <Cards details={bigDataApproach} type="appservices" />
+      <ReachOut
+        type="appservices"
+        heading={bigData.heading}
+        subheading={bigData.subheading}
+        image={bigData.image}
       />
     </>
   );
