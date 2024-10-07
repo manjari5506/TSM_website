@@ -1,38 +1,82 @@
-// export const techStackData = {
-//     heading: "Our Technology Stack",
-//     subheading: "Explore the tools we use to create outstanding solutions",
-//     categories: [
-//       {
-//         categoryName: "Frontend",
-//         stack: [
-//           { name: "React", img: "/images/ui-ux/react.png" },
-//           { name: "Next.js",img: "/images/ui-ux/react.png" },
-//           { name: "Vue.js", img: "/images/ui-ux/react.png"},
-//           { name: "Vue.js", img: "/images/ui-ux/react.png"},
-//           { name: "Vue.js", img: "/images/ui-ux/react.png"},
-//           { name: "Vue.js", img: "/images/ui-ux/react.png"},
-//           { name: "Vue.js", img: "/images/ui-ux/react.png"},
-//         ],
-//       },
-//       {
-//         categoryName: "Backend",
-//         stack: [
-//           { name: "Node.js", img: "/images/ui-ux/react.png"},
-//           { name: "Django", img: "/images/ui-ux/react.png" },
-//           { name: "Ruby on Rails",img: "/images/ui-ux/react.png"},
-//         ],
-//       },
-//       {
-//         categoryName: "Database",
-//         stack: [
-//           { name: "MongoDB", img: "/images/ui-ux/react.png" },
-//           { name: "PostgreSQL", img: "/images/ui-ux/react.png" },
-//           { name: "MySQL", img: "/images/ui-ux/react.png" },
-//         ],
-//       },
-      
-//     ],
-//   };
+import WordPressDevelopmentSVG from "@/components/FeaturesSVG/WordPressDevelopmentSVG";
+import AdobeXDSVG from "@/components/StackSVG/Adobexd";
+import AWSIcon from "@/components/StackSVG/amazonwebservices";
+import AngularSVG from "@/components/StackSVG/angular";
+import AnsibleSVG from "@/components/StackSVG/ansible";
+import ApacheCassandra from "@/components/StackSVG/apachecassandra";
+import ApacheFlink from "@/components/StackSVG/apacheflink";
+import ApacheHadoop from "@/components/StackSVG/apachehadoop";
+import ApacheHive from "@/components/StackSVG/apachehive";
+import ApacheSparkSVG from "@/components/StackSVG/apachespark";
+import ApacheStormSVG from "@/components/StackSVG/apachestorm";
+import ArduinoSVG from "@/components/StackSVG/arduino";
+import Bamboo from "@/components/StackSVG/bamboo";
+import BitdefenderSVG from "@/components/StackSVG/bitdefender";
+import Bluetooth from "@/components/StackSVG/bluetooth";
+import C from "@/components/StackSVG/c-color";
+import CircleCISVG from "@/components/StackSVG/circleci";
+import CSS3 from "@/components/StackSVG/css3";
+import D3jsSVG from "@/components/StackSVG/d3dotjs";
+import DatadogSVG from "@/components/StackSVG/datadog";
+import Docker from "@/components/StackSVG/docker";
+import ElasticStackSVG from "@/components/StackSVG/elasticstack";
+import FigmaSVG from "@/components/StackSVG/figma";
+import Firebase from "@/components/StackSVG/firebase";
+import Firewalla from "@/components/StackSVG/firewalla";
+import Flutter from "@/components/StackSVG/flutter";
+import Fortinet from "@/components/StackSVG/fortinet";
+import Framer from "@/components/StackSVG/framer";
+import GitLabSVG from "@/components/StackSVG/gitlab";
+import Go from "@/components/StackSVG/go";
+import GoogleCloud from "@/components/StackSVG/googlecloud";
+import Grafana from "@/components/StackSVG/grafana";
+import GutenbergSVG from "@/components/StackSVG/gutenberg";
+import HTML5 from "@/components/StackSVG/html5";
+import InVisionSVG from "@/components/StackSVG/invision";
+import JavaScriptSVG from "@/components/StackSVG/javascript";
+import JenkinsSVG from "@/components/StackSVG/jenkins";
+import Keras from "@/components/StackSVG/keras";
+import KotlinSVG from "@/components/StackSVG/kotlin";
+import Kubernetes from "@/components/StackSVG/kubernetes";
+import MarvelApp from "@/components/StackSVG/marvelapp";
+import McAfeeSVG from "@/components/StackSVG/mcafee";
+import Miro from "@/components/StackSVG/miro";
+import MongoDB from "@/components/StackSVG/mongodb";
+import MQTT from "@/components/StackSVG/mqtt";
+import MySQL from "@/components/StackSVG/mysql";
+import NextJS from "@/components/StackSVG/nextdotjs";
+import NodeJS from "@/components/StackSVG/nodedotjs";
+import NortonSVG from "@/components/StackSVG/norton";
+import PaloAltoNetworks from "@/components/StackSVG/paloaltonetworks";
+import PostgreSQL from "@/components/StackSVG/postgresql";
+import PrometheusSVG from "@/components/StackSVG/prometheus";
+import Python from "@/components/StackSVG/python";
+import PyTorchSVG from "@/components/StackSVG/pytorch";
+import R from "@/components/StackSVG/r";
+import RaspberryPiSVG from "@/components/StackSVG/raspberrypi";
+import ReactSVG from "@/components/StackSVG/react";
+import RedisSVG from "@/components/StackSVG/redis";
+import RubyOnRailsSVG from "@/components/StackSVG/rubyonrails";
+import ScikitLearnSVG from "@/components/StackSVG/scikitlearn";
+import Sketch from "@/components/StackSVG/sketch";
+import Slack from "@/components/StackSVG/slack";
+import SonarQube from "@/components/StackSVG/sonarqube";
+import SplunkSVG from "@/components/StackSVG/splunk";
+import SwiftSVG from "@/components/StackSVG/swift";
+import Tableau from "@/components/StackSVG/tableau";
+import TerraformSVG from "@/components/StackSVG/terraform";
+import Trello from "@/components/StackSVG/trello";
+import Vault from "@/components/StackSVG/vault";
+import VueJsSVG from "@/components/StackSVG/vuedotjs";
+import WooCommerce from "@/components/StackSVG/woocommerce";
+import WPRocketSVG from "@/components/StackSVG/wprocket";
+import YoastSVG from "@/components/StackSVG/yoast";
+import Zigbee from "@/components/StackSVG/zigbee";
+import { Wifi } from "lucide-react";
+import { Lora } from "next/font/google";
+import { TLSSocket } from "tls";
+
+
   
 export const appDevelopmentStack = {
   heading: "Technologies We Use",
@@ -41,352 +85,344 @@ export const appDevelopmentStack = {
     {
       categoryName: "Mobile",
       stack: [
-        { name: "Swift", img: "/images/ui-ux/react.png"  },
-        { name: "Kotlin", img: "/images/ui-ux/react.png" },
-        { name: "React Native", img: "/images/ui-ux/react.png" },
-        { name: "Flutter", img: "/images/ui-ux/react.png" }
+        { name: "Swift", img: <SwiftSVG/> },
+        { name: "Kotlin", img: <KotlinSVG/> },
+        { name: "React Native", img: <ReactSVG/> },
+        { name: "Flutter", img: <Flutter/> }
       ]
     },
     {
       categoryName: "Web",
       stack: [
-        { name: "React", img: "/images/ui-ux/react.png" },
-        { name: "Angular", img: "/images/ui-ux/react.png" },
-        { name: "Vue.js", img: "/images/ui-ux/react.png" },
-        { name: "Node.js", img: "/images/ui-ux/react.png" }
+        { name: "React", img: <ReactSVG/> },
+        { name: "Angular", img: <AngularSVG/> },
+        { name: "Vue.js", img: <VueJsSVG/> },
+        { name: "Node.js", img: <NodeJS/>}
       ]
     },
     {
       categoryName: "Back-End",
       stack: [
-        { name: "Python", img: "/images/ui-ux/react.png" },
-        { name: "Java", img: "/images/ui-ux/react.png" },
-        { name: "Ruby on Rails", img: "/images/ui-ux/react.png" },
-        { name: "PHP", img: "/images/ui-ux/react.png" }
+        { name: "Python", img: <Python/> },
+        { name: "Java", img: <JavaScriptSVG/> },
+        { name: "Ruby on Rails", img: <RubyOnRailsSVG/> },
+        { name: "PHP", img: "" }
       ]
     },
     {
       categoryName: "Databases",
       stack: [
-        { name: "MySQL", img: "/images/tech-stack/mysql.png" },
-        { name: "MongoDB", img: "/images/tech-stack/mongodb.png" },
-        { name: "PostgreSQL", img: "/images/tech-stack/postgresql.png" },
-        { name: "Firebase", img: "/images/tech-stack/firebase.png" }
+        { name: "MySQL", img: <MySQL/> },
+        { name: "MongoDB", img: <MongoDB/> },
+        { name: "PostgreSQL", img: <PostgreSQL/> },
+        { name: "Firebase", img: <Firebase/> }
       ]
     },
     {
       categoryName: "Cloud Services",
       stack: [
-        { name: "AWS", img: "/images/tech-stack/aws.png" },
-        { name: "Google Cloud", img: "/images/tech-stack/google-cloud.png" },
-        { name: "Microsoft Azure", img: "/images/tech-stack/azure.png" }
+        { name: "AWS", img: <AWSIcon/> },
+        { name: "Google Cloud", img: <GoogleCloud/> },
+        { name: "Microsoft Azure", img: "" }
       ]
     }
   ]
 };
 
 export const wordpressStack = {
-  heading: "Tools & Technologies We Use for WordPress Development",
+  heading: "Tools and Technologies We Use for WordPress Development",
   subheading: "Explore the tools we use to create outstanding WordPress solutions",
   categories: [
     {
       categoryName: "WordPress Builder Tools",
       stack: [
-        { name: "Elementor", img: "/images/wordpress/elementor.png" },
-        { name: "Divi", img: "/images/wordpress/divi.png" },
-        { name: "Gutenberg", img: "/images/wordpress/gutenberg.png" }
+        { name: "Elementor", img: <AdobeXDSVG/>, },
+        { name: "Divi", img: "" },
+        { name: "Gutenberg", img: <GutenbergSVG/> }
       ]
     },
     {
       categoryName: "SEO Tools",
       stack: [
-        { name: "Yoast SEO", img: "/images/wordpress/yoast-seo.png" },
-        { name: "All-in-One SEO Pack", img: "/images/wordpress/all-in-one-seo.png" }
+        { name: "Yoast SEO", img: <YoastSVG/> },
+        { name: "All-in-One SEO Pack", img: "" }
       ]
     },
     {
       categoryName: "Security",
       stack: [
-        { name: "Wordfence", img: "/images/wordpress/wordfence.png" },
-        { name: "Sucuri", img: "/images/wordpress/sucuri.png" }
+        { name: "Wordfence", img: <WordPressDevelopmentSVG/> },
+        { name: "Sucuri", img: "" }
       ]
     },
     {
       categoryName: "Performance Optimization",
       stack: [
-        { name: "WP Rocket", img: "/images/wordpress/wp-rocket.png" },
-        { name: "W3 Total Cache", img: "/images/wordpress/w3-total-cache.png" }
+        { name: "WP Rocket", img: <WPRocketSVG/> },
+        { name: "W3 Total Cache", img: "" }
       ]
     },
     {
       categoryName: "eCommerce",
       stack: [
-        { name: "WooCommerce", img: "/images/wordpress/woocommerce.png" },
-        { name: "Easy Digital Downloads", img: "/images/wordpress/easy-digital-downloads.png" }
+        { name: "WooCommerce", img: <WooCommerce/> },
+        { name: "Easy Digital Downloads", img: "" }
       ]
     }
   ]
 };
 
 export const systemDesignStack = {
-  heading: "Tools & Technologies We Use",
+  heading: "Tools and Technologies We Use",
   subheading: "Explore the tools and technologies we leverage to create exceptional cloud and infrastructure solutions",
   categories: [
     {
       categoryName: "Cloud Platforms",
       stack: [
-        { name: "AWS", img: "/images/tech/aws.png" },
-        { name: "Azure", img: "/images/tech/azure.png" },
-        { name: "Google Cloud", img: "/images/tech/google-cloud.png" }
+        { name: "AWS", img: <AWSIcon/> },
+        { name: "Azure", img: "" },
+        { name: "Google Cloud", img: <GoogleCloud/> }
       ]
     },
     {
       categoryName: "Databases",
       stack: [
-        { name: "MySQL", img: "/images/tech/mysql.png" },
-        { name: "PostgreSQL", img: "/images/tech/postgresql.png" },
-        { name: "MongoDB", img: "/images/tech/mongodb.png" },
-        { name: "Redis", img: "/images/tech/redis.png" }
+        { name: "MySQL", img: <MySQL/> },
+        { name: "PostgreSQL", img: <PostgreSQL/> },
+        { name: "MongoDB", img: <MongoDB/> },
+        { name: "Redis", img: <RedisSVG/> }
       ]
     },
     {
       categoryName: "Languages",
       stack: [
-        { name: "Java", img: "/images/tech/java.png" },
-        { name: "Python", img: "/images/tech/python.png" },
-        { name: "Go", img: "/images/tech/go.png" },
-        { name: "Node.js", img: "/images/tech/nodejs.png" },
-        { name: "C#", img: "/images/tech/csharp.png" }
+        { name: "Java", img: <JavaScriptSVG/> },
+        { name: "Python", img: <Python/> },
+        { name: "Go", img: <Go/> },
+        { name: "Node.js", img: <NodeJS/> },
+        { name: "C#", img: <C/> }
       ]
     },
     {
       categoryName: "DevOps Tools",
       stack: [
-        { name: "Jenkins", img: "/images/tech/jenkins.png" },
-        { name: "Docker", img: "/images/tech/docker.png" },
-        { name: "Kubernetes", img: "/images/tech/kubernetes.png" },
-        { name: "Ansible", img: "/images/tech/ansible.png" },
-        { name: "Terraform", img: "/images/tech/terraform.png" }
+        { name: "Jenkins", img: <JenkinsSVG/>},
+        { name: "Docker", img: <Docker/> },
+        { name: "Kubernetes", img: <Kubernetes/> },
+        { name: "Ansible", img: <AnsibleSVG/> },
+        { name: "Terraform", img: <TerraformSVG/> }
       ]
     },
     {
       categoryName: "Monitoring Tools",
       stack: [
-        { name: "Grafana", img: "/images/tech/grafana.png" },
-        { name: "Prometheus", img: "/images/tech/prometheus.png" },
-        { name: "ELK Stack", img: "/images/tech/elk.png" }
+        { name: "Grafana", img: <Grafana/>},
+        { name: "Prometheus", img: <PrometheusSVG/> },
+        { name: "ELK Stack", img: <ElasticStackSVG/> }
       ]
     }
   ]
 };
 
 export const automationStack = {
-  heading: "Tools & Technologies We Use",
+  heading: "Tools and Technologies We Use",
   subheading: "Explore the tools and technologies we use to build innovative IoT solutions",
   categories: [
     {
       categoryName: "IoT Platforms",
       stack: [
-        { name: "AWS IoT", img: "/images/iot/aws-iot.png" },
-        { name: "Google Cloud IoT", img: "/images/iot/google-cloud-iot.png" },
-        { name: "Microsoft Azure IoT Hub", img: "/images/iot/azure-iot-hub.png" }
+        { name: "AWS IoT", img: <AWSIcon/> },
+        { name: "Google Cloud IoT", img: <GoogleCloud/>},
+        { name: "Microsoft Azure IoT Hub", img: "" }
       ]
     },
     {
       categoryName: "Development Tools",
       stack: [
-        { name: "Node-RED", img: "/images/iot/node-red.png" },
-        { name: "MQTT", img: "/images/iot/mqtt.png" },
-        { name: "Raspberry Pi", img: "/images/iot/raspberry-pi.png" },
-        { name: "Arduino", img: "/images/iot/arduino.png" }
+        { name: "Node-RED", img: <NodeJS/> },
+        { name: "MQTT", img: <MQTT/> },
+        { name: "Raspberry Pi", img: <RaspberryPiSVG/> },
+        { name: "Arduino", img: <ArduinoSVG/> }
       ]
     },
     {
       categoryName: "Connectivity Protocols",
       stack: [
-        { name: "Wi-Fi", img: "/images/iot/wifi.png" },
-        { name: "Bluetooth", img: "/images/iot/bluetooth.png" },
-        { name: "Zigbee", img: "/images/iot/zigbee.png" },
-        { name: "LoRa", img: "/images/iot/lora.png" },
-        { name: "NB-IoT", img: "/images/iot/nb-iot.png" }
+        { name: "Wi-Fi", img: <Wifi/> },
+        { name: "Bluetooth", img: <Bluetooth/> },
+        { name: "Zigbee", img: <Zigbee/> },
+        { name: "LoRa", img: ""},
+        { name: "NB-IoT", img: "" }
       ]
     },
     {
       categoryName: "Security Tools",
       stack: [
-        { name: "TLS/SSL", img: "/images/iot/tls-ssl.png" },
-        { name: "AES Encryption", img: "/images/iot/aes-encryption.png" },
-        { name: "Firewalls", img: "/images/iot/firewall.png" }
+        { name: "TLS/SSL", img: "" },
+        { name: "AES Encryption", img: "" },
+        { name: "Firewalls", img: <Firewalla/> }
       ]
     }
   ]
 };
 
 export const bigDataStack = {
-  heading: "Tools & Technologies We Use",
+  heading: "Tools and Technologies We Use",
   subheading: "Explore the powerful tools and technologies we leverage to drive data-driven solutions.",
   categories: [
     {
       categoryName: "Data Management Tools",
       stack: [
-        { name: "Hadoop", img: "/images/tech-stack/hadoop.png" },
-        { name: "Apache Hive", img: "/images/tech-stack/apache-hive.png" },
-        { name: "Apache Flink", img: "/images/tech-stack/apache-flink.png" },
-        { name: "Cassandra", img: "/images/tech-stack/cassandra.png" }
+        { name: "Hadoop", img: <ApacheHadoop/> },
+        { name: "Apache Hive", img: <ApacheHive/> },
+        { name: "Apache Flink", img: <ApacheFlink/> },
+        { name: "Cassandra", img: <ApacheCassandra/> }
       ]
     },
     {
       categoryName: "Processing Frameworks",
       stack: [
-        { name: "Apache Spark", img: "/images/tech-stack/apache-spark.png" },
-        { name: "Apache Kafka", img: "/images/tech-stack/apache-kafka.png" },
-        { name: "Apache Storm", img: "/images/tech-stack/apache-storm.png" }
+        { name: "Apache Spark", img: <ApacheSparkSVG/>},
+        { name: "Kafka", img: "" },
+        { name: "Storm", img: <ApacheStormSVG/> }
       ]
     },
     {
-      categoryName: "Visualization Tools",
+      categoryName: "Data Storage",
       stack: [
-        { name: "Tableau", img: "/images/tech-stack/tableau.png" },
-        { name: "Power BI", img: "/images/tech-stack/power-bi.png" },
-        { name: "Google Data Studio", img: "/images/tech-stack/google-data-studio.png" }
+        { name: "Amazon S3", img: <AWSIcon/> },
+        { name: "HDFS", img: "" },
+        { name: "Google BigQuery", img:<GoogleCloud/> }
       ]
     },
     {
-      categoryName: "Machine Learning",
+      categoryName: "Analytics Tools",
       stack: [
-        { name: "TensorFlow", img: "/images/tech-stack/tensorflow.png" },
-        { name: "Keras", img: "/images/tech-stack/keras.png" },
-        { name: "Scikit-learn", img: "/images/tech-stack/scikit-learn.png" },
-        { name: "PyTorch", img: "/images/tech-stack/pytorch.png" }
-      ]
-    },
-    {
-      categoryName: "Cloud Platforms",
-      stack: [
-        { name: "AWS", img: "/images/tech-stack/aws.png" },
-        { name: "Microsoft Azure", img: "/images/tech-stack/azure.png" },
-        { name: "Google Cloud", img: "/images/tech-stack/google-cloud.png" }
+        { name: "Tableau", img: <Tableau/> },
+        { name: "Power BI", img: "" },
+        { name: "Qlik", img: "" }
       ]
     }
   ]
 };
 
+
 export const cyberSecurityStack = {
-  heading: "Tools & Technologies We Use",
+  heading: "Tools and Technologies We Use",
   subheading: "Explore the tools we use to enhance security and monitoring solutions",
   categories: [
     {
       categoryName: "Security Tools",
       stack: [
-        { name: "Cisco", img: "/images/ui-ux/cisco.png" },
-        { name: "Fortinet", img: "/images/ui-ux/fortinet.png" },
-        { name: "Palo Alto Networks", img: "/images/ui-ux/palo-alto.png" }
+        { name: "Cisco", img: "" },
+        { name: "Fortinet", img: <Fortinet/> },
+        { name: "Palo Alto Networks", img: <PaloAltoNetworks/> }
       ]
     },
     {
       categoryName: "Monitoring Tools",
       stack: [
-        { name: "Splunk", img: "/images/ui-ux/splunk.png" },
-        { name: "Darktrace", img: "/images/ui-ux/darktrace.png" },
-        { name: "SIEM Solutions", img: "/images/ui-ux/siem.png" }
+        { name: "Splunk", img: <SplunkSVG/> },
+        { name: "Darktrace", img: "" },
+        { name: "SIEM Solutions", img: "" }
       ]
     },
     {
       categoryName: "Cloud Security",
       stack: [
-        { name: "AWS Security Hub", img: "/images/ui-ux/aws-security.png" },
-        { name: "Microsoft Azure Security Center", img: "/images/ui-ux/azure-security.png" }
+        { name: "AWS Security Hub", img: <AWSIcon/> },
+        { name: "Microsoft Azure Security Center", img: "" }
       ]
     },
     {
       categoryName: "Endpoint Protection",
       stack: [
-        { name: "Norton", img: "/images/ui-ux/norton.png" },
-        { name: "McAfee", img: "/images/ui-ux/mcafee.png" },
-        { name: "Bitdefender", img: "/images/ui-ux/bitdefender.png" }
+        { name: "Norton", img: <NortonSVG/> },
+        { name: "McAfee", img: <McAfeeSVG/> },
+        { name: "Bitdefender", img: <BitdefenderSVG/> }
       ]
     }
   ]
 };
 
-export const dataSciencsStack = {
-  heading: "Tools & Technologies We Use",
+export const dataScienceStack = {
+  heading: "Tools and Technologies We Use",
   subheading: "Explore the tools we use to create outstanding solutions",
   categories: [
     {
       categoryName: "Data Analytics",
       stack: [
-        { name: "Python", img: "/images/ui-ux/python.png" },
-        { name: "R", img: "/images/ui-ux/r.png" },
-        { name: "SQL", img: "/images/ui-ux/sql.png" },
-        { name: "Excel", img: "/images/ui-ux/excel.png" }
+        { name: "Python", img: <Python/> },
+        { name: "R", img: <R/> },
+        { name: "SQL", img: <MySQL/> },
+        { name: "Excel", img: "" }
       ]
     },
     {
       categoryName: "Machine Learning",
       stack: [
-        { name: "TensorFlow", img: "/images/ui-ux/tensorflow.png" },
-        { name: "Keras", img: "/images/ui-ux/keras.png" },
-        { name: "Scikit-learn", img: "/images/ui-ux/scikit-learn.png" },
-        { name: "PyTorch", img: "/images/ui-ux/pytorch.png" }
+        { name: "TensorFlow", img: <TerraformSVG/> },
+        { name: "Keras", img: <Keras/> },
+        { name: "Scikit-learn", img: <ScikitLearnSVG/> },
+        { name: "PyTorch", img: <PyTorchSVG/> }
       ]
     },
     {
       categoryName: "Visualization",
       stack: [
-        { name: "Power BI", img: "/images/ui-ux/powerbi.png" },
-        { name: "Tableau", img: "/images/ui-ux/tableau.png" },
-        { name: "D3.js", img: "/images/ui-ux/d3js.png" }
+        { name: "Power BI", img: "" },
+        { name: "Tableau", img: <Tableau/> },
+        { name: "D3.js", img: <D3jsSVG/> }
       ]
     },
     {
       categoryName: "Cloud Platforms",
       stack: [
-        { name: "AWS", img: "/images/ui-ux/aws.png" },
-        { name: "Azure", img: "/images/ui-ux/azure.png" },
-        { name: "Google Cloud", img: "/images/ui-ux/google-cloud.png" }
+        { name: "AWS", img: <AWSIcon/> },
+        { name: "Azure", img: "" },
+        { name: "Google Cloud", img: <GoogleCloud/> }
       ]
     }
   ]
 };
 
 export const cloudDevopsStack = {
-  heading: "Tools & Technologies We Use",
+  heading: "Tools and Technologies We Use",
   subheading: "Explore the tools we use to create outstanding solutions",
   categories: [
     {
       categoryName: "Cloud Platforms",
       stack: [
-        { name: "AWS", img: "/images/ui-ux/aws.png" },
-        { name: "Microsoft Azure", img: "/images/ui-ux/azure.png" },
-        { name: "Google Cloud Platform (GCP)", img: "/images/ui-ux/gcp.png" }
+        { name: "AWS", img: <AWSIcon/> },
+        { name: "Microsoft Azure", img: "" },
+        { name: "Google Cloud Platform (GCP)", img: <GoogleCloud/>}
       ]
     },
     {
       categoryName: "DevOps Tools",
       stack: [
-        { name: "Jenkins", img: "/images/ui-ux/jenkins.png" },
-        { name: "Docker", img: "/images/ui-ux/docker.png" },
-        { name: "Kubernetes", img: "/images/ui-ux/kubernetes.png" },
-        { name: "Terraform", img: "/images/ui-ux/terraform.png" },
-        { name: "Ansible", img: "/images/ui-ux/ansible.png" }
+        { name: "Jenkins", img: <JenkinsSVG/> },
+        { name: "Docker", img: <Docker/> },
+        { name: "Kubernetes", img: <Kubernetes/> },
+        { name: "Terraform", img: <TerraformSVG/> },
+        { name: "Ansible", img: <AnsibleSVG/> }
       ]
     },
     {
       categoryName: "Security Tools",
       stack: [
-        { name: "Vault", img: "/images/ui-ux/vault.png" },
-        { name: "SonarQube", img: "/images/ui-ux/sonarqube.png" },
-        { name: "Splunk", img: "/images/ui-ux/splunk.png" },
-        { name: "Datadog", img: "/images/ui-ux/datadog.png" }
+        { name: "Vault", img: <Vault/> },
+        { name: "SonarQube", img: <SonarQube/> },
+        { name: "Splunk", img: <SplunkSVG/> },
+        { name: "Datadog", img: <DatadogSVG/> }
       ]
     },
     {
       categoryName: "CI/CD Tools",
       stack: [
-        { name: "CircleCI", img: "/images/ui-ux/circleci.png" },
-        { name: "GitLab", img: "/images/ui-ux/gitlab.png" },
-        { name: "Bamboo", img: "/images/ui-ux/bamboo.png" }
+        { name: "CircleCI", img: <CircleCISVG/> },
+        { name: "GitLab", img: <GitLabSVG/> },
+        { name: "Bamboo", img: <Bamboo/> }
       ]
     }
   ]
@@ -399,39 +435,38 @@ export const uiuxStack = {
     {
       categoryName: "Design Tools",
       stack: [
-        { name: "Figma", img: "/images/ui-ux/figma.png" },
-        { name: "Adobe XD", img: "/images/ui-ux/adobe-xd.png" },
-        { name: "Sketch", img: "/images/ui-ux/sketch.png" },
-        { name: "InVision", img: "/images/ui-ux/invision.png" }
+        { name: "Figma", img: <FigmaSVG/> },
+        { name: "Adobe XD", img: <AdobeXDSVG/> },
+        { name: "Sketch", img: <Sketch/> },
+        { name: "InVision", img: <InVisionSVG/> }
       ]
     },
     {
       categoryName: "Prototyping Tools",
       stack: [
-        { name: "Axure RP", img: "/images/ui-ux/axure.png" },
-        { name: "Marvel App", img: "/images/ui-ux/marvel.png" },
-        { name: "Framer", img: "/images/ui-ux/framer.png" }
+        { name: "Axure RP", img: "" },
+        { name: "Marvel App", img: <MarvelApp/> },
+        { name: "Framer", img: <Framer/> }
       ]
     },
     {
       categoryName: "Collaboration Tools",
       stack: [
-        { name: "Miro", img: "/images/ui-ux/miro.png" },
-        { name: "Trello", img: "/images/ui-ux/trello.png" },
-        { name: "Slack", img: "/images/ui-ux/slack.png" }
+        { name: "Miro", img: <Miro/> },
+        { name: "Trello", img: <Trello/> },
+        { name: "Slack", img: <Slack/> }
       ]
     },
     {
       categoryName: "Development Tools",
       stack: [
-        { name: "React", img: "/images/ui-ux/react.png" },
-        { name: "Next.js", img: "/images/ui-ux/nextjs.png" },
-        { name: "Vue.js", img: "/images/ui-ux/vuejs.png" },
-        { name: "HTML5", img: "/images/ui-ux/html5.png" },
-        { name: "CSS3", img: "/images/ui-ux/css3.png" }
+        { name: "React", img: <ReactSVG/> },
+        { name: "Next.js", img: <NextJS/> },
+        { name: "Vue.js", img: <VueJsSVG/> },
+        { name: "HTML5", img: <HTML5/> },
+        { name: "CSS3", img: <CSS3/> }
       ]
     }
   ]
 };
-
 

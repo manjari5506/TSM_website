@@ -1,3 +1,10 @@
+import Icon1 from "@/components/servicseSVG/icon1";
+import Icon2 from "@/components/servicseSVG/icon2";
+import Icon3 from "@/components/servicseSVG/icon3";
+import Icon4 from "@/components/servicseSVG/icon4";
+import Icon5 from "@/components/servicseSVG/icon5";
+import Icon6 from "@/components/servicseSVG/icon6";
+
 export const bigDataOfferings = {
   heading: "Our Big Data Services",
   subheading: "Take your business to the next level by leveraging our expert UI/UX design services. We focus on creating immersive and engaging designs that drive user satisfaction and business success.",
@@ -232,12 +239,12 @@ export const bigDataOfferings = {
   export const appDevelopmentOfferings= {
     heading: "Our App Development Services",
     subheading: "Take your business to the next level by leveraging our expert app development services. We focus on creating scalable, secure, and high-performing applications that drive business success.",
-    logo:  "/images/logo/appDevelopmentLogo.svg" ,
     content: [
       {
         id: 1,
         heading: "Custom Mobile App Development",
         subheading: "We create fully customized mobile applications that are scalable, secure, and high-performing. Whether you need a consumer-facing app or a complex enterprise solution, we deliver on your unique business needs.",
+        logo:  <Icon2/> ,
         description: [
           "iOS App Development: Develop native apps for the iOS platform that adhere to Apple’s guidelines.",
           "Android App Development: Create Android apps that deliver smooth experiences on all devices and screen sizes.",
@@ -248,6 +255,7 @@ export const bigDataOfferings = {
         id: 2,
         heading: "Web App Development",
         subheading: "Our web app development services focus on creating fast, responsive, and secure web applications that offer a seamless user experience on all devices.",
+        logo:  <Icon6/> ,
         description: [
           "Progressive Web Apps (PWAs): Build apps that combine the best of both web and mobile experiences.",
           "Single-Page Applications (SPAs): Create fast and responsive SPAs using frameworks like Angular, React, and Vue.js.",
@@ -258,6 +266,7 @@ export const bigDataOfferings = {
         id: 3,
         heading: "Enterprise App Development",
         subheading: "We specialize in developing enterprise-grade applications that streamline operations, enhance productivity, and drive business growth.",
+        logo:  <Icon3/> ,
         description: [
           "Enterprise Resource Planning (ERP) Apps: Integrate all your business processes into a single, centralized platform.",
           "Customer Relationship Management (CRM) Apps: Develop custom CRM systems that enhance customer interactions and improve sales outcomes.",
@@ -268,6 +277,7 @@ export const bigDataOfferings = {
         id: 4,
         heading: "E-commerce App Development",
         subheading: "We provide end-to-end e-commerce app development services, enabling you to deliver a seamless shopping experience to your customers.",
+        logo:  <Icon4/> ,
         description: [
           "Custom E-commerce Solutions: Build tailor-made e-commerce platforms with personalized user experiences.",
           "Mobile Commerce: Enable seamless shopping on mobile with high-performance mobile commerce apps.",
@@ -278,6 +288,7 @@ export const bigDataOfferings = {
         id: 5,
         heading: "App Maintenance & Support",
         subheading: "Our app maintenance services ensure that your app stays updated, secure, and performs optimally over time.",
+        logo:  <Icon5/> ,
         description: [
           "Bug Fixing & Updates: Regular maintenance to fix bugs and update features.",
           "Performance Monitoring: Continuously monitor app performance to optimize user experience.",

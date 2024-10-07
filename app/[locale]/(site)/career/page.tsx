@@ -26,7 +26,7 @@ const Careerspage = () => {
           <div className="hero-text">
             <h1>
               {t("hero.heading.h1")}
-              <br /> {t("heading.h2")}
+              <br /> {t("hero.heading.h2")}
             </h1>
             <p>{t("hero.subheading")}</p>
             <div className="button-container">

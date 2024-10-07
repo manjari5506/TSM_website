@@ -35,7 +35,7 @@ const TechStack = ({techStackData}) => {
         <div className="stack-logos py-[4rem] flex gap-[5rem]">
           {selectedCategory.stack.map((tech, index) => (
             <div key={index} className="tech-logo">
-              <img src={tech.img}   className="h-20" />
+              {tech.img}
               <p className="text-center mt-2">{tech.name}</p>
             </div>
           ))}

@@ -8,7 +8,7 @@ import TechStack from "@/components/services/common/tech-stack/TechStack";
 import { DataScienceOfferings } from "@/components/services/common/Offerings-card/offeringsData";
 import { dataScienceApproach } from "@/components/services/common/process-card/CardsData";
 import { dataScience } from "@/components/services/common/ReachOut-card/ReachOutData";
-import { dataSciencsStack } from "@/components/services/common/tech-stack/TechStackData";
+import { dataScienceStack } from "@/components/services/common/tech-stack/TechStackData";
 
 const page = () => {
   return (
@@ -33,7 +33,7 @@ const page = () => {
         </div>
       </section>
       <Offerings offerings={DataScienceOfferings}/>
-      <TechStack techStackData={dataSciencsStack}/>
+      <TechStack techStackData={dataScienceStack}/>
       <Cards details={dataScienceApproach}/>
       <ReachOut 
         heading={dataScience.heading} 

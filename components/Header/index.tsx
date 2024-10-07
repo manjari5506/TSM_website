@@ -150,7 +150,7 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <Link
               href="/contact"
-              className="text-normal flex w-[14rem] items-center justify-center rounded-full bg-navy px-7.5 py-2.5 text-white duration-300 ease-in-out hover:scale-110"
+              className="text-normal flex w-[14rem] items-center justify-center rounded-full bg-navy px-7.5 py-2 text-white duration-300 ease-in-out hover:scale-110"
             >
               {t("contactUs")}
             </Link>

@@ -34,7 +34,7 @@ const Offerings = ({offerings}) => {
                   }`}
                   onClick={() => handleSelectOffering(offering.id)}
                 >
-                 > {offering.heading}
+                 {offering.heading}
                 </li>
               ))}
             </ul>
@@ -42,8 +42,10 @@ const Offerings = ({offerings}) => {
 
           <div className="w-2/3 px-5  py-2 w-200">
             <div className="data-box bg-white pl-[2rem] pr-[10rem] py-5 shadow-lg rounded-lg relative flex flex-col">
-              <img src={selectedOffering.logo}  className="h-20 w-20 mb-5  "/>
-              <h3 className="text-2xl font-bold mb-4 text-navy">{selectedOffering.heading}</h3>
+              <div>
+              {selectedOffering.logo}
+              </div>
+              <h3 className="text-2xl font-bold mb-4 mt-4 text-navy">{selectedOffering.heading}</h3>
               <h4 className="text-md font-semibold mb-2">{selectedOffering.subheading}</h4>
               <ul className="list-disc list-inside py-5">
                 {selectedOffering.description.map((point, index) => (
@@ -52,7 +54,9 @@ const Offerings = ({offerings}) => {
                   </li>
                 ))}
               </ul>
-              <img src={selectedOffering.logo} className="absolute bottom-0 right-3 h-30 w-30 mb-5 opacity-30"/>
+              {/* <div className="absolute bottom-0 right-3 h-30 w-30 mb-5 opacity-30">
+              {selectedOffering.logo}
+              </div> */}
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import "./Footer.scss";
 import { FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from "react-icons/fa";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 const Footer = () => {
   const t = useTranslations("footer");
@@ -65,28 +66,28 @@ const Footer = () => {
                 >
                   <ul>
                     <li>
-                      <a
+                      <Link
                         href="/overview"
                         className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
                         {t("aboutus")}
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/services"
                         className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
                         {t("services")}
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="/blog"
                         className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
                         {t("blogs")}
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </motion.div>
@@ -110,28 +111,28 @@ const Footer = () => {
                 >
                   <ul>
                     <li>
-                      <a
+                      <Link
                         href="/career"
                         className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
                         {t("careers")}
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="#"
                         className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
                         {t("getquotes")}
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a
+                      <Link
                         href="#"
                         className="mb-3 inline-block rounded-2xl px-4 py-2 hover:bg-navy hover:text-white"
                       >
                         {t("contactus")}
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </motion.div>
