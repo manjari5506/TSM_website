@@ -867,5 +867,756 @@
       "subheading": "Prêt à adopter l'IoT et l'automatisation pour transformer votre entreprise ? Contactez-nous pour commencer avec des solutions innovantes adaptées à vos besoins.",
       "btn": "Contactez-nous"
     }
+  },
+  "wordservices": {
+    "hero": {
+      "heading": "Captivez votre audience avec des sites WordPress haute performance",
+      "subheading": "Faites passer votre entreprise au niveau supérieur en tirant parti de nos développeurs WordPress experts et de nos services de développement WordPress de classe mondiale."
+    },
+    "appofferings": {
+      "heading": "Nos services de développement WordPress",
+      "subheading": "Faites passer votre entreprise au niveau supérieur en tirant parti de nos services experts de développement WordPress. Nous nous concentrons sur la création de solutions personnalisées qui stimulent l'engagement des utilisateurs et le succès de l'entreprise.",
+      "content": [
+        {
+          "heading": "Développement WordPress personnalisé",
+          "subheading": "Obtenez un site web aussi unique que votre entreprise. Nos services de développement WordPress personnalisé fournissent des solutions sur mesure qui répondent à vos besoins spécifiques.",
+          "description": [
+            "Thèmes sur mesure : Nous créons des thèmes WordPress personnalisés entièrement réactifs et visuellement attrayants, conçus spécifiquement pour votre marque.",
+            "Fonctionnalités personnalisées : Développez des plugins et des fonctionnalités sur mesure pour répondre à vos besoins uniques.",
+            "Flexible et évolutif : Nous construisons des sites web qui évoluent avec votre entreprise, facilitant les mises à jour futures et l'évolutivité."
+          ]
+        },
+        {
+          "heading": "Développement et personnalisation de thèmes",
+          "subheading": "Nous sommes spécialisés dans la conception de thèmes WordPress personnalisés et la modification de thèmes existants pour améliorer l'esthétique et la fonctionnalité.",
+          "description": [
+            "Conception de thème personnalisé : Créez un thème à partir de zéro qui s'aligne sur la vision de votre marque et les besoins des utilisateurs.",
+            "Design réactif : Assurez-vous que votre site est beau sur n'importe quel appareil ou taille d'écran.",
+            "Personnalisation de thème : Adaptez les thèmes existants pour une fonctionnalité optimisée, une meilleure expérience utilisateur et de meilleures performances."
+          ]
+        },
+        {
+          "heading": "Développement de plugins WordPress",
+          "subheading": "Améliorez la fonctionnalité de votre site WordPress avec des plugins personnalisés conçus pour s'intégrer parfaitement à votre configuration existante.",
+          "description": [
+            "Plugins personnalisés : Nous créons des plugins personnalisés légers, sécurisés et adaptés aux besoins de votre entreprise.",
+            "Personnalisation de plugins : Étendez la fonctionnalité des plugins existants pour répondre à des besoins spécifiques.",
+            "Intégrations tierces : Connectez votre site WordPress avec des systèmes CRM, des passerelles de paiement, des API et plus encore."
+          ]
+        },
+        {
+          "heading": "Développement e-commerce WordPress",
+          "subheading": "Boostez vos ventes en ligne avec nos solutions e-commerce WordPress, propulsées par WooCommerce.",
+          "description": [
+            "Intégration WooCommerce : Mettez en place une boutique en ligne complète avec une intégration WooCommerce personnalisée.",
+            "Personnalisation e-commerce : Modifiez la mise en page, la fonctionnalité et le design de votre boutique pour correspondre à votre marque.",
+            "Passerelle de paiement sécurisée : Intégrez des méthodes de paiement sécurisées comme PayPal, Stripe et d'autres passerelles."
+          ]
+        },
+        {
+          "heading": "Migration de site WordPress",
+          "subheading": "Transférez en douceur votre site web existant vers WordPress sans temps d'arrêt ni perte de données.",
+          "description": [
+            "Migration sans temps d'arrêt : Nous assurons une migration en douceur sans temps d'arrêt, préservant votre contenu et vos classements SEO.",
+            "Migration de données et SEO : Conservez toutes vos données, images et métadonnées, et migrez en douceur vers WordPress.",
+            "Migration inter-plateformes : Que vous passiez de Shopify, Joomla ou de sites personnalisés, nous gérons tout."
+          ]
+        },
+        {
+          "heading": "Maintenance et support WordPress",
+          "subheading": "Assurez-vous que votre site web fonctionne sans accroc avec nos services de maintenance et de support WordPress continus.",
+          "description": [
+            "Mises à jour régulières : Nous maintenons votre noyau WordPress, vos plugins et vos thèmes à jour avec les dernières versions.",
+            "Optimisation des performances : Améliorez les temps de chargement du site web et l'expérience utilisateur globale avec des réglages de performance.",
+            "Sécurité et sauvegarde : Mettez en place des correctifs de sécurité, des analyses antivirus et des sauvegardes automatiques pour garder votre site web sécurisé."
+          ]
+        },
+        {
+          "heading": "Optimisation SEO pour WordPress",
+          "subheading": "Rendez votre site WordPress visible pour les moteurs de recherche et les utilisateurs avec nos services SEO complets.",
+          "description": [
+            "SEO on-page : Optimisez les balises meta, les textes alternatifs des images et les URLs pour améliorer la visibilité.",
+            "SEO technique : Mettez en place des sitemaps, des balises schema et un design adapté aux mobiles pour booster les classements de recherche.",
+            "Optimisation de la vitesse : Accélérez votre site en tirant parti des techniques de mise en cache, de CDN et d'optimisation d'images."
+          ]
+        }
+      ]
+    },
+    "techstack": {
+      "heading": "Outils et technologies que nous utilisons pour le développement WordPress",
+      "subheading": "Explorez les outils que nous utilisons pour créer des solutions WordPress exceptionnelles",
+      "categories": [
+        {
+          "categoryName": "Outils de construction WordPress",
+          "stack": [
+            { "name": "Elementor" },
+            { "name": "Divi" },
+            { "name": "Gutenberg" }
+          ]
+        },
+        {
+          "categoryName": "Outils SEO",
+          "stack": [{ "name": "Yoast SEO" }, { "name": "All-in-One SEO Pack" }]
+        },
+        {
+          "categoryName": "Sécurité",
+          "stack": [{ "name": "Wordfence" }, { "name": "Sucuri" }]
+        },
+        {
+          "categoryName": "Optimisation des performances",
+          "stack": [{ "name": "WP Rocket" }, { "name": "W3 Total Cache" }]
+        },
+        {
+          "categoryName": "E-commerce",
+          "stack": [
+            { "name": "WooCommerce" },
+            { "name": "Easy Digital Downloads" }
+          ]
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Notre processus de développement WordPress",
+      "subheading": "Nous suivons une approche structurée pour garantir que votre site WordPress est construit pour répondre à vos objectifs commerciaux, optimisé pour les performances et offre une expérience utilisateur exceptionnelle.",
+      "content": [
+        {
+          "heading": "Découverte et recherche",
+          "description": "Nous commençons par comprendre vos objectifs commerciaux et recueillir des exigences détaillées. Cette phase comprend l'analyse des concurrents, la recherche sur l'audience et la définition des objectifs du projet."
+        },
+        {
+          "heading": "Wireframing et prototypage",
+          "description": "Nous créons des wireframes et des prototypes qui décrivent la mise en page, la fonctionnalité et le flux utilisateur du site. Ceux-ci aident à visualiser le produit final avant de passer au développement complet."
+        },
+        {
+          "heading": "Design et développement",
+          "description": "Nos experts WordPress donnent ensuite vie à votre projet en mettant en œuvre les designs, en configurant des fonctionnalités personnalisées et en optimisant pour le bureau et le mobile."
+        },
+        {
+          "heading": "Tests et assurance qualité",
+          "description": "Avant le lancement, nous effectuons des tests rigoureux pour nous assurer que votre site WordPress fonctionne parfaitement sur tous les navigateurs, appareils et systèmes d'exploitation. Nous testons également les vulnérabilités de sécurité et les problèmes de performance."
+        },
+        {
+          "heading": "Lancement et optimisation",
+          "description": "Une fois que tout est en place, nous lançons votre site web et assurons un processus de mise en ligne en douceur. Nous continuons à surveiller et à optimiser le site après le lancement pour garantir des performances élevées et la satisfaction des utilisateurs."
+        }
+      ]
+    },
+    "reachout": {
+      "heading": "Construisons quelque chose de grand ensemble !",
+      "subheading": "Que vous cherchiez à rénover un site existant ou à construire quelque chose de nouveau, nous avons ce qu'il vous faut. Contactez-nous aujourd'hui pour discuter de votre projet de développement WordPress et faites le premier pas vers le succès numérique !",
+      "btn": "Contactez-nous"
+    }
+  },
+  "systemservices": {
+    "hero": {
+      "heading": "Conceptions de systèmes à l'épreuve du futur pour tous les besoins des entreprises",
+      "subheading": "Faites passer votre entreprise au niveau supérieur en embauchant nos architectes système experts et en tirant parti de nos services complets de conception de systèmes. Nos solutions garantissent l'évolutivité, la performance et la fiabilité pour répondre aux demandes évolutives de votre entreprise."
+    },
+    "appofferings": {
+      "heading": "Nos principaux services de conception de systèmes",
+      "subheading": "Faites passer votre entreprise au niveau supérieur en tirant parti de nos services experts de conception UI/UX. Nous nous concentrons sur la création de designs immersifs et engageants qui favorisent la satisfaction des utilisateurs et le succès de l'entreprise.",
+      "content": [
+        {
+          "heading": "Conception d'architecture évolutive",
+          "subheading": "Assurez-vous que votre système peut gérer la croissance sans compromettre les performances ou la fiabilité.",
+          "description": [
+            "Solutions basées sur le cloud : Concevez des architectures évolutives basées sur le cloud qui permettent flexibilité et mise à l'échelle rapide à mesure que votre entreprise se développe.",
+            "Architecture de microservices : Décomposez les grandes applications en services indépendants pour une gestion, une mise à l'échelle et une isolation des défauts plus faciles.",
+            "Stratégies d'équilibrage de charge et de mise en cache : Mettez en œuvre des solutions pour distribuer le trafic et améliorer les performances pendant les pics de charge."
+          ]
+        },
+        {
+          "heading": "Conception de systèmes distribués",
+          "subheading": "Construisez des systèmes qui s'étendent sur plusieurs serveurs ou centres de données pour assurer une haute disponibilité et une tolérance aux pannes.",
+          "description": [
+            "Tolérance aux pannes et redondance : Concevez des systèmes qui continuent à fonctionner même lorsque des parties du système tombent en panne.",
+            "Réplication des données et modèles de cohérence : Assurez-vous que les données sont constamment disponibles et répliquées sur les serveurs pour un accès plus rapide.",
+            "Architecture basée sur les événements : Tirez parti des modèles basés sur les événements pour améliorer la réactivité et l'adaptabilité du système."
+          ]
+        },
+        {
+          "heading": "Systèmes haute performance",
+          "subheading": "Concevez des systèmes haute performance optimisés pour la vitesse et l'efficacité des ressources.",
+          "description": [
+            "Systèmes à faible latence : Assurez des réponses en temps réel dans les applications nécessitant un débit élevé, comme les plateformes de trading financier.",
+            "Techniques d'optimisation : Utilisez le réglage des performances, le traitement parallèle et des structures de données optimisées pour améliorer l'efficacité.",
+            "Mise à l'échelle verticale et horizontale : Mettez en œuvre des stratégies pour mettre à l'échelle efficacement les ressources du système en fonction de la demande."
+          ]
+        },
+        {
+          "heading": "Conception de système axée sur la sécurité",
+          "subheading": "Intégrez des mesures de sécurité robustes pour protéger les données, les applications et les systèmes contre les menaces potentielles.",
+          "description": [
+            "Chiffrement de bout en bout : Assurez-vous que les données sont chiffrées pendant la transmission et au repos pour sécuriser les informations sensibles.",
+            "Authentification et autorisation : Mettez en œuvre des systèmes d'authentification utilisateur sécurisés, tels que l'authentification multifactorielle (MFA) et les contrôles d'accès basés sur les rôles (RBAC).",
+            "Conformité et audit : Concevez des systèmes conformes aux normes de l'industrie telles que RGPD, HIPAA et PCI-DSS."
+          ]
+        },
+        {
+          "heading": "Systèmes à forte intensité de données",
+          "subheading": "Créez des systèmes qui gèrent efficacement de grands volumes de données, fournissant des insights exploitables et une haute disponibilité.",
+          "description": [
+            "Architecture Big Data : Concevez des architectures optimisées pour la collecte, le stockage et l'analyse de données à partir de grands ensembles de données.",
+            "Pipelines de données et ETL : Construisez des pipelines de traitement de données efficaces pour gérer les opérations d'extraction, de transformation et de chargement (ETL).",
+            "Lacs de données et entrepôts : Créez des lacs de données et des entrepôts évolutifs qui facilitent le stockage et la récupération transparents des données."
+          ]
+        },
+        {
+          "heading": "Intégration DevOps et automatisation",
+          "subheading": "Intégrez les meilleures pratiques DevOps pour rationaliser les flux de travail de développement et de déploiement.",
+          "description": [
+            "Pipelines CI/CD : Mettez en place des pipelines d'intégration continue et de livraison continue (CI/CD) pour assurer des déploiements fluides et rapides.",
+            "Infrastructure as Code : Automatisez la configuration et la gestion de l'infrastructure à l'aide d'outils comme Terraform et AWS CloudFormation.",
+            "Surveillance et journalisation : Mettez en œuvre des systèmes de surveillance robustes pour suivre la santé du système, identifier les problèmes et optimiser les performances."
+          ]
+        },
+        {
+          "heading": "Modernisation des systèmes hérités",
+          "subheading": "Transformez les systèmes hérités en architectures modernes, évolutives et sécurisées.",
+          "description": [
+            "Réarchitecture des systèmes hérités : Analysez et réarchitecturez les systèmes obsolètes pour répondre aux exigences modernes.",
+            "Migration vers le cloud : Migrez les systèmes hérités sur site vers le cloud pour une meilleure évolutivité, des économies de coûts et une résilience accrue.",
+            "Intégration API : Permettez aux systèmes hérités d'interagir avec des applications modernes grâce à des intégrations basées sur les API."
+          ]
+        }
+      ]
+    },
+    "techstack": {
+      "heading": "Outils et technologies que nous utilisons",
+      "subheading": "Explorez les outils et technologies que nous utilisons pour créer des solutions cloud et d'infrastructure exceptionnelles",
+      "categories": [
+        {
+          "categoryName": "Plateformes cloud",
+          "stack": [
+            { "name": "AWS", "img": "/images/tech/aws.png" },
+            { "name": "Azure", "img": "/images/tech/azure.png" },
+            { "name": "Google Cloud", "img": "/images/tech/google-cloud.png" }
+          ]
+        },
+        {
+          "categoryName": "Bases de données",
+          "stack": [
+            { "name": "MySQL" },
+            { "name": "PostgreSQL", "img": "/images/tech/postgresql.png" },
+            { "name": "MongoDB", "img": "/images/tech/mongodb.png" },
+            { "name": "Redis" }
+          ]
+        },
+        {
+          "categoryName": "Langages",
+          "stack": [
+            { "name": "Java" },
+            { "name": "Python", "img": "/images/tech/python.png" },
+            { "name": "Go", "img": "/images/tech/go.png" },
+            { "name": "Node.js", "img": "/images/tech/nodejs.png" },
+            { "name": "C#" }
+          ]
+        },
+        {
+          "categoryName": "Outils DevOps",
+          "stack": [
+            { "name": "Jenkins" },
+            { "name": "Docker" },
+            { "name": "Kubernetes" },
+            { "name": "Ansible" },
+            { "name": "Terraform" }
+          ]
+        },
+        {
+          "categoryName": "Outils de surveillance",
+          "stack": [
+            { "name": "Grafana" },
+            { "name": "Prometheus" },
+            { "name": "ELK Stack" }
+          ]
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Notre processus de conception de systèmes",
+      "subheading": "Nous croyons en une philosophie de conception centrée sur l'utilisateur. Notre processus implique la recherche, la stratégie et le développement itératif pour créer des conceptions qui sont non seulement visuellement attrayantes mais aussi alignées sur vos objectifs commerciaux.",
+      "content": [
+        {
+          "heading": "Collecte et analyse des exigences",
+          "description": "Nous commençons par comprendre vos objectifs commerciaux, vos exigences techniques et les besoins des utilisateurs. Cette phase comprend des analyses approfondies des systèmes actuels, des défis et des projections futures."
+        },
+        {
+          "heading": "Conception du système et plan d'architecture",
+          "description": "Une fois les exigences recueillies, nos architectes créent un plan de la conception du système. Cela inclut l'esquisse de l'architecture, la définition des services et l'assurance de l'alignement avec vos besoins commerciaux."
+        },
+        {
+          "heading": "Prototypage et validation",
+          "description": "Avant la finalisation, nous créons des prototypes pour valider nos décisions de conception et optimiser les composants du système."
+        },
+        {
+          "heading": "Mise en œuvre et tests",
+          "description": "Notre équipe de développement expérimentée met en œuvre la conception du système et effectue des tests approfondis pour s'assurer que le système fonctionne comme prévu."
+        },
+        {
+          "heading": "Déploiement et optimisation",
+          "description": "Une fois que le système a été minutieusement testé, nous le déployons dans un environnement de production et continuons à l'optimiser en fonction des données de performance en temps réel."
+        }
+      ]
+    },
+    "reachout": {
+      "heading": "Construisons ensemble un système prêt pour l'avenir",
+      "subheading": "Prêt à transformer votre entreprise avec un système conçu pour grandir avec vous ? Contactez-nous pour savoir comment nous pouvons vous aider à construire des systèmes évolutifs, sécurisés et performants.",
+      "btn": "Contactez-nous"
+    }
+  },
+  "bigdataservices": {
+    "hero": {
+      "heading": {
+        "h1": "Exploitez la puissance",
+        "h2": "du",
+        "h3": "Big Data"
+      },
+      "subheading": "Faites passer votre entreprise au niveau supérieur en embauchant nos experts en analyse et ingénierie Big Data pour obtenir des insights exploitables qui orientent les décisions stratégiques."
+    },
+    "appofferings": {
+      "heading": "Nos services Big Data",
+      "subheading": "Faites passer votre entreprise au niveau supérieur en tirant parti de nos services experts de conception UI/UX. Nous nous concentrons sur la création de designs immersifs et engageants qui favorisent la satisfaction des utilisateurs et le succès de l'entreprise.",
+      "content": [
+        {
+          "heading": "Stratégie et conseil Big Data",
+          "subheading": "Nous aidons les entreprises à développer une stratégie Big Data complète adaptée à leurs objectifs, assurant une intégration réussie des initiatives basées sur les données dans leurs opérations.",
+          "description": [
+            "Évaluation des données : Nous évaluons votre infrastructure de données existante et recommandons des améliorations.",
+            "Feuille de route de la stratégie de données : Développez une feuille de route personnalisée décrivant les étapes nécessaires pour atteindre les objectifs commerciaux grâce au Big Data.",
+            "Optimisation des coûts : Maximisez la valeur de vos données tout en minimisant les coûts."
+          ]
+        },
+        {
+          "heading": "Intégration des données et conception de l'architecture",
+          "subheading": "Créer une architecture efficace qui intègre de manière transparente diverses sources de données est essentiel pour le succès de tout projet Big Data.",
+          "description": [
+            "Conception de lac de données et d'entrepôt de données : Nous construisons des architectures de stockage de données évolutives et flexibles pour gérer les données structurées et non structurées.",
+            "Pipelines ETL : Développez des processus d'extraction, de transformation et de chargement (ETL) pour garantir que les données sont disponibles et précises en temps réel.",
+            "Intégration cloud : Intégrez des services cloud comme AWS, Azure ou Google Cloud pour des solutions de données évolutives."
+          ]
+        },
+        {
+          "heading": "Traitement et analyse des données",
+          "subheading": "L'extraction d'insights précieux à partir de grands ensembles de données nécessite des solutions robustes de traitement et d'analyse. Notre équipe est spécialisée dans la fourniture de solutions de traitement en temps réel et par lots.",
+          "description": [
+            "Traitement des données en temps réel : Utilisez des outils comme Apache Kafka, Spark ou Flink pour traiter les données en temps réel et prendre des décisions instantanées.",
+            "Traitement des données par lots : Mettez en œuvre des solutions rentables pour gérer de grands volumes de données grâce à des cadres de traitement par lots.",
+            "Analyse prédictive : Appliquez des algorithmes avancés et des modèles d'IA pour prévoir les tendances et les comportements."
+          ]
+        },
+        {
+          "heading": "Visualisation et reporting des données",
+          "subheading": "Présenter les données de manière claire et compréhensible est crucial pour prendre des décisions basées sur les données. Nous sommes spécialisés dans la création de visualisations et de rapports perspicaces qui permettent aux décideurs de prendre des décisions éclairées.",
+          "description": [
+            "Tableaux de bord : Créez des tableaux de bord interactifs et en temps réel à l'aide d'outils comme Power BI, Tableau et Google Data Studio.",
+            "Rapports personnalisés : Fournissez des rapports complets adaptés à vos métriques commerciales et KPI.",
+            "Storytelling avec les données : Utilisez des visualisations pour raconter des histoires convaincantes qui vous aident à interpréter facilement des données complexes."
+          ]
+        },
+        {
+          "heading": "Sécurité et gouvernance du Big Data",
+          "subheading": "La sécurité et la conformité des données sont des priorités absolues. Nous veillons à ce que vos systèmes Big Data soient conformes à toutes les réglementations nécessaires tout en maintenant les plus hauts standards de sécurité.",
+          "description": [
+            "Chiffrement des données et contrôle d'accès : Mettez en œuvre des mesures de sécurité conformes aux normes de l'industrie pour protéger les informations sensibles.",
+            "Gouvernance des données : Établissez des politiques pour l'exactitude, l'accessibilité et la confidentialité des données.",
+            "Conformité : Assurez la conformité aux réglementations telles que le RGPD, HIPAA et aux exigences spécifiques à l'industrie."
+          ]
+        },
+        {
+          "heading": "Intégration du Machine Learning et de l'IA",
+          "subheading": "Nous aidons les entreprises à tirer parti des algorithmes avancés de machine learning et des modèles d'IA pour améliorer leurs initiatives Big Data.",
+          "description": [
+            "Développement et formation de modèles : Construisez des modèles de machine learning personnalisés adaptés à vos défis commerciaux spécifiques.",
+            "Automatisation IA : Mettez en œuvre une automatisation basée sur l'IA pour améliorer l'efficacité opérationnelle et réduire les charges de travail manuelles.",
+            "Traitement du langage naturel (NLP) : Utilisez des techniques de NLP pour analyser des données non structurées comme les avis clients, les publications sur les réseaux sociaux, et plus encore."
+          ]
+        },
+        {
+          "heading": "Services de migration Big Data",
+          "subheading": "Si vous cherchez à déplacer vos données de systèmes hérités vers des plateformes plus modernes, nous offrons des services de migration transparents.",
+          "description": [
+            "Migration du on-premise vers le cloud : Transférez votre infrastructure de données vers un environnement cloud plus évolutif et rentable.",
+            "Modernisation des bases de données : Mettez à niveau les anciens systèmes avec un minimum de perturbation pour vos opérations commerciales.",
+            "Stratégie et planification de la migration : Développez un plan de migration étape par étape pour assurer un transfert de données fluide et efficace."
+          ]
+        }
+      ]
+    },
+    "techstack": {
+      "heading": "Outils et technologies que nous utilisons",
+      "subheading": "Explorez les puissants outils et technologies que nous utilisons pour créer des solutions basées sur les données.",
+      "categories": [
+        {
+          "categoryName": "Outils de gestion des données",
+          "stack": [
+            { "name": "Hadoop" },
+            { "name": "Apache Hive" },
+            { "name": "Apache Flink" },
+            { "name": "Cassandra" }
+          ]
+        },
+        {
+          "categoryName": "Frameworks de traitement",
+          "stack": [
+            { "name": "Apache Spark" },
+            { "name": "Apache Kafka" },
+            { "name": "Apache Storm" }
+          ]
+        },
+        {
+          "categoryName": "Outils de visualisation",
+          "stack": [
+            { "name": "Tableau" },
+            { "name": "Power BI" },
+            { "name": "Google Data Studio" }
+          ]
+        },
+        {
+          "categoryName": "Machine Learning",
+          "stack": [
+            { "name": "TensorFlow" },
+            { "name": "Keras" },
+            { "name": "Scikit-learn" },
+            { "name": "PyTorch" }
+          ]
+        },
+        {
+          "categoryName": "Plateformes cloud",
+          "stack": [
+            { "name": "AWS" },
+            { "name": "Microsoft Azure" },
+            { "name": "Google Cloud" }
+          ]
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Notre processus Big Data",
+      "subheading": "Nous croyons en une philosophie de conception centrée sur l'utilisateur. Notre processus implique la recherche, la stratégie et le développement itératif pour créer des conceptions qui sont non seulement visuellement attrayantes mais aussi alignées sur vos objectifs commerciaux.",
+      "content": [
+        {
+          "heading": "Découverte et évaluation des données",
+          "description": "Nous commençons par évaluer votre infrastructure de données existante et vos objectifs commerciaux. Cela nous aide à identifier la meilleure approche pour libérer la valeur de vos données."
+        },
+        {
+          "heading": "Développement de la stratégie",
+          "description": "Ensuite, nous créons une stratégie Big Data personnalisée qui s'aligne sur vos objectifs commerciaux, couvrant l'architecture des données, l'analyse et la pile technologique."
+        },
+        {
+          "heading": "Intégration et mise en œuvre des données",
+          "description": "Nous mettons en place des architectures de données robustes qui assurent une intégration transparente des données provenant de multiples sources, structurées et non structurées."
+        },
+        {
+          "heading": "Traitement et analyse des données",
+          "description": "En utilisant des analyses avancées et des algorithmes de machine learning, nous extrayons des insights exploitables de vos données pour soutenir les processus de prise de décision."
+        },
+        {
+          "heading": "Visualisation et reporting",
+          "description": "Enfin, nous présentons les données dans des formats faciles à comprendre en utilisant des tableaux de bord et des visualisations qui permettent aux parties prenantes de prendre des décisions éclairées."
+        },
+        {
+          "heading": "Optimisation continue",
+          "description": "Nous surveillons et optimisons en permanence votre infrastructure Big Data pour garantir les performances, l'évolutivité et la sécurité."
+        }
+      ]
+    },
+    "reachout": {
+      "heading": "Prêt à exploiter la puissance du Big Data ?",
+      "subheading": "Commençons votre voyage axé sur les données aujourd'hui. Contactez-nous pour une consultation gratuite !",
+      "btn": "Contactez-nous"
+    }
+  },
+  "uiservices": {
+    "hero": {
+      "heading": "Transformer les idées en designs intuitifs",
+      "subheading": "Nous comblons le fossé entre créativité et utilisabilité, transformant votre vision en designs intuitifs centrés sur l'utilisateur qui stimulent l'engagement et offrent des expériences fluides."
+    },
+    "appofferings": {
+      "heading": "Nos services UI/UX",
+      "subheading": "Faites passer votre entreprise au niveau supérieur en tirant parti de nos services experts en design UI/UX. Nous nous concentrons sur la création de designs immersifs et engageants qui favorisent la satisfaction des utilisateurs et le succès commercial.",
+      "content": [
+        {
+          "heading": "Recherche et stratégie UI/UX",
+          "subheading": "Comprendre vos utilisateurs et les besoins de votre entreprise est le fondement de notre processus. Nous plongeons en profondeur dans le comportement des utilisateurs et les tendances du marché pour créer des designs qui résonnent avec votre public cible.",
+          "description": [
+            "Recherche utilisateur : Nous menons des enquêtes, des entretiens et des tests d'utilisabilité pour comprendre les besoins et les points de douleur des utilisateurs.",
+            "Analyse de la concurrence : Obtenez des informations sur la concurrence pour identifier les opportunités de différenciation.",
+            "Personas et scénarios : Développez des personas d'utilisateurs et des scénarios pour guider le processus de conception."
+          ]
+        },
+        {
+          "heading": "Design d'interface utilisateur (UI)",
+          "subheading": "Nos services de design UI se concentrent sur la création d'interfaces visuellement attrayantes et intuitives qui offrent une interaction fluide avec votre produit.",
+          "description": [
+            "Wireframing : Développer des wireframes qui cartographient la structure de chaque écran.",
+            "Prototypage : Créer des prototypes interactifs pour tester et affiner les flux d'utilisateurs.",
+            "Design visuel : Mettre en œuvre une esthétique de design propre et moderne pour améliorer l'utilisabilité et l'engagement."
+          ]
+        },
+        {
+          "heading": "Design d'expérience utilisateur (UX)",
+          "subheading": "Offrir une expérience exceptionnelle est essentiel pour la rétention des utilisateurs. Nous concevons des solutions qui maintiennent le parcours de l'utilisateur fluide, simple et agréable.",
+          "description": [
+            "Architecture de l'information : Structurer efficacement le contenu pour une navigation facile.",
+            "Flux utilisateurs et cartographie du parcours : Définir et optimiser le parcours que les utilisateurs effectuent du début à la fin.",
+            "Tests d'utilisabilité : Tests continus et intégration des retours pour affiner les designs."
+          ]
+        },
+        {
+          "heading": "Design d'interaction",
+          "subheading": "Créez des éléments engageants et interactifs qui répondent intuitivement aux actions de l'utilisateur, offrant une expérience interactive qui améliore l'ensemble du parcours utilisateur.",
+          "description": [
+            "Micro-interactions : Petites animations réactives qui guident les utilisateurs et améliorent l'utilisabilité.",
+            "Design de mouvement : Utiliser des animations et des transitions pour enrichir l'expérience sans submerger l'utilisateur.",
+            "Design responsive : S'assurer que les designs sont adaptables et fonctionnels sur tous les appareils et tailles d'écran."
+          ]
+        },
+        {
+          "heading": "Design UI/UX d'applications mobiles",
+          "subheading": "Notre équipe est spécialisée dans la conception d'expériences d'applications mobiles intuitives et performantes.",
+          "description": [
+            "Design spécifique à la plateforme : Designs adaptés pour iOS et Android pour correspondre aux directives de la plateforme.",
+            "Design de navigation d'application : Flux de navigation d'application simples et intuitifs pour une expérience sans friction.",
+            "Gestes tactiles : Optimiser les designs pour les interactions mobiles comme le balayage, le tapotement et le pincement."
+          ]
+        },
+        {
+          "heading": "Design UI/UX de sites web",
+          "subheading": "Du concept au lancement, nous livrons des sites web entièrement responsifs et conviviaux qui attirent et retiennent les utilisateurs.",
+          "description": [
+            "Design web responsive : Créer des designs qui fonctionnent parfaitement sur n'importe quel appareil ou navigateur.",
+            "Optimisation de la conversion : Se concentrer sur des designs qui convertissent les visiteurs en clients.",
+            "Optimisation des performances : Améliorer la vitesse de chargement du site et l'expérience utilisateur globale."
+          ]
+        }
+      ]
+    },
+    "techstack": {
+      "heading": "Notre processus de design UI/UX",
+      "subheading": "Explorez les outils que nous utilisons pour créer des expériences utilisateur exceptionnelles",
+      "categories": [
+        {
+          "categoryName": "Outils de design",
+          "stack": [
+            { "name": "Figma" },
+            { "name": "Adobe XD" },
+            { "name": "Sketch" },
+            { "name": "InVision" }
+          ]
+        },
+        {
+          "categoryName": "Outils de prototypage",
+          "stack": [
+            { "name": "Axure RP" },
+            { "name": "Marvel App" },
+            { "name": "Framer" }
+          ]
+        },
+        {
+          "categoryName": "Outils de collaboration",
+          "stack": [
+            { "name": "Miro" },
+            { "name": "Trello" },
+            { "name": "Slack" }
+          ]
+        },
+        {
+          "categoryName": "Outils de développement",
+          "stack": [
+            { "name": "React" },
+            { "name": "Next.js" },
+            { "name": "Vue.js" },
+            { "name": "HTML5" },
+            { "name": "CSS3" }
+          ]
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Notre processus de design UI/UX",
+      "subheading": "Nous croyons en une philosophie de design centrée sur l'utilisateur. Notre processus implique la recherche, la stratégie et le développement itératif pour créer des designs qui sont non seulement visuellement attrayants mais aussi alignés avec vos objectifs commerciaux.",
+      "content": [
+        {
+          "heading": "Découverte et recherche",
+          "description": "Nous commençons par comprendre votre entreprise, vos utilisateurs et les défis que vous souhaitez résoudre. Cette phase comprend une recherche approfondie et une analyse de la concurrence."
+        },
+        {
+          "heading": "Idéation et conceptualisation",
+          "description": "Une fois la recherche terminée, nous passons au brainstorming de solutions créatives et au développement de concepts de design initiaux. Les wireframes et les croquis sont produits à ce stade."
+        },
+        {
+          "heading": "Design et développement",
+          "description": "Nos designers créent des prototypes interactifs et des designs haute fidélité pour vous donner une vue tangible du produit final. Les développeurs collaborent étroitement avec les designers pour assurer la faisabilité technique."
+        },
+        {
+          "heading": "Test et validation",
+          "description": "Nous croyons en une approche de design basée sur les données. Chaque décision de design est validée par des tests d'utilisabilité pour s'assurer qu'elle répond aux besoins des utilisateurs."
+        },
+        {
+          "heading": "Lancement et optimisation",
+          "description": "Une fois que tout est finalisé, nous lançons le produit et continuons à l'optimiser en fonction des retours des utilisateurs réels et des données de performance."
+        }
+      ]
+    },
+    "reachout": {
+      "heading": "Élevons votre expérience digitale",
+      "subheading": "Prêt à créer une expérience utilisateur fluide, engageante et intuitive pour votre produit ? Contactez-nous aujourd'hui pour donner vie à votre vision UI/UX et améliorer le parcours de vos utilisateurs !",
+      "btn": "Contactez-nous"
+    }
+  },
+  "cyberservices": {
+    "hero": {
+      "heading": {
+        "h1": "Défendez votre entreprise avec",
+        "h2": "Des solutions de cybersécurité de classe mondiale"
+      },
+      "subheading": "Assurez la sécurité de vos actifs numériques avec nos services avancés de cybersécurité. De la protection du réseau à la sécurité des points d'accès, nous protégeons votre entreprise contre les menaces cybernétiques."
+    },
+    "appofferings": {
+      "heading": "Services de cybersécurité que nous proposons",
+      "subheading": "Renforcez la sécurité de votre entreprise grâce à nos solutions expertes en cybersécurité, conçues pour protéger votre réseau, vos applications et vos données contre les menaces en constante évolution.",
+      "content": [
+        {
+          "heading": "Sécurité du réseau",
+          "subheading": "Protéger votre infrastructure réseau contre les cyberattaques est la première ligne de défense. Nous veillons à ce que les accès non autorisés soient empêchés et que vos données restent sécurisées.",
+          "description": [
+            "Gestion des pare-feu : Configuration et gestion des pare-feu pour bloquer le trafic malveillant.",
+            "Détection et prévention des intrusions (IDP) : Surveillance et détection continues des activités réseau inhabituelles.",
+            "Configuration VPN : Assurer des communications sécurisées et cryptées pour les travailleurs à distance."
+          ]
+        },
+        {
+          "heading": "Sécurité du cloud",
+          "subheading": "Les solutions basées sur le cloud offrent de la flexibilité mais présentent leurs propres défis en matière de sécurité. Notre équipe aide à sécuriser vos environnements cloud pour prévenir les brèches et la perte de données.",
+          "description": [
+            "Cryptage des données : Sécuriser les données au repos et en transit dans les environnements cloud.",
+            "Contrôle d'accès : Mettre en place l'authentification multifactorielle (MFA) et le contrôle d'accès basé sur les rôles (RBAC).",
+            "Surveillance du cloud : Surveillance continue pour détecter les anomalies et les menaces potentielles dans les environnements cloud."
+          ]
+        },
+        {
+          "heading": "Sécurité des points d'accès",
+          "subheading": "Dans la culture actuelle du travail à distance, les points d'accès tels que les ordinateurs portables, les ordinateurs de bureau et les appareils mobiles sont une vulnérabilité majeure. Nous fournissons une protection complète des points d'accès pour garder vos systèmes en sécurité.",
+          "description": [
+            "Solutions anti-malware : Logiciels avancés pour détecter et supprimer les logiciels malveillants.",
+            "Gestion des correctifs : Mises à jour régulières pour combler les vulnérabilités des logiciels et des systèmes d'exploitation.",
+            "Chiffrement des appareils : Chiffrement complet du disque pour protéger les données sur les appareils perdus ou volés."
+          ]
+        },
+        {
+          "heading": "Sécurité des applications",
+          "subheading": "Les applications sont souvent ciblées par les cybercriminels pour accéder à des données sensibles. Nous veillons à ce que vos applications soient construites de manière sécurisée et puissent résister aux attaques potentielles.",
+          "description": [
+            "Revue de code : Examen approfondi du code des applications pour identifier et corriger les failles de sécurité.",
+            "Analyse de vulnérabilités : Outils automatisés pour scanner les applications à la recherche de faiblesses.",
+            "Tests de pénétration : Simuler des attaques pour identifier les risques de sécurité potentiels avant qu'ils ne puissent être exploités."
+          ]
+        },
+        {
+          "heading": "Gestion des identités et des accès (IAM)",
+          "subheading": "Nous fournissons des services robustes de gestion des identités pour garantir que seules les personnes autorisées ont accès à vos systèmes et données.",
+          "description": [
+            "Authentification unique (SSO) : Simplifier le contrôle d'accès avec une authentification sécurisée et unifiée.",
+            "Authentification multifactorielle (MFA) : Couches de sécurité supplémentaires pour les systèmes sensibles.",
+            "Gouvernance des identités : Gérer les identités des utilisateurs et les privilèges d'accès pour minimiser les accès non autorisés."
+          ]
+        },
+        {
+          "heading": "Renseignement sur les cybermenaces",
+          "subheading": "Nous utilisons des renseignements de pointe sur les menaces pour identifier et atténuer de manière proactive les risques, garantissant que votre entreprise est protégée contre les cybermenaces émergentes.",
+          "description": [
+            "Surveillance des menaces : Analyse continue des cybermenaces mondiales.",
+            "Évaluation des risques : Évaluer les vulnérabilités et les risques potentiels dans votre infrastructure numérique.",
+            "Réponse aux incidents : Plans d'action immédiats pour les cyberattaques et les brèches afin de minimiser les dommages."
+          ]
+        },
+        {
+          "heading": "Protection et confidentialité des données",
+          "subheading": "Dans un monde où les réglementations sur la confidentialité des données sont de plus en plus nombreuses, nous vous aidons à sécuriser vos informations sensibles et à vous conformer au RGPD, au CCPA et à d'autres réglementations.",
+          "description": [
+            "Prévention de la perte de données (DLP) : Politiques et outils pour empêcher le partage non autorisé de données sensibles.",
+            "Services de chiffrement : Protection des informations personnelles et financières par le chiffrement.",
+            "Audits de conformité en matière de confidentialité : S'assurer que votre entreprise respecte les réglementations mondiales et spécifiques à l'industrie en matière de confidentialité."
+          ]
+        },
+        {
+          "heading": "Audits et conseil en cybersécurité",
+          "subheading": "Nous fournissons des audits approfondis de cybersécurité pour identifier les faiblesses potentielles de votre infrastructure numérique. Nos services de conseil vous guident dans la construction d'un système plus résilient.",
+          "description": [
+            "Évaluation des risques et audit : Identifier les vulnérabilités et les risques dans l'infrastructure actuelle.",
+            "Audits de conformité : Assurer le respect des normes de l'industrie telles que ISO 27001, HIPAA, PCI-DSS.",
+            "Conseil en stratégie de cybersécurité : Solutions sur mesure pour renforcer votre posture de sécurité."
+          ]
+        }
+      ]
+    },
+    "techstack": {
+      "heading": "Outils et technologies que nous utilisons",
+      "subheading": "Découvrez les outils que nous utilisons pour améliorer les solutions de sécurité et de surveillance",
+      "categories": [
+        {
+          "categoryName": "Outils de sécurité",
+          "stack": [
+            { "name": "Cisco" },
+            { "name": "Fortinet" },
+            { "name": "Palo Alto Networks" }
+          ]
+        },
+        {
+          "categoryName": "Outils de surveillance",
+          "stack": [
+            { "name": "Splunk" },
+            { "name": "Darktrace" },
+            { "name": "Solutions SIEM" }
+          ]
+        },
+        {
+          "categoryName": "Sécurité cloud",
+          "stack": [
+            { "name": "AWS Security Hub" },
+            { "name": "Microsoft Azure Security Center" }
+          ]
+        },
+        {
+          "categoryName": "Protection des points d'accès",
+          "stack": [
+            { "name": "Norton" },
+            { "name": "McAfee" },
+            { "name": "Bitdefender" }
+          ]
+        }
+      ]
+    },
+    "approach": {
+      "heading": "Notre processus de cybersécurité",
+      "subheading": "Nous croyons en une philosophie de conception centrée sur l'utilisateur. Notre processus implique la recherche, la stratégie et le développement itératif pour créer des conceptions qui sont non seulement visuellement attrayantes mais aussi alignées sur vos objectifs commerciaux.",
+      "content": [
+        {
+          "heading": "Consultation initiale et évaluation",
+          "description": "Nous commençons par comprendre les besoins de votre entreprise et votre posture de sécurité actuelle. Notre équipe de cybersécurité effectue une évaluation initiale pour identifier les principaux domaines de risque."
+        },
+        {
+          "heading": "Stratégie de sécurité personnalisée",
+          "description": "Sur la base de l'évaluation, nous élaborons un plan de cybersécurité complet adapté à votre entreprise. Cette stratégie comprend à la fois des mesures préventives et une gestion active des menaces."
+        },
+        {
+          "heading": "Mise en œuvre et surveillance",
+          "description": "Notre équipe met en place l'infrastructure de sécurité nécessaire, y compris les pare-feu, la protection des points d'accès et les contrôles d'accès. Nous surveillons en permanence vos systèmes pour détecter les menaces et fournissons des alertes en temps réel pour toute activité suspecte."
+        },
+        {
+          "heading": "Tests et optimisation",
+          "description": "Nous effectuons des tests de pénétration et des analyses de vulnérabilité pour identifier toute faiblesse dans vos défenses. Des audits réguliers garantissent que vos systèmes restent sécurisés à mesure que de nouvelles menaces apparaissent."
+        },
+        {
+          "heading": "Réponse aux incidents et récupération",
+          "description": "En cas de brèche, notre équipe de réponse aux incidents entre en action, minimisant les dommages et restaurant les opérations normales aussi rapidement que possible. Nous fournissons également une analyse post-incident pour prévenir les occurrences futures."
+        }
+      ]
+    },
+    "reachout": {
+      "heading": "Sécurisons ensemble votre entreprise",
+      "subheading": "Êtes-vous prêt à protéger votre entreprise contre les cybermenaces ? Contactez-nous dès aujourd'hui pour commencer à sécuriser vos actifs numériques avec nos services de cybersécurité de classe mondiale.",
+      "btn": "Contactez-nous"
+    }
   }
 }
